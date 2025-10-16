@@ -15,8 +15,13 @@ copyright: "Copyright &copy; 2024 Hidetoshi and Nevaeh"
 # Theme Configuration
 theme:
   name: material
+  custom_dir: overrides
   language: zh
-  logo: material/book-open-page-variant
+  icon:
+    logo: material/book-open-page-variant
+    repo: fontawesome/brands/github
+    edit: material/pencil
+    view: material/eye
   favicon: material/book-open-page-variant
   palette:
     - media: "(prefers-color-scheme: light)"
@@ -31,28 +36,25 @@ theme:
         name: Switch to light mode
   features:
     - navigation.instant
-    - navigation.sections
-    - navigation.expand
-    - navigation.top
-    - navigation.footer
+    - navigation.tracking
     - navigation.tabs
     - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - toc.follow
     - search.suggest
     - search.highlight
+    - search.share
+    - header.autohide
     - content.code.copy
     - content.code.annotate
     - content.tabs.link
-    - header.autohide
     - content.action.edit
     - content.action.view
-  icon:
-    repo: fontawesome/brands/github
-    edit: material/pencil
-    view: material/eye
-  extra_css:
-    - stylesheets/extra.css
-  extra_javascript:
-    - javascripts/link-preview.js
 
 # Plugins Configuration
 plugins:
@@ -99,3 +101,5 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
+
+
