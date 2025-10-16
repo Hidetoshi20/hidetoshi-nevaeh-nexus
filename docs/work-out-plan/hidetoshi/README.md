@@ -4,11 +4,13 @@
 
 ## 目录导航（Portal）
 
+- 📋 [Personal Profile 个人情况](./personal-profile.md)
+- 🎯 [Training Goals 训练目标](./training-goals.md)
+- 📐 [Plan Rationale 计划设计原理](./plan-rationale.md)
 - 日训练页均在表格内直接链接（见下方 Weekly Plan）
 - 训练日志（logs）：`docs/hidetoshi/logs/README.md`（月记录：`docs/hidetoshi/logs/2025-09.md`）
 - 体测结果（test-results）：`docs/hidetoshi/test-results/README.md`
 - 饮食方案：`docs/hidetoshi/🥗 定制饮食方案.md`
-- 计划背景与原理：`docs/hidetoshi/计划背景与原理.md`
 
 ## 🧭 如何选择 热身 / 核心 / 拉伸（精简版）
 
@@ -60,9 +62,9 @@
 - 门框开胸 + 小胸肌拉伸 30–40s/侧；面拉 15–20 次
 - 训练全程：避免抬肋塌腰，保持中立脊柱与 360° 腹压
 
-## Rationale · 计划调整与答疑（详见背景页）
+## Rationale · 计划调整与答疑
 
-完整说明迁移至：`docs/hidetoshi/计划背景与原理.md`
+完整说明见：[Plan Rationale 计划设计原理](./plan-rationale.md)
 
 ## Nutrition Plan（链接）
 

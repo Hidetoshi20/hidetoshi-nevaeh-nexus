@@ -1,6 +1,6 @@
 # Nevaeh's Fitness & Diet Plan
 
-> 📋 [个人情况](./个人情况.md) · 🎯 [训练目标](./训练目标.md)
+> 📋 [Personal Profile 个人情况](./personal-profile.md) · 🎯 [Training Goals 训练目标](./training-goals.md)
 
 ---
 
