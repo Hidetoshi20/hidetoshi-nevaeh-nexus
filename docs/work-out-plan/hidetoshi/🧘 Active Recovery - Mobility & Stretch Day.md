@@ -10,31 +10,31 @@
 
 ---
 
-## 1️⃣ Breathing & Mindfulness 呼吸与正念 (5 min)
+## 1️⃣ Breathing & Mindfulness 呼吸与正念 (5–8 min)
 
 | Exercise 动作 | Time 时间 | Notes 说明 |
 |--------------|-----------|------------|
-| Diaphragmatic Breathing 横膈膜呼吸 | 2 min | Hands on rib cage, slow 4-2-6 rhythm |
-| Box Breathing 方框呼吸 | 3 min | 4-4-4-4 pattern, calm nervous system |
+| Supine 90/90 Breathing 仰卧 90/90 呼吸 | 3–4 min | 4-2-6 节奏，肋骨下沉、轻后倾骨盆，感受 360° 腹压 |
+| Box Breathing 方框呼吸 | 2–3 min | 4-4-4-4 pattern，平稳神经系统 |
 
 ---
 
-## 2️⃣ Dynamic Mobility 动态关节活动 (10 min)
+## 2️⃣ Dynamic Mobility 动态关节活动 (10–12 min)
 
 | Exercise 动作 | Reps 次数 | Target 区域 |
 |---------------|-----------|-------------|
 | Cat-Cow 猫牛式 | 10–12 | Spine 脊柱 |
 | World’s Greatest Stretch 终极伸展 | 5/side | Hip & Thoracic 髋/胸椎 |
-| Shoulder CARs 肩关节环绕 | 8/side | Shoulder 肩关节 |
+| Wall Slides 墙上滑行（耸肩抑制） | 10–12 | Scapular upward rotation 肩胛上旋 |
 | Hip Opener Hip Circles 髋环绕 | 10/side | Hip 髋部 |
 
 ---
 
-## 3️⃣ Stretch & Mobility Flow 拉伸与流动序列 (15 min)
+## 3️⃣ Stretch & Mobility Flow 拉伸与流动序列 (15–18 min)
 
 Follow the flow continuously, hold each posture 30–40 s（每个姿势保持 30–40 秒）
 
-1. Pigeon Pose / 鸽子式 → 2. Lizard Pose / 蜥蜴式 → 3. Hamstring Stretch / 腿后侧拉伸 → 4. Downward Dog / 下犬式 → 5. Child’s Pose / 儿童式 → 6. Thoracic Rotation / 胸椎旋转
+1. Lunge Hip Flexor 箭步压髋（膝垫）→ 2. Pigeon Pose / 鸽子式 → 3. Hamstring Stretch / 腿后侧拉伸 → 4. Doorway Pec Stretch 门框开胸 → 5. Upper Trap/SCM Stretch 颈肩/胸锁乳突肌 → 6. Thoracic Rotation / 胸椎旋转
 
 ---
 

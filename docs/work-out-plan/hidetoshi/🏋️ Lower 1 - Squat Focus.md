@@ -8,17 +8,19 @@
 
 ---
 
-## 1️⃣ Warm-up 热身 (about 8 min)
+## 1️⃣ Warm-up 热身 (about 8–10 min)
 
 | Exercise 动作                     | Reps/Time | Notes |
 |----------------------------------|-----------|-------|
-| Dynamic Bodyweight Squat + Hip Opener（动态徒手深蹲 + 髋环绕） | 12 reps + 10/side | 激活髋与股四 |
+| 90/90 Breathing + Bracing 90/90 呼吸+腹压 | 4–6 呼吸循环 | 肋骨下沉、轻微后倾骨盆，建立中立位 |
+| Lateral Band Walk 侧向弹力带走路     | 12/side  | 激活臀中肌，保持膝盖对齐脚尖 |
+| Glute Bridge 臀桥                  | 12–15    | 感受臀大肌伸髋发力，避免塌腰 |
+| Hip Flexor Stretch 箭步压髋（膝垫）   | 30–40s/side | 髋屈肌放松，保持骨盆中立，后脚跪垫 |
 | Ankle/Calf Mobilization 踝/小腿活动 | 40–60s   | 下蹲深度与稳定 |
-| Breathing + Bracing 呼吸与腹压       | 4 × 4–6s | 建立腹压与中立位 |
 
 → 也可在下列“热身方案”中选一个（6–8 分钟）：
 
-- 方案 A（踝髋优先）：踝泵/墙蹲 40s → 动态深蹲 12 → 髋环绕 10/侧 → 呼吸与腹压 4×4s
+- 方案 A（APT 包）：90/90 呼吸 4–6 次 → 侧向弹力带走 12/侧 → 臀桥 12 → 动态深蹲 8（循环 1–2 轮）
 - 方案 B（膝关节准备）：台阶踏步 12/侧 → 侧向弹力带走 12/侧 → 股四等长靠墙静蹲 30s → 动态深蹲 8
 - 方案 C（全身）：开合跳 30s → 高脚杯深蹲轻重量 10 → 髋屈伸早安式 10 → 踝小腿拉伸 30s/侧
 
@@ -32,6 +34,10 @@
 | ✅ Goblet Squat 高脚杯深蹲（或：Heel-elevated DB Squat 抬跟哑铃深蹲 / Front Foot Elevated Split Squat 前脚抬高分腿蹲 / Barbell Hack Squat 杠铃哈克深蹲 选一） | 3 × 10–12   | 股四主导，躯干直立，膝盖与脚尖同向 |
 | ✅ Bulgarian Split Squat 保加利亚分腿蹲    | 3 × 8–10/side | 躯干直立，前脚全脚掌用力 |
 | ✅ Leg Extension（Knee Extension Machine，伸膝） / Box Step-up（登台） | 2–3 × 12    | 选择其一，感受股四发力 |
+
+补充（臀中/臀大强化，任选其一，2 × 12–15）：
+- Cable/Band Hip Abduction 站姿髋外展
+- Side-lying Clamshell 侧卧蚌式（弹力带）
 
 ---
 
@@ -62,7 +68,7 @@
 每个 30–40s，选 3–4 个：
 
 - Quad Stretch 股四头肌拉伸（站姿拉脚背）
-- Lunge Hip Flexor 箭步压髋（髋屈肌）
+- Lunge Hip Flexor 箭步压髋（髋屈肌，后脚跪垫）
 - Calf Stretch 小腿后侧（墙上伸展）
 - Adductor Stretch 内收肌（青蛙式/侧弓步）
 - Glute/Piriformis 臀肌/梨状肌拉伸（鸽子式）
@@ -90,3 +96,7 @@
 | 4 | 维持或 −10%（Deload 视疲劳） | 维持/减少                              | 维持/减少        | 关节舒适度优先 |
 
 > 无“腿举”设备时，优先选择：高脚杯深蹲（易保持姿势）、抬跟哑铃深蹲（更偏股四）、前脚抬高分腿蹲（FFE，股四刺激明显）。如擅长杠铃技术可选“杠铃哈克深蹲”。
+
+> 技术提示（APT）：
+> - 全程保持 360° 腹压与中立脊柱，避免抬肋与过度前倾
+> - 下蹲时建立脚三点支撑，轻微外旋力矩，避免膝内扣

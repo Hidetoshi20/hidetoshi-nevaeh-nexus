@@ -8,17 +8,19 @@
 
 ---
 
-## 1️⃣ Warm-up 热身（about 8 min）
+## 1️⃣ Warm-up 热身（about 8–10 min）
 
 | Exercise 动作                         | Reps/Time | Notes |
 |--------------------------------------|-----------|-------|
+| 90/90 Breathing 90/90 腹式呼吸          | 4–6 次     | 肋骨下沉，头颈延伸，避免头前伸 |
 | Band Face Pull 弹力带面拉              | 15–20     | 激活后束与下陷肩胛 |
+| Band External Rotation 弹力带外旋       | 15/side   | 左侧额外 1 组，抑制内旋/前移代偿 |
 | Scapular Pull-up 肩胛引体               | 8–10      | 肩胛下沉+后缩 |
 | Dead Hang + Thoracic Opener 悬垂+胸椎开 | 20–30s    | 放松上背，准备拉力 |
 
 → 可改用以下“热身方案”（选一，6–8 分钟）：
 
-- 方案 A（肩胛控制）：肩胛引体 8–10 → 面拉 15–20 → 弹力带划船 12 → 悬垂 20s（循环 1–2 轮）
+- 方案 A（肩胛控制 + 外旋）：90/90 呼吸 4–6 次 → 肩胛引体 8–10 → 面拉 15–20 → 弹力带外旋 15/侧 → 悬垂 20s（循环 1–2 轮）
 - 方案 B（胸椎与后束）：胸椎滚轴 40s → 后束飞鸟 12–15 → 俯卧撑位 Y-T-W 各8 → 颈部等长侧屈 20s/侧
 - 方案 C（全身激活）：开合跳 30s → 俯身哑铃划船轻重量 10 → 弹力带下拉 12 → 悬垂 20s
 
@@ -32,6 +34,8 @@
 | ✅ One-arm Dumbbell Row 单臂哑铃划船            | 3–4 × 8–10/side | Mid-back, Lats | 腰方平稳，划至腰后侧 |
 | ✅ Chest-supported Row 胸支划船                 | 3 × 8–10     | Mid-back         | 避免耸肩，轨迹一致 |
 | ✅ Rear Delt Fly / Face Pull 后束飞鸟/面拉       | 3 × 12–15    | Rear delts       | 轻重量，慢控制 |
+
+> 训练提示：保持颈部中立，避免头前伸；左肩维持外旋与肩胛下沉后缩的意向，减少肱骨前移。
 
 ---
 
@@ -60,7 +64,7 @@
 - Rear Delt Stretch 三角肌后束拉伸（横抱臂）
 - Thoracic Extension 胸椎滚轴伸展
 - Sleeper Stretch 肩后囊拉伸（温和）
-- Upper Trap/Scalenes 颈肩拉伸（避免代偿）
+- Upper Trap/SCM 颈肩/胸锁乳突肌拉伸（避免代偿）
 
 ---
 

@@ -16,3 +16,6 @@
 
 - [**进入 Nevaeh 的训练总览**](./nevaeh/README.md)
 
+---
+
+为了方便在线浏览，我们使用了 MkDocs 将 Markdown 文件转换成一个文档网站。具体的部署方式请参考 [DEPLOY.md](./DEPLOY.md)。

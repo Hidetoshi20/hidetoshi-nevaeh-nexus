@@ -12,7 +12,7 @@
 
 | Phase 阶段         | Content 内容                            | Duration 时长      |
 | ------------ | ------------------------------- | --------- |
-| ① Warm-up 热身       | Dynamic prep + Jog                 | 6–8 min    |
+| ① Warm-up 热身       | Dynamic prep + 90/90 breathing + Jog | 6–8 min    |
 | ② Main Workout 主训练     | Short HIIT (30s sprint + 90s recovery) | 12–16 min|
 | ③ Optional Core 可选核心   | Dynamic core 1–2 exercises              | 6–8 min  |
 | ④ Cool Down & Stretch 冷却+拉伸  | Walk + Static Stretch                 | 5–6 min  |
@@ -26,6 +26,7 @@
 
 | Exercise 动作              | Time/Reps 时间/次数   | Notes 说明                          |
 | ----------------- | ------------- | ----------------------------- |
+| 90/90 Breathing 90/90 呼吸 | 4–6 次 | Rib down，轻后倾骨盆，建立腹压 |
 | Brisk Walk 快走              | 2 min        | HR up to 50–60% HRmax       |
 | High Knees 高抬腿（快节奏）  | 20s × 2 sets    | Raise thigh temp, activate hips        |
 | Jumping Jacks 开合跳            | 30s × 2 sets    | Full body activation                  |
@@ -41,13 +42,13 @@
 
 ## 2️⃣ Main Workout 主训练：Short HIIT（12–16 min）
 
-可在 **室外跑道 Outdoor Track** 或 **跑步机 Treadmill** 完成
+可在 **室外跑道 Outdoor Track** 或 **跑步机 Treadmill** 完成；若腰背敏感，优先选择骑行间歇或跑步机低坡度小步频，避免过度前倾与抬肋。
 
 - 30s Sprint（85–90% max effort）
 - 90s Jog/Walk Recovery（控制呼吸）
 - 重复 6–8 轮（初学 4–6 轮）
 
-> 使用运动手表或 App（Strava, NRC）计时；若心率/呼吸恢复过慢，下次减少 1–2 轮。
+> 使用运动手表或 App（Strava, NRC）计时；若心率/呼吸恢复过慢，下次减少 1–2 轮。保持肋骨下沉与中立脊柱。
 
 ---
 

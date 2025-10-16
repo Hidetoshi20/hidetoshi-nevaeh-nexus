@@ -8,19 +8,21 @@
 
 ---
 
-## 1️⃣ Warm-up 热身 (about 8 min)
+## 1️⃣ Warm-up 热身 (about 8–10 min)
 
 | Exercise 动作                                   | Reps/Time 次数/时间 | Notes 说明 |
 |-----------------------------------------------|---------------------|-----------|
-| Arm Circles + Band External Rotation 弹力带绕肩+外旋 | 20s each + 15/side  | 激活肩袖，预防顶撞 |
-| Scapular Push-up 肩胛俯卧撑                       | 12 reps             | 肩胛前伸/后缩控制 |
+| 90/90 Diaphragmatic Breathing 90/90 腹式呼吸     | 4–6 呼吸循环         | 肋骨下沉、轻微后倾骨盆，建立 360° 腹压 |
+| Band External Rotation 弹力带外旋                 | 15/side             | 左侧额外 1 组，外旋/后缩控制，避免肱骨前移 |
+| Scapular Push-up 肩胛俯卧撑                       | 12 reps             | 肩胛前伸/后缩控制，避免耸肩 |
+| Doorway Pec Stretch 门框开胸（小胸肌/胸大肌）       | 30–40s/side         | 放松紧张胸肌，改善肩圆/头前伸 |
 | Empty Bar Bench + Y-T-W 控制                      | 8–10 reps each      | 激活胸背，建立肩胛紧致 |
 
 → 也可在下列“热身方案”中选一个，6–8 分钟完成：
 
-- 方案 A（肩袖与肩胛）：弹力带外旋 15/侧 → 面拉 15 → 肩胛俯卧撑 12 → 俯身Y-T-W 各8（循环1–2轮）
-- 方案 B（胸椎与推举轨迹）：泡沫轴胸椎伸展 40s → 空杆卧推 10 → 俯卧撑 10 → 过顶推举空杆/轻哑铃 10（循环1–2轮）
-- 方案 C（全身激活）：开合跳 30s → 弹力带推拉超级组 各12 → 高抬腿 20s → 俯卧撑位肩触 8/侧（循环1轮）
+- 方案 A（肩袖/肩胛 + 呼吸）：90/90 呼吸 4–6 次 → 弹力带外旋 15/侧（左侧加 1 组）→ 面拉 15 → 肩胛俯卧撑 12（循环1–2轮）
+- 方案 B（胸椎与推举轨迹）：泡沫轴胸椎伸展 40s → 门框开胸 30s/侧 → 空杆卧推 10 → 过顶推举空杆/轻哑铃 10（循环1–2轮）
+- 方案 C（全身激活）：开合跳 30s → 弹力带推拉超级组 各12 → 俯卧撑位肩触 8/侧 → 轻壶铃地雷官推 8/侧（循环1轮）
 
 ---
 
@@ -31,7 +33,7 @@
 | Exercise 动作                              | Sets × Reps 组×次 | Muscles 主要肌群            | Technique Tips 技术提示 |
 |-------------------------------------------|------------------|----------------------------|------------------------|
 | ✅ Bench Press 卧推（杠铃/哑铃）              | 4 × 6–8          | Chest, Triceps, Front Delt | 肩胛后缩下压、脚稳、控制下降 |
-| ✅ Overhead/Dumbbell Shoulder Press 过顶/哑铃推 | 3–4 × 6–8        | Delts, Triceps             | 核心紧，避免腰椎代偿 |
+| ✅ Overhead/Dumbbell Shoulder Press 过顶/哑铃推 | 3–4 × 6–8        | Delts, Triceps             | 核心紧，避免抬肋塌腰；左侧略做外旋意向 |
 | ✅ Incline Press 上斜推（杠铃/哑铃）            | 3 × 8–10         | Upper Chest, Delts         | 轨迹稳定、全程受控 |
 | ✅ Dips / Push-up Variation 双杠臂屈伸/俯卧撑变式 | 2–3 × 10–12       | Chest, Triceps             | 量不宜过大，保持质量 |
 
@@ -50,10 +52,10 @@
 
 从下列动作中选 2–3 个，做 2–3 轮（技术优先，RIR 1–2）：
 
-- Pallof Press 抗旋拉力：10/side
+- Pallof Press 抗旋拉力：10/side（站姿或半跪姿，保持骨盆中立）
 - Dead Bug 死虫式：10/side（可加弹力带脚尖推）
 - Hollow Hold 中空支撑：20–30s（或 Hollow Rock 8–12 次）
-- Bear Crawl 熊爬：8–10m 往返（控制骨盆）
+- Bear Crawl 熊爬：8–10m 往返（控制骨盆，维持肋骨下沉）
 - Plank 平板支撑：30–40s（可做前臂或高平板）
 
 ---
@@ -66,7 +68,9 @@
 - Pec Minor Corner Stretch 小胸肌放松（肩前束减压）
 - Sleeper Stretch 后侧囊拉伸（肩后侧）
 - Thoracic Extension on Foam Roller 胸椎滚轴伸展
-- Upper Trap/Levator Stretch 颈肩放松
+- Upper Trap/SCM Stretch 颈肩/胸锁乳突肌放松（温和）
+
+> 训练全程提示：保持 360° 腹压与中立脊柱；卧推/过顶推举避免肱骨向前滑，左侧维持外旋/肩胛下沉后缩意向。
 
 ---
 
