@@ -1,3 +1,5 @@
+# yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
+
 # Site Information
 site_name: Hidetoshi and Nevaeh's Database
 site_url: https://hidetoshi20.github.io/Hidetoshi-Nevaeh-DB/
@@ -15,14 +17,13 @@ copyright: "Copyright &copy; 2024 Hidetoshi and Nevaeh"
 # Theme Configuration
 theme:
   name: material
-  custom_dir: overrides
   language: zh
   icon:
     logo: material/book-open-page-variant
     repo: fontawesome/brands/github
     edit: material/pencil
     view: material/eye
-  favicon: material/book-open-page-variant
+  # favicon: assets/favicon.png  # Add your favicon file to docs/assets/
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -68,7 +69,8 @@ markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite
-  - pymdownx.snippets
+  - pymdownx.snippets:
+      check_paths: true
   - pymdownx.superfences
   - admonition
   - toc:
@@ -76,30 +78,17 @@ markdown_extensions:
   - attr_list
   - def_list
   - footnotes
-  - meta
-  - pymdownx.arithmatex:
-      generic: true
-  - pymdownx.betterem:
-      smart_enable: all
+  - pymdownx.arithmatex
+  - pymdownx.betterem
   - pymdownx.caret
   - pymdownx.details
-  - pymdownx.emoji:
-      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.emoji
   - pymdownx.keys
   - pymdownx.magiclink
   - pymdownx.mark
   - pymdownx.smartsymbols
-  - pymdownx.snippets:
-      check_paths: true
-  - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
-
-
