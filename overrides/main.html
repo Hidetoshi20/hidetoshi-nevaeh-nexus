@@ -10,8 +10,18 @@
 <script>
   if (window.netlifyIdentity) {
     const loginRedirectKey = "netlify-login-redirect";
-    const currentLocation = `${window.location.pathname}${window.location.search}${window.location.hash}`;
-    const isLoginPage = window.location.pathname.replace(/\/+$/, "") === "/login";
+    const canonicalElement = document.querySelector('link[rel="canonical"]');
+    const canonicalHref = canonicalElement?.getAttribute("href") ?? window.location.href;
+    const siteRootUrl = new URL(".", canonicalHref);
+    const loginUrl = new URL("login/", siteRootUrl);
+    const homeUrl = siteRootUrl;
+
+    const normalizePath = (url) => url.pathname.replace(/\/+$/, "/");
+    const currentUrl = new URL(window.location.href);
+    const isLoginPage = normalizePath(currentUrl) === normalizePath(loginUrl);
+    const currentLocation = currentUrl.href;
+
+    const navigateTo = (url) => window.location.replace(url.href);
 
     const handleLogin = () => {
       window.netlifyIdentity.off("login", handleLogin);
@@ -20,12 +30,13 @@
       const target = sessionStorage.getItem(loginRedirectKey);
       if (target) {
         sessionStorage.removeItem(loginRedirectKey);
-        window.location.assign(target);
+        const targetUrl = new URL(target, siteRootUrl);
+        window.location.assign(targetUrl.href);
         return;
       }
 
       if (isLoginPage) {
-        window.location.replace("/");
+        navigateTo(homeUrl);
         return;
       }
 
@@ -38,11 +49,12 @@
           const storedTarget = sessionStorage.getItem(loginRedirectKey);
           sessionStorage.removeItem(loginRedirectKey);
           if (storedTarget && storedTarget !== currentLocation) {
-            window.location.replace(storedTarget);
+            const storedUrl = new URL(storedTarget, siteRootUrl);
+            navigateTo(storedUrl);
             return;
           }
 
-          window.location.replace("/");
+          navigateTo(homeUrl);
         }
         return;
       }
@@ -58,7 +70,7 @@
     window.netlifyIdentity.on("logout", () => {
       sessionStorage.removeItem(loginRedirectKey);
       window.netlifyIdentity.close();
-      window.location.replace("/login/");
+      navigateTo(loginUrl);
     });
 
     window.netlifyIdentity.init();
