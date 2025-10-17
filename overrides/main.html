@@ -9,24 +9,56 @@
 <!-- Netlify Identity Login Logic -->
 <script>
   if (window.netlifyIdentity) {
+    const loginRedirectKey = "netlify-login-redirect";
+    const currentLocation = `${window.location.pathname}${window.location.search}${window.location.hash}`;
+    const isLoginPage = window.location.pathname.replace(/\/+$/, "") === "/login";
+
     const handleLogin = () => {
-      // Remove the temporary listener so we only reload once per login.
       window.netlifyIdentity.off("login", handleLogin);
       window.netlifyIdentity.close();
+
+      const target = sessionStorage.getItem(loginRedirectKey);
+      if (target) {
+        sessionStorage.removeItem(loginRedirectKey);
+        window.location.assign(target);
+        return;
+      }
+
+      if (isLoginPage) {
+        window.location.replace("/");
+        return;
+      }
+
       window.location.reload();
     };
 
     window.netlifyIdentity.on("init", (user) => {
-      if (!user) {
-        // Defer attaching the login handler until we actually need a login.
-        window.netlifyIdentity.on("login", handleLogin);
-        window.netlifyIdentity.open();
+      if (user) {
+        if (isLoginPage) {
+          const storedTarget = sessionStorage.getItem(loginRedirectKey);
+          sessionStorage.removeItem(loginRedirectKey);
+          if (storedTarget && storedTarget !== currentLocation) {
+            window.location.replace(storedTarget);
+            return;
+          }
+
+          window.location.replace("/");
+        }
+        return;
       }
+
+      if (!sessionStorage.getItem(loginRedirectKey) && !isLoginPage) {
+        sessionStorage.setItem(loginRedirectKey, currentLocation);
+      }
+
+      window.netlifyIdentity.on("login", handleLogin);
+      window.netlifyIdentity.open();
     });
 
     window.netlifyIdentity.on("logout", () => {
+      sessionStorage.removeItem(loginRedirectKey);
       window.netlifyIdentity.close();
-      window.location.reload();
+      window.location.replace("/login/");
     });
 
     window.netlifyIdentity.init();

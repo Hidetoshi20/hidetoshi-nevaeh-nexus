@@ -1,2 +1,12 @@
-/*    200!   Role=*
-/*    /.netlify/identity/login    401!
+/.netlify/identity/*    /.netlify/identity/:splat    200
+
+# Allow static assets and search index to load before authentication
+/assets/*               /assets/:splat               200
+/search/*               /search/:splat               200
+/favicon.ico            /favicon.ico                 200
+
+# Dedicated login entry point
+/login/*                /login/index.html            200
+
+/*                     /:splat                       200!   Role=*
+/*                     /login/index.html             200
