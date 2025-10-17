@@ -11,13 +11,19 @@
   if (window.netlifyIdentity) {
     window.netlifyIdentity.on("init", (user) => {
       if (!user) {
-        // Redirect to login if not authenticated
+        // Open login modal if not authenticated
         window.netlifyIdentity.open();
       }
     });
 
     window.netlifyIdentity.on("login", () => {
-      document.location.href = "/";
+      // Close the modal and reload the page
+      window.netlifyIdentity.close();
+      window.location.reload();
+    });
+
+    window.netlifyIdentity.on("logout", () => {
+      window.location.reload();
     });
   }
 </script>
