@@ -9,6 +9,14 @@
 <!-- Netlify Identity Login Logic -->
 <script>
   if (window.netlifyIdentity) {
+    const reloadFlagKey = "netlify-login-redirect";
+    const skipReload = sessionStorage.getItem(reloadFlagKey) === "true";
+
+    if (skipReload) {
+      // Clear once we have reloaded to avoid repeated triggers.
+      sessionStorage.removeItem(reloadFlagKey);
+    }
+
     window.netlifyIdentity.on("init", (user) => {
       if (!user) {
         // Open login modal if not authenticated
@@ -17,12 +25,19 @@
     });
 
     window.netlifyIdentity.on("login", () => {
-      // Close the modal and reload the page
       window.netlifyIdentity.close();
+
+      if (skipReload) {
+        // User session already refreshed, so skip another reload.
+        return;
+      }
+
+      sessionStorage.setItem(reloadFlagKey, "true");
       window.location.reload();
     });
 
     window.netlifyIdentity.on("logout", () => {
+      sessionStorage.removeItem(reloadFlagKey);
       window.location.reload();
     });
   }
