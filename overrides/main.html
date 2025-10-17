@@ -8,31 +8,62 @@
 
 <!-- Netlify Identity Login Logic -->
 <script>
-  if (window.netlifyIdentity) {
+  document.addEventListener("DOMContentLoaded", () => {
+    if (!window.netlifyIdentity) {
+      return;
+    }
+
     const loginRedirectKey = "netlify-login-redirect";
+    const currentUrl = new URL(window.location.href);
+    const loginTrigger = document.getElementById("netlify-login-trigger");
+    const isLoginPage = Boolean(loginTrigger);
+
     const canonicalElement = document.querySelector('link[rel="canonical"]');
-    const canonicalHref = canonicalElement?.getAttribute("href") ?? window.location.href;
-    const siteRootUrl = new URL(".", canonicalHref);
+    let siteRootUrl;
+
+    if (canonicalElement?.href) {
+      try {
+        const candidate = new URL(canonicalElement.href);
+        if (candidate.hostname === window.location.hostname) {
+          siteRootUrl = candidate;
+        }
+      } catch (error) {
+        console.warn("Netlify Identity: invalid canonical URL", error);
+      }
+    }
+
+    if (!siteRootUrl) {
+      siteRootUrl = new URL("/", window.location.href);
+    }
+
     const loginUrl = new URL("login/", siteRootUrl);
     const homeUrl = siteRootUrl;
 
-    const normalizePath = (url) => url.pathname.replace(/\/+$/, "/");
-    const currentUrl = new URL(window.location.href);
-    const isLoginPage = normalizePath(currentUrl) === normalizePath(loginUrl);
-    const currentLocation = currentUrl.href;
+    const getRedirectTarget = () => sessionStorage.getItem(loginRedirectKey);
+    const clearRedirectTarget = () => sessionStorage.removeItem(loginRedirectKey);
+    const navigateTo = (url) => window.location.assign(url.href);
 
-    const navigateTo = (url) => window.location.replace(url.href);
+    const resolveTargetUrl = (value) => {
+      try {
+        return new URL(value, siteRootUrl);
+      } catch (error) {
+        console.warn("Netlify Identity: invalid redirect target", value, error);
+        return null;
+      }
+    };
 
     const handleLogin = () => {
       window.netlifyIdentity.off("login", handleLogin);
       window.netlifyIdentity.close();
 
-      const target = sessionStorage.getItem(loginRedirectKey);
-      if (target) {
-        sessionStorage.removeItem(loginRedirectKey);
-        const targetUrl = new URL(target, siteRootUrl);
-        window.location.assign(targetUrl.href);
-        return;
+      const storedTarget = getRedirectTarget();
+      if (storedTarget) {
+        clearRedirectTarget();
+        const targetUrl = resolveTargetUrl(storedTarget);
+        if (targetUrl) {
+          navigateTo(targetUrl);
+          return;
+        }
       }
 
       if (isLoginPage) {
@@ -46,12 +77,15 @@
     window.netlifyIdentity.on("init", (user) => {
       if (user) {
         if (isLoginPage) {
-          const storedTarget = sessionStorage.getItem(loginRedirectKey);
-          sessionStorage.removeItem(loginRedirectKey);
-          if (storedTarget && storedTarget !== currentLocation) {
-            const storedUrl = new URL(storedTarget, siteRootUrl);
-            navigateTo(storedUrl);
-            return;
+          const storedTarget = getRedirectTarget();
+          clearRedirectTarget();
+
+          if (storedTarget && storedTarget !== currentUrl.href) {
+            const targetUrl = resolveTargetUrl(storedTarget);
+            if (targetUrl) {
+              navigateTo(targetUrl);
+              return;
+            }
           }
 
           navigateTo(homeUrl);
@@ -59,8 +93,8 @@
         return;
       }
 
-      if (!sessionStorage.getItem(loginRedirectKey) && !isLoginPage) {
-        sessionStorage.setItem(loginRedirectKey, currentLocation);
+      if (!isLoginPage && !getRedirectTarget()) {
+        sessionStorage.setItem(loginRedirectKey, currentUrl.href);
       }
 
       window.netlifyIdentity.on("login", handleLogin);
@@ -68,12 +102,12 @@
     });
 
     window.netlifyIdentity.on("logout", () => {
-      sessionStorage.removeItem(loginRedirectKey);
+      clearRedirectTarget();
       window.netlifyIdentity.close();
       navigateTo(loginUrl);
     });
 
     window.netlifyIdentity.init();
-  }
+  });
 </script>
 {% endblock %}
