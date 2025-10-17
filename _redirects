@@ -8,5 +8,5 @@
 # Dedicated login entry point
 /login/*                /login/index.html            200
 
-/*                     /:splat                       200!   Role=member
-/*                     /login/index.html             200
+/*                     /:splat                       200!   Role=*
+/*                     /login/index.html?redirect=/:splat 302

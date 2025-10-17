@@ -8,106 +8,104 @@
 
 <!-- Netlify Identity Login Logic -->
 <script>
-  document.addEventListener("DOMContentLoaded", () => {
-    if (!window.netlifyIdentity) {
-      return;
-    }
+  (function () {
+    const redirectKey = "netlify-login-redirect";
+    const loginPath = "/login/";
+    let identityBound = false;
 
-    const loginRedirectKey = "netlify-login-redirect";
-    const currentUrl = new URL(window.location.href);
-    const loginTrigger = document.getElementById("netlify-login-trigger");
-    const isLoginPage = Boolean(loginTrigger);
+    const isLoginPage = () => window.location.pathname.startsWith(loginPath);
 
-    const canonicalElement = document.querySelector('link[rel="canonical"]');
-    let siteRootUrl;
-
-    if (canonicalElement?.href) {
-      try {
-        const candidate = new URL(canonicalElement.href);
-        if (candidate.hostname === window.location.hostname) {
-          siteRootUrl = candidate;
-        }
-      } catch (error) {
-        console.warn("Netlify Identity: invalid canonical URL", error);
+    const normalizeRedirect = (value) => {
+      if (!value) {
+        return "/";
       }
-    }
 
-    if (!siteRootUrl) {
-      siteRootUrl = new URL("/", window.location.href);
-    }
-
-    const loginUrl = new URL("login/", siteRootUrl);
-    const homeUrl = siteRootUrl;
-
-    const getRedirectTarget = () => sessionStorage.getItem(loginRedirectKey);
-    const clearRedirectTarget = () => sessionStorage.removeItem(loginRedirectKey);
-    const navigateTo = (url) => window.location.assign(url.href);
-
-    const resolveTargetUrl = (value) => {
       try {
-        return new URL(value, siteRootUrl);
+        const decoded = decodeURIComponent(value);
+        if (decoded.startsWith("/")) {
+          return decoded;
+        }
+        return `/${decoded.replace(/^\/+/, "")}`;
       } catch (error) {
-        console.warn("Netlify Identity: invalid redirect target", value, error);
+        console.warn("Netlify Identity: invalid redirect parameter", value, error);
+        return "/";
+      }
+    };
+
+    const rememberRedirectFromQuery = () => {
+      const url = new URL(window.location.href);
+      const redirectParam = url.searchParams.get("redirect");
+      sessionStorage.setItem(redirectKey, normalizeRedirect(redirectParam));
+    };
+
+    const targetAfterLogin = () => sessionStorage.getItem(redirectKey) || "/";
+
+    const finishLogin = () => {
+      const target = targetAfterLogin();
+      sessionStorage.removeItem(redirectKey);
+      window.location.replace(target);
+    };
+
+    const ensureIdentity = () => {
+      const identity = window.netlifyIdentity;
+      if (!identity) {
         return null;
       }
-    };
 
-    const handleLogin = () => {
-      window.netlifyIdentity.off("login", handleLogin);
-      window.netlifyIdentity.close();
+      if (!identityBound) {
+        identityBound = true;
 
-      const storedTarget = getRedirectTarget();
-      if (storedTarget) {
-        clearRedirectTarget();
-        const targetUrl = resolveTargetUrl(storedTarget);
-        if (targetUrl) {
-          navigateTo(targetUrl);
-          return;
-        }
-      }
-
-      if (isLoginPage) {
-        navigateTo(homeUrl);
-        return;
-      }
-
-      window.location.reload();
-    };
-
-    window.netlifyIdentity.on("init", (user) => {
-      if (user) {
-        if (isLoginPage) {
-          const storedTarget = getRedirectTarget();
-          clearRedirectTarget();
-
-          if (storedTarget && storedTarget !== currentUrl.href) {
-            const targetUrl = resolveTargetUrl(storedTarget);
-            if (targetUrl) {
-              navigateTo(targetUrl);
-              return;
-            }
+        identity.on("init", (user) => {
+          if (user && isLoginPage()) {
+            finishLogin();
           }
+        });
 
-          navigateTo(homeUrl);
-        }
+        identity.on("login", finishLogin);
+
+        identity.on("logout", () => {
+          sessionStorage.removeItem(redirectKey);
+          window.location.replace(loginPath);
+        });
+
+        identity.init();
+      }
+
+      return identity;
+    };
+
+    const enhanceLoginPage = () => {
+      const identity = ensureIdentity();
+      if (!identity || !isLoginPage()) {
         return;
       }
 
-      if (!isLoginPage && !getRedirectTarget()) {
-        sessionStorage.setItem(loginRedirectKey, currentUrl.href);
+      rememberRedirectFromQuery();
+
+      const trigger = document.getElementById("netlify-login-trigger");
+      if (trigger && !trigger.dataset.bound) {
+        trigger.dataset.bound = "true";
+        trigger.addEventListener("click", (event) => {
+          event.preventDefault();
+          identity.open("login");
+        });
       }
+    };
 
-      window.netlifyIdentity.on("login", handleLogin);
-      window.netlifyIdentity.open();
-    });
+    const init = () => {
+      ensureIdentity();
+      enhanceLoginPage();
+    };
 
-    window.netlifyIdentity.on("logout", () => {
-      clearRedirectTarget();
-      window.netlifyIdentity.close();
-      navigateTo(loginUrl);
-    });
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", init);
+    } else {
+      init();
+    }
 
-    window.netlifyIdentity.init();
-  });
+    if (window.document$) {
+      document$.subscribe(init);
+    }
+  })();
 </script>
 {% endblock %}
