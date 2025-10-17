@@ -44,35 +44,11 @@
 - Lower 2（Hinge）：健身房版热身 A；腘绳紧张用 B；居家版侧重单腿臀推 + 滑动 curl。附加：臀桥/髋推 1 组。
 - 有氧（HIIT/LISS）：跑前热身优先 A；下肢酸痛改居家 LISS；器械有限 → 选择居家 HIIT/低冲击；若疲劳高改做 LISS。
 
-## 📅 Weekly Plan（版本选择）
+## 📅 Weekly Structure
 
-### 🏋️ 健身房版（Gym）
-
-| Day | 内容 | 类型 | 备注 |
-|-----|------|------|-----|
-| Mon | [Upper Push（胸/前三角/肱三）+ Core](./gym-plan/%F0%9F%8F%8B%EF%B8%8F%20Upper%20Push%20Day.md) | Strength | APT 包：90/90 呼吸 + 开胸 + 左肩外旋提示 |
-| Tue | [Lower 1（深蹲/股四主导）+ 技术](./gym-plan/%F0%9F%8F%8B%EF%B8%8F%20Lower%201%20-%20Squat%20Focus.md) | Strength | 臀中/大激活 + 髋屈肌拉伸（膝垫） |
-| Wed | [主动恢复/灵活性](./gym-plan/%F0%9F%A7%98%20Active%20Recovery%20-%20Mobility%20%26%20Stretch%20Day.md) | Recovery | 呼吸重训 + 胸小肌/颈前肌放松 |
-| Thu | [Upper Pull（背/后束/肱二）+ Core](./gym-plan/%F0%9F%8F%8B%EF%B8%8F%20Upper%20Pull%20Day.md) | Strength | 面拉 + 外旋强化，避免头前伸 |
-| Fri | [Lower 2（硬拉/后侧链主导）](./gym-plan/%F0%9F%8F%8B%EF%B8%8F%20Lower%202%20-%20Hinge%20%26%20Posterior%20Chain.md) | Strength | 臀推/臀桥 + 轻量髋铰链，维持中立脊柱 |
-| Sat | 可选：[LISS 稳态有氧](./gym-plan/%F0%9F%9A%B6%20Steady%20Cardio%20-%20LISS%20%28Optional%29.md) / [短 HIIT](./gym-plan/%F0%9F%8F%83%20Cardio%20-%20Short%20HIIT%20+%20Optional%20Core.md) | Cardio | 腰背敏感优先 LISS/骑行；避免过度前倾耸肩 |
-| Sun | 完全休息 | Rest | 睡眠与营养优先 |
-
-> 提要：功能性/单侧/核心整合为“热身 + 收尾”（各 5–10 分钟）；仅保留 0–1 天低强度有氧。更多背景见 [Plan Rationale](./plan-rationale.md)。
-
-### 🏠 居家版（Home）
-
-| Day | 内容 | 类型 | 备注 |
-|-----|------|------|-----|
-| Mon | [Upper Push（Floor Press + Push-ups）](./home-plan/%F0%9F%8F%A0%20Upper%20Push%20-%20Floor%20Press%20%26%20Push-ups.md) | Strength | 使用 4-1-2 节奏与单侧推举提升张力 |
-| Tue | [Lower A（Tempo Squat & Lunge）](./home-plan/%F0%9F%8F%A0%20Lower%20A%20-%20Tempo%20Squat%20%26%20Lunge.md) | Strength | 强调单腿与节奏控制，膝盖保持对齐 |
-| Wed | [Home Mobility & Recovery Flow](./home-plan/%F0%9F%A7%98%20Home%20Mobility%20%26%20Recovery%20Flow.md) | Recovery | 结合呼吸与动态流动，缓解 DOMS |
-| Thu | [Upper Pull（Single DB Row + Posterior Chain）](./home-plan/%F0%9F%8F%A0%20Upper%20Pull%20-%20Single%20Dumbbell%20Row%20%26%20Posterior%20Chain.md) | Strength | 利用毛巾/家具创造拉力，保持颈肩放松 |
-| Fri | [Lower B（Hinge & Glute Emphasis）](./home-plan/%F0%9F%8F%A0%20Lower%20B%20-%20Hinge%20%26%20Glute%20Emphasis.md) | Strength | 单腿臀推 + 滑动 curl，维持后链刺激 |
-| Sat | 可选：[居家 HIIT](./home-plan/%F0%9F%8F%A0%20HIIT%20+%20Core%20Circuit.md) / [居家 LISS](./home-plan/%F0%9F%9A%B6%20Home%20LISS%20-%20Low%20Impact%20Cardio.md) | Cardio | 依据疲劳度选择高/低冲击方案 |
-| Sun | 完全休息 | Rest | 维持作息与营养，记录恢复度 |
-
-补充：居家日可酌情加入 [Core Micro Session](./home-plan/%F0%9F%A7%98%20Core%20Micro%20Session%20%28Home%29.md)；若本周回到健身房，可直接切换回上表对应日程。
+- 🏋️ **Gym Plan**：完整训练日程与动作说明见 [gym-plan/README.md](./gym-plan/README.md)。用于健身房训练时直接按周一至周六流程执行。
+- 🏠 **Home Plan**：居家器材（5 kg 哑铃 + 瑜伽垫）对应的替代训练见 [home-plan/README.md](./home-plan/README.md)。无法到健身房时按同样的周频率替换即可。
+- 🔁 **切换建议**：保持 Push → Lower → Recovery → Pull → Lower → Cardio 的顺序；在日志中标注使用的版本，便于回顾训练负荷。
 
 ### APT/上交叉 · 当日“纠正包”（示例）
 - 90/90 腹式呼吸 4–6 次（肋骨下沉、骨盆中立）
