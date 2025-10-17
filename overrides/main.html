@@ -9,37 +9,27 @@
 <!-- Netlify Identity Login Logic -->
 <script>
   if (window.netlifyIdentity) {
-    const reloadFlagKey = "netlify-login-redirect";
-    const skipReload = sessionStorage.getItem(reloadFlagKey) === "true";
-
-    if (skipReload) {
-      // Clear once we have reloaded to avoid repeated triggers.
-      sessionStorage.removeItem(reloadFlagKey);
-    }
+    const handleLogin = () => {
+      // Remove the temporary listener so we only reload once per login.
+      window.netlifyIdentity.off("login", handleLogin);
+      window.netlifyIdentity.close();
+      window.location.reload();
+    };
 
     window.netlifyIdentity.on("init", (user) => {
       if (!user) {
-        // Open login modal if not authenticated
+        // Defer attaching the login handler until we actually need a login.
+        window.netlifyIdentity.on("login", handleLogin);
         window.netlifyIdentity.open();
       }
     });
 
-    window.netlifyIdentity.on("login", () => {
-      window.netlifyIdentity.close();
-
-      if (skipReload) {
-        // User session already refreshed, so skip another reload.
-        return;
-      }
-
-      sessionStorage.setItem(reloadFlagKey, "true");
-      window.location.reload();
-    });
-
     window.netlifyIdentity.on("logout", () => {
-      sessionStorage.removeItem(reloadFlagKey);
+      window.netlifyIdentity.close();
       window.location.reload();
     });
+
+    window.netlifyIdentity.init();
   }
 </script>
 {% endblock %}
