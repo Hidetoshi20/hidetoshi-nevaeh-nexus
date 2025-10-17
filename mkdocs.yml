@@ -18,6 +18,7 @@ copyright: "Copyright &copy; 2024 Hidetoshi and Nevaeh"
 theme:
   name: material
   language: zh
+  custom_dir: overrides
   icon:
     logo: material/book-open-page-variant
     repo: fontawesome/brands/github
@@ -63,6 +64,12 @@ plugins:
   - awesome-pages:
       order: asc
   - tags
+
+# Extra Configuration
+extra:
+  meta:
+    - name: robots
+      content: noindex, nofollow
 
 # Markdown Extensions
 markdown_extensions:

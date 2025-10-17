@@ -2,8 +2,8 @@
   # Base directory (leave empty if root)
   base = ""
   
-  # Build command
-  command = "mkdocs build"
+  # Build command - copy _redirects to site folder after build
+  command = "mkdocs build && cp _redirects site/_redirects"
   
   # Publish directory (MkDocs outputs to 'site' by default)
   publish = "site"
