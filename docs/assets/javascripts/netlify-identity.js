@@ -24,6 +24,35 @@ let toastLoader = null;
 let toastInstance = null;
 const loginRedirectMarkerKey = "netlify-identity-login-redirected";
 
+const safeSession = {
+  get(key) {
+    try {
+      return sessionStorage.getItem(key);
+    } catch (error) {
+      log(`failed to read sessionStorage key ${key}`, error);
+      return null;
+    }
+  },
+  set(key, value) {
+    try {
+      sessionStorage.setItem(key, value);
+      return true;
+    } catch (error) {
+      log(`failed to write sessionStorage key ${key}`, error);
+      return false;
+    }
+  },
+  remove(key) {
+    try {
+      sessionStorage.removeItem(key);
+      return true;
+    } catch (error) {
+      log(`failed to remove sessionStorage key ${key}`, error);
+      return false;
+    }
+  },
+};
+
 const ensureToastCss = () => {
   if (document.querySelector('link[data-netlify-toastify="style"]')) {
     return;
@@ -70,6 +99,13 @@ const toastStyles = {
   error: { background: "#c92a2a" },
 };
 
+const wasRedirectedFromProtectedPage = () =>
+  safeSession.get(loginRedirectMarkerKey) === "1";
+
+const markRedirectToLogin = () => safeSession.set(loginRedirectMarkerKey, "1");
+
+const clearRedirectMarker = () => safeSession.remove(loginRedirectMarkerKey);
+
 const showToast = (message, type = "info") => {
   loadToastify()
     .then((Toastify) => {
@@ -90,36 +126,40 @@ const showToast = (message, type = "info") => {
 };
 
 const queueToast = (message, type = "info") => {
-  try {
-    sessionStorage.setItem(
-      toastStorageKey,
-      JSON.stringify({ message, type })
-    );
+  if (!message) {
+    return;
+  }
+
+  const payload = JSON.stringify({ message, type });
+  if (safeSession.set(toastStorageKey, payload)) {
     log("queued toast", message, `(${type})`);
-  } catch (error) {
-    log("failed to queue toast", error);
   }
 };
 
 const flushToastQueue = () => {
-  try {
-    const payload = sessionStorage.getItem(toastStorageKey);
-    if (!payload) {
-      return;
-    }
+  const payload = safeSession.get(toastStorageKey);
+  if (!payload) {
+    return;
+  }
 
-    sessionStorage.removeItem(toastStorageKey);
+  safeSession.remove(toastStorageKey);
+
+  try {
     const { message, type } = JSON.parse(payload);
     if (message) {
       log("displaying queued toast", message, `(${type || "info"})`);
       showToast(message, type);
     }
   } catch (error) {
-    log("failed to flush toast", error);
+    log("failed to parse queued toast payload", error);
   }
 };
 
 const isLoginPage = () => window.location.pathname.startsWith(loginPath);
+
+const hasJwtCookie = () => {
+  return document.cookie.split(";").some((part) => part.trim().startsWith("nf_jwt="));
+};
 
 const redirectHome = () => {
   if (window.location.pathname !== homePath) {
@@ -132,14 +172,111 @@ const redirectToLogin = () => {
     return;
   }
 
-  try {
-    sessionStorage.setItem(loginRedirectMarkerKey, "1");
-  } catch (error) {
-    log("failed to persist login redirect marker", error);
-  }
-
+  markRedirectToLogin();
   queueToast("需要登录后才能访问内容", "info");
   window.location.replace(loginPath);
+};
+
+const getCurrentUser = (identity, user) => {
+  if (user) {
+    return user;
+  }
+
+  try {
+    return identity.currentUser?.() || null;
+  } catch (error) {
+    log("failed to read currentUser", error);
+    return null;
+  }
+};
+
+const handleAuthenticatedInit = () => {
+  if (!isLoginPage()) {
+    return;
+  }
+
+  clearRedirectMarker();
+  queueToast("登录成功，正在跳转到首页…", "success");
+  redirectHome();
+};
+
+const handleUnauthenticatedInit = () => {
+  const redirected = wasRedirectedFromProtectedPage();
+  const cookiePresent = hasJwtCookie();
+
+  if (isLoginPage()) {
+    if (redirected) {
+      clearRedirectMarker();
+    }
+    showToast("请登录以继续访问", "info");
+    return;
+  }
+
+  if (!redirected && !cookiePresent) {
+    redirectToLogin();
+    return;
+  }
+
+  if (!cookiePresent) {
+    log("no jwt cookie detected after init; waiting for login flow", {
+      redirected,
+    });
+  } else {
+    log("jwt cookie present but no user yet; skipping client redirect");
+  }
+};
+
+const handleIdentityInit = (identity) => (user) => {
+  const effectiveUser = getCurrentUser(identity, user);
+  log(
+    "init event",
+    effectiveUser ? "authenticated" : "unauthenticated",
+    effectiveUser
+  );
+
+  if (effectiveUser) {
+    handleAuthenticatedInit();
+  } else {
+    handleUnauthenticatedInit();
+  }
+};
+
+const handleLoginEvent = () => {
+  log("login event received");
+  const redirected = wasRedirectedFromProtectedPage();
+  clearRedirectMarker();
+
+  if (isLoginPage() || redirected) {
+    log("login event originated from login page; navigating home");
+    queueToast("登录成功，正在跳转到首页…", "success");
+    redirectHome();
+    return;
+  }
+
+  log("login event detected outside login page; skipping redirect");
+};
+
+const handleLogoutEvent = () => {
+  log("logout event: redirecting to login page");
+  markRedirectToLogin();
+  queueToast("您已退出登录", "info");
+  window.location.replace(loginPath);
+};
+
+const bindIdentityEvents = (identity) => {
+  if (identityBound) {
+    return;
+  }
+
+  log("wiring Netlify Identity event handlers");
+  identityBound = true;
+
+  identity.on("init", handleIdentityInit(identity));
+  identity.on("login", handleLoginEvent);
+  identity.on("logout", handleLogoutEvent);
+
+  log("initialising identity widget");
+  identity.init();
 };
 
 const ensureIdentity = () => {
@@ -149,87 +286,7 @@ const ensureIdentity = () => {
     return null;
   }
 
-  if (!identityBound) {
-    log("wiring Netlify Identity event handlers");
-    identityBound = true;
-
-    identity.on("init", (user) => {
-      log("init event", user ? "authenticated" : "unauthenticated", user);
-      if (user && isLoginPage()) {
-        try {
-          sessionStorage.removeItem(loginRedirectMarkerKey);
-        } catch (error) {
-          log("failed to clear login redirect marker", error);
-        }
-        queueToast("登录成功，正在跳转到首页…", "success");
-        redirectHome();
-        return;
-      }
-
-      if (!user) {
-        const wasRedirectedRecently = (() => {
-          try {
-            return sessionStorage.getItem(loginRedirectMarkerKey) === "1";
-          } catch (error) {
-            log("failed to read login redirect marker", error);
-            return false;
-          }
-        })();
-
-        if (isLoginPage()) {
-          if (wasRedirectedRecently) {
-            try {
-              sessionStorage.removeItem(loginRedirectMarkerKey);
-            } catch (error) {
-              log("failed to clear login redirect marker", error);
-            }
-          }
-          showToast("请登录以继续访问", "info");
-          return;
-        }
-
-        if (!wasRedirectedRecently) {
-          redirectToLogin();
-        }
-      }
-    });
-
-    identity.on("login", () => {
-      log("login event received");
-
-      let wasRedirected = false;
-      try {
-        wasRedirected = sessionStorage.getItem(loginRedirectMarkerKey) === "1";
-        sessionStorage.removeItem(loginRedirectMarkerKey);
-      } catch (error) {
-        log("failed to handle login redirect marker", error);
-      }
-
-      if (isLoginPage() || wasRedirected) {
-        log("login event originated from login page; navigating home");
-        queueToast("登录成功，正在跳转到首页…", "success");
-        redirectHome();
-        return;
-      }
-
-      log("login event detected outside login page; skipping redirect");
-    });
-
-    identity.on("logout", () => {
-      log("logout event: redirecting to login page");
-      try {
-        sessionStorage.setItem(loginRedirectMarkerKey, "1");
-      } catch (error) {
-        log("failed to persist login redirect marker", error);
-      }
-      queueToast("您已退出登录", "info");
-      window.location.replace(loginPath);
-    });
-
-    log("initialising identity widget");
-    identity.init();
-  }
-
+  bindIdentityEvents(identity);
   return identity;
 };
 
