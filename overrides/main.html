@@ -7,5 +7,5 @@
 {% endblock %} {% block scripts %} {{ super() }}
 
 <!-- Netlify Identity Login Logic -->
-<script src="{{ 'assets/javascripts/netlify-identity.js' | url }}"></script>
+<script type="module" src="{{ 'assets/javascripts/netlify-identity.js' | url }}"></script>
 {% endblock %}

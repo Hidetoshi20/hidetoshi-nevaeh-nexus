@@ -1,100 +1,198 @@
-(() => {
-  // Netlify Identity scripts run on every MkDocs page load. This wrapper keeps
-  // the logic isolated and prevents leaking variables into the global scope.
-  const loginPath = "/login/";
-  const homePath = "/";
-  // Guard so we only register Netlify Identity event handlers once even if
-  // MkDocs re-initialises the page via instant navigation.
-  let identityBound = false;
+// Netlify Identity helpers implemented as an ES module so we can leverage
+// top-level `import()` and keep state scoped to this file only.
+const loginPath = "/login/";
+const homePath = "/";
 
-  // Helper: detect whether the current location is the dedicated login page.
-  const isLoginPage = () => window.location.pathname.startsWith(loginPath);
+// Guard so we only register Identity event handlers once, even if Material's
+// instant navigation re-executes this module.
+let identityBound = false;
 
-  // Helper: send unauthenticated visitors to the login screen. We only redirect
-  // if they are not already on the login page to avoid loops.
-  const redirectToLogin = () => {
-    if (!isLoginPage()) {
-      window.location.replace(loginPath);
-    }
-  };
+const log = (...args) => console.log("[Netlify Identity]", ...args);
+const toastStorageKey = "netlify-identity-toast";
+const toastModuleUrl =
+  "https://cdn.jsdelivr.net/npm/toastify-js@1.12.0/src/toastify-es.js";
+const toastStyleUrl =
+  "https://cdn.jsdelivr.net/npm/toastify-js@1.12.0/src/toastify.min.css";
+let toastLoader = null;
+let toastInstance = null;
 
-  // Helper: send authenticated visitors to the homepage immediately after
-  // login or when they revisit the login screen while already signed in.
-  const redirectHome = () => {
-    if (window.location.pathname !== homePath) {
-      window.location.replace(homePath);
-    }
-  };
+const ensureToastCss = () => {
+  if (document.querySelector('link[data-netlify-toastify="style"]')) {
+    return;
+  }
 
-  // Ensure the Netlify Identity library is loaded and event handlers are
-  // attached exactly once. Returns the identity object when available.
-  const ensureIdentity = () => {
-    const identity = window.netlifyIdentity;
-    if (!identity) {
-      return null;
-    }
+  const link = document.createElement("link");
+  link.rel = "stylesheet";
+  link.href = toastStyleUrl;
+  link.setAttribute("data-netlify-toastify", "style");
+  document.head.appendChild(link);
+};
 
-    if (!identityBound) {
-      identityBound = true;
+const loadToastify = () => {
+  if (toastInstance) {
+    ensureToastCss();
+    return Promise.resolve(toastInstance);
+  }
 
-      // When Netlify Identity finishes initialising, we know whether the
-      // visitor is authenticated. Redirect unauthenticated users to the login
-      // screen, or send authenticated users away from the login page.
-
-      identity.on("init", (user) => {
-        if (user) {
-          if (isLoginPage()) {
-            redirectHome();
-          }
-        } else {
-          redirectToLogin();
+  if (!toastLoader) {
+    toastLoader = import(/* @vite-ignore */ toastModuleUrl)
+      .then((module) => {
+        ensureToastCss();
+        const Toastify = module?.default || module?.Toastify || module;
+        if (!Toastify) {
+          throw new Error("Toastify ES module did not export a default");
         }
+        toastInstance = Toastify;
+        return Toastify;
+      })
+      .catch((error) => {
+        toastLoader = null;
+        log("failed to import Toastify ES module", error);
+        throw error;
       });
+  }
 
-      // Once login succeeds we send the visitor to the homepage.
-      identity.on("login", redirectHome);
+  return toastLoader;
+};
 
-      identity.on("logout", () => {
-        window.location.replace(loginPath);
-      });
+const toastStyles = {
+  success: { background: "#107a48" },
+  info: { background: "#0b7285" },
+  warning: { background: "#c17d1c" },
+  error: { background: "#c92a2a" },
+};
 
-      identity.init();
-    }
+const showToast = (message, type = "info") => {
+  loadToastify()
+    .then((Toastify) => {
+      const style = toastStyles[type] || {};
+      Toastify({
+        text: message,
+        duration: 3600,
+        close: true,
+        gravity: "top",
+        position: "center",
+        stopOnFocus: true,
+        style,
+      }).showToast();
+    })
+    .catch((error) => {
+      log("toast display failed", error, message);
+    });
+};
 
-    return identity;
-  };
+const queueToast = (message, type = "info") => {
+  try {
+    sessionStorage.setItem(
+      toastStorageKey,
+      JSON.stringify({ message, type })
+    );
+    log("queued toast", message, `(${type})`);
+  } catch (error) {
+    log("failed to queue toast", error);
+  }
+};
 
-  const enhanceLoginPage = () => {
-    const identity = ensureIdentity();
-    if (!identity || !isLoginPage()) {
+const flushToastQueue = () => {
+  try {
+    const payload = sessionStorage.getItem(toastStorageKey);
+    if (!payload) {
       return;
     }
 
-    // Bind the login button so users can manually open the Netlify modal.
-    const trigger = document.getElementById("netlify-login-trigger");
-    if (trigger && !trigger.dataset.bound) {
-      trigger.dataset.bound = "true";
-      trigger.addEventListener("click", (event) => {
-        event.preventDefault();
-        identity.open("login");
-      });
+    sessionStorage.removeItem(toastStorageKey);
+    const { message, type } = JSON.parse(payload);
+    if (message) {
+      log("displaying queued toast", message, `(${type || "info"})`);
+      showToast(message, type);
     }
-  };
+  } catch (error) {
+    log("failed to flush toast", error);
+  }
+};
 
-  // Kick everything off: make sure Identity is set up and apply page-specific
-  // enhancements (binding the login button).
-  const init = () => {
-    ensureIdentity();
-    enhanceLoginPage();
-  };
+const isLoginPage = () => window.location.pathname.startsWith(loginPath);
 
-  if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", init);
-  } else {
-    init();
+const redirectHome = () => {
+  if (window.location.pathname !== homePath) {
+    window.location.replace(homePath);
+  }
+};
+
+const ensureIdentity = () => {
+  const identity = window.netlifyIdentity;
+  if (!identity) {
+    log("identity widget not found on window; waiting for script load");
+    return null;
   }
 
-  if (window.document$) {
-    document$.subscribe(init);
+  if (!identityBound) {
+    log("wiring Netlify Identity event handlers");
+    identityBound = true;
+
+    identity.on("init", (user) => {
+      log("init event", user ? "authenticated" : "unauthenticated", user);
+      if (user && isLoginPage()) {
+        queueToast("登录成功，正在跳转到首页…", "success");
+        redirectHome();
+      }
+
+      if (!user && isLoginPage()) {
+        showToast("请登录以继续访问", "info");
+      }
+    });
+
+    identity.on("login", () => {
+      log("login event: redirecting to home");
+      queueToast("登录成功，正在跳转到首页…", "success");
+      redirectHome();
+    });
+
+    identity.on("logout", () => {
+      log("logout event: redirecting to login page");
+      queueToast("您已退出登录", "info");
+      window.location.replace(loginPath);
+    });
+
+    log("initialising identity widget");
+    identity.init();
   }
-})();
+
+  return identity;
+};
+
+const enhanceLoginPage = () => {
+  const identity = ensureIdentity();
+  if (!identity || !isLoginPage()) {
+    return;
+  }
+
+  const trigger = document.getElementById("netlify-login-trigger");
+  if (trigger && !trigger.dataset.bound) {
+    trigger.dataset.bound = "true";
+    log("binding login button trigger");
+    trigger.addEventListener("click", (event) => {
+      event.preventDefault();
+      log("login button clicked; opening Netlify widget");
+      identity.open("login");
+    });
+  }
+};
+
+const init = () => {
+  log("initialising authentication helpers for", window.location.pathname);
+  flushToastQueue();
+  ensureIdentity();
+  enhanceLoginPage();
+};
+
+if (document.readyState === "loading") {
+  document.addEventListener("DOMContentLoaded", init);
+} else {
+  init();
+}
+
+if (window.document$) {
+  log("subscribing to Material page navigation events");
+  document$.subscribe(init);
+}
