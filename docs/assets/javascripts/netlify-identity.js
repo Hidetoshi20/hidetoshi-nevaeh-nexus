@@ -1,0 +1,99 @@
+(() => {
+  const redirectKey = "netlify-login-redirect";
+  const loginPath = "/login/";
+  let identityBound = false;
+
+  const isLoginPage = () => window.location.pathname.startsWith(loginPath);
+
+  const normalizeRedirect = (value) => {
+    if (!value) {
+      return "/";
+    }
+
+    try {
+      const decoded = decodeURIComponent(value);
+      if (decoded.startsWith("/")) {
+        return decoded;
+      }
+      return `/${decoded.replace(/^\/+/, "")}`;
+    } catch (error) {
+      console.warn("Netlify Identity: invalid redirect parameter", value, error);
+      return "/";
+    }
+  };
+
+  const rememberRedirectFromQuery = () => {
+    const url = new URL(window.location.href);
+    const redirectParam = url.searchParams.get("redirect");
+    sessionStorage.setItem(redirectKey, normalizeRedirect(redirectParam));
+  };
+
+  const targetAfterLogin = () => sessionStorage.getItem(redirectKey) || "/";
+
+  const finishLogin = () => {
+    const target = targetAfterLogin();
+    sessionStorage.removeItem(redirectKey);
+    window.location.replace(target);
+  };
+
+  const ensureIdentity = () => {
+    const identity = window.netlifyIdentity;
+    if (!identity) {
+      return null;
+    }
+
+    if (!identityBound) {
+      identityBound = true;
+
+      identity.on("init", (user) => {
+        if (user && isLoginPage()) {
+          finishLogin();
+        }
+      });
+
+      identity.on("login", finishLogin);
+
+      identity.on("logout", () => {
+        sessionStorage.removeItem(redirectKey);
+        window.location.replace(loginPath);
+      });
+
+      identity.init();
+    }
+
+    return identity;
+  };
+
+  const enhanceLoginPage = () => {
+    const identity = ensureIdentity();
+    if (!identity || !isLoginPage()) {
+      return;
+    }
+
+    rememberRedirectFromQuery();
+
+    const trigger = document.getElementById("netlify-login-trigger");
+    if (trigger && !trigger.dataset.bound) {
+      trigger.dataset.bound = "true";
+      trigger.addEventListener("click", (event) => {
+        event.preventDefault();
+        identity.open("login");
+      });
+    }
+  };
+
+  const init = () => {
+    ensureIdentity();
+    enhanceLoginPage();
+  };
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", init);
+  } else {
+    init();
+  }
+
+  if (window.document$) {
+    document$.subscribe(init);
+  }
+})();
