@@ -119,6 +119,15 @@ const redirectHome = () => {
   }
 };
 
+const redirectToLogin = () => {
+  if (isLoginPage()) {
+    return;
+  }
+
+  queueToast("需要登录后才能访问内容", "info");
+  window.location.replace(loginPath);
+};
+
 const ensureIdentity = () => {
   const identity = window.netlifyIdentity;
   if (!identity) {
@@ -137,8 +146,13 @@ const ensureIdentity = () => {
         redirectHome();
       }
 
-      if (!user && isLoginPage()) {
-        showToast("请登录以继续访问", "info");
+      if (!user) {
+        if (isLoginPage()) {
+          showToast("请登录以继续访问", "info");
+          return;
+        }
+
+        redirectToLogin();
       }
     });
 
