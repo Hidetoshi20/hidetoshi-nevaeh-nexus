@@ -1,3 +1,10 @@
+// 登录逻辑说明：
+// 1. 任何访问受保护页面的未登录用户都会被引导至 /login/，同时提示“需要登录后才能访问内容”。
+// 2. 当用户在登录页完成 Netlify Identity 登录后，页面跳转回首页并显示“登录成功”提示。
+// 3. 若用户在登录页已拥有有效会话，则直接跳转到首页，避免停留在登录页。
+// 4. 注销后会回到登录页，并提示用户已退出。
+// 5. 整体逻辑利用 sessionStorage 记录跳转状态，防止重复重定向，并通过 Toastify 提示关键状态。
+
 // Netlify Identity helpers implemented as an ES module so we can leverage
 // top-level `import()` and keep state scoped to this file only.
 const loginPath = "/login/";
@@ -15,6 +22,7 @@ const toastStyleUrl =
   "https://cdn.jsdelivr.net/npm/toastify-js@1.12.0/src/toastify.min.css";
 let toastLoader = null;
 let toastInstance = null;
+const loginRedirectMarkerKey = "netlify-identity-login-redirected";
 
 const ensureToastCss = () => {
   if (document.querySelector('link[data-netlify-toastify="style"]')) {
@@ -124,6 +132,12 @@ const redirectToLogin = () => {
     return;
   }
 
+  try {
+    sessionStorage.setItem(loginRedirectMarkerKey, "1");
+  } catch (error) {
+    log("failed to persist login redirect marker", error);
+  }
+
   queueToast("需要登录后才能访问内容", "info");
   window.location.replace(loginPath);
 };
@@ -142,28 +156,72 @@ const ensureIdentity = () => {
     identity.on("init", (user) => {
       log("init event", user ? "authenticated" : "unauthenticated", user);
       if (user && isLoginPage()) {
+        try {
+          sessionStorage.removeItem(loginRedirectMarkerKey);
+        } catch (error) {
+          log("failed to clear login redirect marker", error);
+        }
         queueToast("登录成功，正在跳转到首页…", "success");
         redirectHome();
+        return;
       }
 
       if (!user) {
+        const wasRedirectedRecently = (() => {
+          try {
+            return sessionStorage.getItem(loginRedirectMarkerKey) === "1";
+          } catch (error) {
+            log("failed to read login redirect marker", error);
+            return false;
+          }
+        })();
+
         if (isLoginPage()) {
+          if (wasRedirectedRecently) {
+            try {
+              sessionStorage.removeItem(loginRedirectMarkerKey);
+            } catch (error) {
+              log("failed to clear login redirect marker", error);
+            }
+          }
           showToast("请登录以继续访问", "info");
           return;
         }
 
-        redirectToLogin();
+        if (!wasRedirectedRecently) {
+          redirectToLogin();
+        }
       }
     });
 
     identity.on("login", () => {
-      log("login event: redirecting to home");
-      queueToast("登录成功，正在跳转到首页…", "success");
-      redirectHome();
+      log("login event received");
+
+      let wasRedirected = false;
+      try {
+        wasRedirected = sessionStorage.getItem(loginRedirectMarkerKey) === "1";
+        sessionStorage.removeItem(loginRedirectMarkerKey);
+      } catch (error) {
+        log("failed to handle login redirect marker", error);
+      }
+
+      if (isLoginPage() || wasRedirected) {
+        log("login event originated from login page; navigating home");
+        queueToast("登录成功，正在跳转到首页…", "success");
+        redirectHome();
+        return;
+      }
+
+      log("login event detected outside login page; skipping redirect");
     });
 
     identity.on("logout", () => {
       log("logout event: redirecting to login page");
+      try {
+        sessionStorage.setItem(loginRedirectMarkerKey, "1");
+      } catch (error) {
+        log("failed to persist login redirect marker", error);
+      }
       queueToast("您已退出登录", "info");
       window.location.replace(loginPath);
     });
