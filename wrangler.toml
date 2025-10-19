@@ -5,7 +5,7 @@ compatibility_date = "2024-05-01"
 pages_build_output_dir = "site"
 
 [build]
-command = "pip install -r requirements.txt && mkdocs build && cp _redirects site/_redirects"
+command = "pip install -r requirements.txt && mkdocs build"
 
 [env.development]
 pages_build_output_dir = "site"

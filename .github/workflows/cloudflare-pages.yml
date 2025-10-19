@@ -38,9 +38,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Build MkDocs site
-        run: |
-          mkdocs build --strict
-          cp _redirects site/_redirects
+        run: mkdocs build --strict
 
       - name: Publish to Cloudflare Pages
         uses: cloudflare/pages-action@v1

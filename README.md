@@ -42,8 +42,6 @@ mkdocs serve
 ```bash
 # 构建静态文件
 mkdocs build
-# 拷贝重定向规则供 Cloudflare Pages 使用
-cp _redirects site/_redirects
 ```
 
 ### 使用 Cloudflare Pages 部署
@@ -52,7 +50,7 @@ cp _redirects site/_redirects
 
 1. 在 Cloudflare 控制台创建 **Pages** 项目，并连接到本仓库。
 2. 在仓库的 `Settings → Secrets and variables → Actions` 中配置 `CLOUDFLARE_API_TOKEN`（具有 `Cloudflare Pages - Edit` 权限）、`CLOUDFLARE_ACCOUNT_ID` 和 `CLOUDFLARE_PAGES_PROJECT`。
-3. 在 Cloudflare Pages 的构建设置中，将构建命令保持为 `pip install -r requirements.txt && mkdocs build && cp _redirects site/_redirects`，产物目录设置为 `site/`，并新增环境变量 `PYTHON_VERSION=3.11`。
+3. 在 Cloudflare Pages 的构建设置中，将构建命令保持为 `pip install -r requirements.txt && mkdocs build`，产物目录设置为 `site/`，并新增环境变量 `PYTHON_VERSION=3.11`。
 4. 推送代码到 `main` 分支触发部署，或在 GitHub Actions 页面手动运行 `Deploy to Cloudflare Pages` 工作流。
 
 ## 📁 项目结构

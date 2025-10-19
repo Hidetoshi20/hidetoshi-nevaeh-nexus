@@ -1,11 +1,5 @@
-{% extends "base.html" %} {% block extrahead %}
+{% extends "base.html" %}
+{% block extrahead %}
 <!-- Prevent search engine indexing -->
 <meta name="robots" content="noindex, nofollow" />
-
-<!-- Netlify Identity Widget -->
-<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-{% endblock %} {% block scripts %} {{ super() }}
-
-<!-- Netlify Identity Login Logic -->
-<script type="module" src="{{ 'assets/javascripts/netlify-identity.js' | url }}"></script>
 {% endblock %}

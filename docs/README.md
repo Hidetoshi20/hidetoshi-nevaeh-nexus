@@ -7,7 +7,8 @@
 - 🏋️ [Hidetoshi 训练与营养计划](./hidetoshi/README.md)
 - 🏃 [Nevaeh 训练与营养计划](./nevaeh/README.md)
 - 🍽️ [Recipe Book 食谱库](./Recipe%20Book/README.md)
-- 🔐 [账号与登录信息](./login.md)
+
+> ℹ️ 站点已全面开放访问，不再提供单独的登录入口。
 
 ## 🗂️ 目录概览
 
@@ -17,7 +18,7 @@ docs/
 ├── hidetoshi/           # Hidetoshi 训练/营养/日志
 ├── nevaeh/              # Nevaeh 训练/营养/日志
 ├── Recipe Book/         # 分类食谱库
-└── login.md             # 登录说明与常用链接
+└── ...（更多主题文档）
 ```
 
 > 提示：训练目录下的日志、测试结果与营养计划均采用 Markdown 编写，便于跟踪历史调整。
@@ -25,6 +26,6 @@ docs/
 ## 🚀 如何预览
 
 - 本地预览：运行 `mkdocs serve` 后访问 http://127.0.0.1:8000
-- 线上站点：https://hidetoshi20.github.io/Hidetoshi-Nevaeh-DB/
+- 线上站点：https://hidetoshi-nevaeh-db.pages.dev/
 
 需要添加新内容时，保持 Markdown 结构一致即可；所有修改建议先在本地预览确认无误后再提交。
