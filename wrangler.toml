@@ -1,0 +1,11 @@
+name = "hidetoshi-nevaeh-db"
+compatibility_date = "2024-05-01"
+
+# Directory that Cloudflare Pages will serve
+pages_build_output_dir = "site"
+
+[build]
+command = "pip install -r requirements.txt && mkdocs build && cp _redirects site/_redirects"
+
+[env.development]
+pages_build_output_dir = "site"

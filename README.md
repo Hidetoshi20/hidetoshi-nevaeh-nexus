@@ -8,7 +8,7 @@
 
 - 🍳 **食谱数据库** - 新疆特色菜谱和家常菜做法
 - 📚 **知识管理** - 个人知识库和笔记整理
-- 🌐 **在线访问** - 通过 GitHub Pages 提供在线访问
+- 🌐 **在线访问** - 通过 Cloudflare Pages 提供在线访问
 
 ## 🚀 快速开始
 
@@ -42,10 +42,18 @@ mkdocs serve
 ```bash
 # 构建静态文件
 mkdocs build
-
-# 部署到 GitHub Pages
-mkdocs gh-deploy
+# 拷贝重定向规则供 Cloudflare Pages 使用
+cp _redirects site/_redirects
 ```
+
+### 使用 Cloudflare Pages 部署
+
+项目提供了预配置的 GitHub Actions 工作流，推送到 `main` 分支后会自动构建并发布到 Cloudflare Pages。
+
+1. 在 Cloudflare 控制台创建 **Pages** 项目，并连接到本仓库。
+2. 在仓库的 `Settings → Secrets and variables → Actions` 中配置 `CLOUDFLARE_API_TOKEN`（具有 `Cloudflare Pages - Edit` 权限）、`CLOUDFLARE_ACCOUNT_ID` 和 `CLOUDFLARE_PAGES_PROJECT`。
+3. 在 Cloudflare Pages 的构建设置中，将构建命令保持为 `pip install -r requirements.txt && mkdocs build && cp _redirects site/_redirects`，产物目录设置为 `site/`，并新增环境变量 `PYTHON_VERSION=3.11`。
+4. 推送代码到 `main` 分支触发部署，或在 GitHub Actions 页面手动运行 `Deploy to Cloudflare Pages` 工作流。
 
 ## 📁 项目结构
 
@@ -103,7 +111,7 @@ Hidetoshi&Nevaeh-DB/
 - **MkDocs** - 静态站点生成器
 - **Material for MkDocs** - 现代化主题
 - **Python** - 后端支持
-- **GitHub Pages** - 免费托管
+- **Cloudflare Pages** - 全托管静态网站平台
 
 ## 📦 依赖包
 
@@ -116,7 +124,7 @@ mkdocs-awesome-pages-plugin  # 页面管理插件
 
 ## 🌐 在线访问
 
-- **网站地址**: https://hidetoshi20.github.io/Program-Knowledge-Database/
+- **Cloudflare Pages 预览域名**: 部署完成后将自动生成 `https://<project-name>.pages.dev` 访问地址
 - **GitHub 仓库**: https://github.com/Hidetoshi20/Hidetoshi-Nevaeh-DB
 
 ## 📝 使用说明
@@ -170,7 +178,7 @@ mkdocs build --strict
 
 - [MkDocs](https://www.mkdocs.org/) - 优秀的静态站点生成器
 - [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) - 精美的 Material Design 主题
-- [GitHub Pages](https://pages.github.com/) - 免费的静态网站托管服务
+- [Cloudflare Pages](https://developers.cloudflare.com/pages/) - 全托管的静态网站托管服务
 
 ---
 
