@@ -1,6 +1,8 @@
 # 个人情况 Personal Profile
 
 > 返回主页：[Hidetoshi Fitness & Nutrition Plan](./README.md)
+>
+> **文档定位**：记录身体背景、生活习惯与全部体态/伤病历史，作为 [Training Goals](./training-goals.md) 设定指标与 [Plan Rationale](./plan-rationale.md) 制定方法的唯一来源。
 
 ## 基本信息 Basic Information
 
@@ -15,9 +17,9 @@
 
 > 详细设备清单集中维护在 [Plan Rationale](./plan-rationale.md#训练资源-training-resources)，此处仅记录使用场景与限制。
 
-- 平日优先使用健身房器械区，可执行复合动作与重训，对应 [Gym Plan](./gym-plan/README.md) 的所有主项。
-- 居家备用一套轻量器材，已加入泡沫轴等恢复工具，便于无法到馆时依然完成 Push / Lower / 恢复课表，可直接调用 [Home Plan](./home-plan/README.md)。
-- 周末与恢复日可利用附近骑行与跑步路线安排 LISS、HIIT 或节奏跑。
+- 目前全部训练改在家中进行（无稳定健身房资源），Push/Pull/Lower/Recovery 全部按 [Home Plan](./home-plan/README.md) 执行；[Gym Plan](./gym-plan/README.md) 暂作备份。
+- 居家器材：落地式单杠、可调节哑铃（单只 10 kg 上限）、可调节杠铃（总重 20 kg 上限）、短弹力圈、长弹力带 + 门锚、泡沫轴与瑜伽垫。
+- 周末与恢复日利用附近骑行与跑步路线安排 LISS/HIIT/节奏骑，心肺记录与力量日志共用。
 
 ## 文档联动 Document Cross-Reference
 
@@ -28,6 +30,8 @@
 ---
 
 ## 身体问题详解 Detailed Body Issues
+
+> 这一章节专注描述症状、成因与日常注意事项；对应的阶段性目标和量化指标在 [Training Goals](./training-goals.md) 中追踪。
 
 ### 骨盆前倾 Anterior Pelvic Tilt
 
