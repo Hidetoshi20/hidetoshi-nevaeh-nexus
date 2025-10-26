@@ -1,4 +1,4 @@
-# Hidetoshi & Nevaeh's Database
+# Hidetoshi & Nevaeh's Nexus
 
 一个基于 MkDocs 构建的综合性知识数据库，为 Hidetoshi 和 Nevaeh 提供知识管理和分享平台。
 
@@ -21,8 +21,8 @@
 
 ```bash
 # 克隆项目
-git clone https://github.com/Hidetoshi20/Hidetoshi-Nevaeh-DB.git
-cd Hidetoshi-Nevaeh-DB
+git clone https://github.com/Hidetoshi20/hidetoshi-nevaeh-nexus.git
+cd hidetoshi-nevaeh-nexus
 
 # 安装依赖
 pip3 install -r requirements.txt
@@ -56,7 +56,7 @@ mkdocs build
 ## 📁 项目结构
 
 ```
-Hidetoshi&Nevaeh-DB/
+hidetoshi-nevaeh-nexus/
 ├── docs/                          # 文档目录
 │   ├── Recipe Book/               # 食谱数据库
 │   │   ├── 主食类/               # 米饭、抓饭等主食
@@ -123,7 +123,7 @@ mkdocs-awesome-pages-plugin  # 页面管理插件
 ## 🌐 在线访问
 
 - **Cloudflare Pages 预览域名**: 部署完成后将自动生成 `https://<project-name>.pages.dev` 访问地址
-- **GitHub 仓库**: https://github.com/Hidetoshi20/Hidetoshi-Nevaeh-DB
+- **GitHub 仓库**: https://github.com/Hidetoshi20/hidetoshi-nevaeh-nexus
 
 ## 📝 使用说明
 

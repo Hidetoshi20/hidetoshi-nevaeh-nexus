@@ -1,14 +1,14 @@
 # yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
 
 # Site Information
-site_name: Hidetoshi and Nevaeh's Database
-site_url: https://hidetoshi-nevaeh-db.pages.dev/
+site_name: Hidetoshi and Nevaeh's Nexus
+site_url: https://hidetoshi-nevaeh-nexus.pages.dev/
 site_author: Hidetoshi and Nevaeh
 site_description: "A comprehensive database for Hidetoshi and Nevaeh"
 
 # Repository Information
-repo_url: https://github.com/Hidetoshi20/Hidetoshi-Nevaeh-DB
-repo_name: Hidetoshi-and-Nevaeh-s-Database
+repo_url: https://github.com/Hidetoshi20/hidetoshi-nevaeh-nexus
+repo_name: hidetoshi-nevaeh-nexus
 edit_uri: ""
 
 # Copyright
