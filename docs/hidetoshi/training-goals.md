@@ -1,5 +1,7 @@
 # 训练目标 Training Goals
 
+> 返回主页：[Hidetoshi Fitness & Nutrition Plan](./README.md)
+
 ## 核心目标 Core Objectives
 
 ### 1. 降低体脂率 Reduce Body Fat

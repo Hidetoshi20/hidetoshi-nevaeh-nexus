@@ -1,5 +1,7 @@
 # 居家训练计划（Home Plan）
 
+> 返回主页：[Hidetoshi Fitness & Nutrition Plan](../README.md)
+
 本目录提供与健身房版本目标一致的“居家替代方案”。设备假设：一对 5 kg 轻哑铃、瑜伽垫、自重训练空间；如有弹力带/门框固定点，可用于动作进阶（详见各页“进阶/退阶”）。
 
 > 使用方法：与健身房版遵循相同周频率（Push/Pull/Lower/Recovery）；如当周只能在家训练，可直接按下列周表执行。个人档案、记录、营养与测试文档与健身房版共享。
@@ -19,5 +21,12 @@
 补充模块：
 
 - [Core Micro Session](./%F0%9F%A7%98%20Core%20Micro%20Session%20%28Home%29.md)（适合穿插在 Push/Pull 日）
+
+## 共享文档
+
+- 📋 [个人情况](../personal-profile.md)
+- 🎯 [训练目标](../training-goals.md)
+- 📐 [计划原理](../plan-rationale.md)
+- 📊 [体测结果](../test-results/README.md)
 
 > 小贴士：轻哑铃通过“节奏控制（4-1-2）”“单侧超组”“末次停留”等方式提高张力；体能训练部分以主观 RPE 7 左右为主，避免过度疲劳影响下周训练质量。
