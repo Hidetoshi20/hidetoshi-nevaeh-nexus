@@ -2,7 +2,7 @@
 
 本页作为本目录的门户：提供周训练总览、选择指南与目录导航；详细背景见《[Plan Rationale 计划设计原理](./plan-rationale.md)》。
 
-> 现在提供 **健身房版** 与 **居家版** 两套训练流程，目标、周期与记录方式保持一致，可依据当周训练场地自由切换。
+> 现在提供 **健身房版** 与 **居家版** 两套训练流程。当前阶段（2025-09）全部训练都在家进行，Home Plan 已升级为主方案；Gym Plan 作为偶尔到馆时的备选参考。
 
 ## 目录导航（Portal）
 
@@ -23,6 +23,12 @@
 2. 阅读 [Plan Rationale](./plan-rationale.md) 将上述目标映射到训练结构与器材配置，明确何时切换 Gym/Home 版本。
 3. 根据训练场景选择 [Gym Plan](./gym-plan/README.md) 或 [Home Plan](./home-plan/README.md)，所有动作节奏、热身/收尾提示均引用同一目标与原理。
 4. 在执行过程中，如需记录或复盘，返回本页进入日志、体测与营养文档，以便把训练反馈再写回 Personal Profile 与 Goal 复盘。
+
+## 当前模式（Home-First）
+
+- 默认执行 [Home Plan](./home-plan/README.md)：每个力量日都遵循“Reset（呼吸+矫正）→ Strength Ladders（节奏 + 单侧）→ Core & Conditioning → Cooldown & Log”的模板，器材为落地式单杠、可调哑铃 ≤10 kg、可调杠铃 ≤20 kg、长/短弹力带、泡沫轴。
+- [Gym Plan](./gym-plan/README.md) 保留复合动作结构，供偶尔进入健身房或器材升级后快速切换。
+- 所有训练目标、优先级与成功指标集中在 [Training Goals](./training-goals.md)，若身体状况变动先回 [Personal Profile](./personal-profile.md) 更新，再映射到其他文档。
 
 ## 🧭 如何选择 热身 / 核心 / 拉伸（精简版）
 
@@ -55,9 +61,9 @@
 
 ## 📅 Weekly Structure
 
-- 🏋️ **Gym Plan**：完整训练日程与动作说明见 [gym-plan/README.md](./gym-plan/README.md)。用于健身房训练时直接按周一至周六流程执行。
-- 🏠 **Home Plan**：居家器材（5 kg 哑铃 + 瑜伽垫）对应的替代训练见 [home-plan/README.md](./home-plan/README.md)。无法到健身房时按同样的周频率替换即可。
-- 🔁 **切换建议**：保持 Push → Lower → Recovery → Pull → Lower → Cardio 的顺序；在日志中标注使用的版本，便于回顾训练负荷。
+- 🏋️ **Gym Plan**：完整训练日程与动作说明见 [gym-plan/README.md](./gym-plan/README.md)。当前阶段仅在偶尔外出训练时使用。
+- 🏠 **Home Plan（默认）**：升级后的主计划详见 [home-plan/README.md](./home-plan/README.md)，使用落地式单杠 + 10 kg 可调哑铃 + 20 kg 可调杠铃 + 长/短弹力带等器材，围绕三大优先级（核心/体脂 → 体态 → 肌肉维持）设计 Reset/Strength/Core/Conditioning 四段式流程。
+- 🔁 **切换建议**：保持 Push → Lower → Recovery → Pull → Lower → Cardio 的顺序；在日志中标注“Home”或“Gym”，便于追踪不同场景对 Training Goals 的影响。
 
 ### APT/上交叉 · 当日“纠正包”（示例）
 - 90/90 腹式呼吸 4–6 次（肋骨下沉、骨盆中立）

@@ -24,6 +24,14 @@
 
 > 每个子清单与对应的训练日安排可在 [Gym Plan](./gym-plan/README.md) 与 [Home Plan](./home-plan/README.md) 找到具体动作示例；若更新器材，也请同步刷新两份计划。
 
+## Home Plan Execution Model（2025-09）
+
+- **优先级映射**：依照 [Training Goals](./training-goals.md) 将全部训练分为 Priority 1（核心稳定 & 体脂管理）、Priority 2（体态矫正 & 疼痛预防）、Priority 3（肌肉维持/增肌）。Home Plan 的每个日程都明确写出对应优先级。
+- **日内结构**：`Reset & Activation（呼吸 + 短弹力圈矫正） → Strength Ladders（4-1-2 节奏 + 单侧/等长） → Core & Conditioning（抗伸展 + Carry/HIIT/LISS） → Cooldown & Log`。这样在器材受限时仍能落实张力、控制与代谢需求。
+- **周节奏**：Push → Lower A → Recovery/LISS → Pull → Lower B → HIIT/LISS → Rest/复盘。Recovery 日使用《Home Mobility & Recovery Flow》，心肺日可在 `🏠 HIIT + Core` 或 `🚶 LISS` 间切换，与户外骑行互补。
+- **记录要求**：每次训练在日志中标注 `(P1/P2/P3 完成度) + sRPE × 分钟 + 核心/体态手感 + 器材设置`，方便回填到 Training Goals 的成功指标。
+- **Gym Plan 对应**：若当周有健身房资源，可直接引用 [gym-plan/README.md](./gym-plan/README.md) 的动作，但仍需带入同样的 Priority 思路（例如先完成矫正/核心，再上主项）。
+
 ## 推荐补充训练资源 Recommended Add-ons
 
 > 非必需，但可按优先级逐步补齐，以提升居家训练强度与多样性。
@@ -100,7 +108,7 @@
 
 **解决方案**：
 - 居家版沿用 Push / Lower / Recovery / Pull / Lower + 有氧 的周频率。
-- 通过 **节奏控制（4-1-2）**、**单侧动作**、**等长停留**、**高重复/短休息** 提升 5 kg 轻哑铃与自重的训练张力。
+- 通过 **节奏控制（4-1-2）**、**单侧动作**、**等长停留**、**高重复/短休息**，配合 10 kg 可调哑铃、20 kg 可调杠铃、弹力带与背包负重，创造足够张力。
 - 利用家具、毛巾或书包替代器械（例如毛巾门框拉、背包负重俯卧撑）。
 - 核心、恢复、日志与营养文件保持共用，便于回到健身房时对比进度。
 
@@ -113,35 +121,29 @@
 
 ## 训练结构模板 Training Structure Template
 
-### 力量训练日（60–75 分钟）
+### 力量训练日（Home Plan 版，60–75 分钟）
 
-1. **热身 Warm-up**（6–8 分钟）
-   - 关节活动
-   - 肌肉激活（针对当日主要肌群）
-   - 动态拉伸
-   - APT/上交叉纠正动作
+1. **Reset & Activation（6–8 分钟）**
+   - 90/90 呼吸、骨盆中立检查
+   - 臀肌/肩胛/髋踝矫正动作（短弹力圈、泡沫轴）
+   - 核心抗伸展（Bear / Dead Bug）确保 Priority 1 & 2 已上线
 
-2. **主项动作 Main Lift**（3–5 组）
-   - 复合动作（深蹲、硬拉、卧推、引体等）
-   - 重量较大，组间休息 2–3 分钟
-   - 强调动作质量和中立脊柱
+2. **Strength Ladders（25–30 分钟）**
+   - 2–3 个主项/次要动作以 4-1-2 节奏、单侧或等长执行
+   - 器材根据可调哑铃/杠铃/弹力带/单杠灵活切换
+   - 组间休息 60–90 秒，保持 RPE 7 左右
 
-3. **次要动作 Secondary Lifts**（1–2 个，各 3–4 组）
-   - 辅助复合动作或单关节动作
-   - 组间休息 1.5–2 分钟
+3. **Accessory + Posture（10–12 分钟）**
+   - 2–4 个矫正/孤立/对称性动作（如 mini-band 外展、Face Pull、Copenhagen plank）
+   - 针对 Personal Profile 中的体态问题展开，记录疼痛/对称性
 
-4. **孤立动作 Isolation**（2 个，各 2–3 组）
-   - 针对特定肌群
-   - 组间休息 1–1.5 分钟
+4. **Core & Conditioning（8–12 分钟）**
+   - 抗伸展/抗侧屈/抗旋转 + Carry、低冲击代谢、步行或 LISS
+   - 让 Priority 1 的热量缺口 + Priority 2 的核心控制都得到落实
 
-5. **核心收尾 Core Finisher**（5–8 分钟）
-   - 2–3 个核心动作，各 2–3 轮
-   - 抗伸展、抗旋转、抗侧屈
-   - 保留 1–2 次余力（RIR 1–2）
-
-6. **拉伸 Stretching**（5–10 分钟）
-   - 针对当日主要肌群
-   - 静态拉伸，30–40 秒/动作
+5. **Cooldown & Log（5 分钟）**
+   - 呼吸练习、静态拉伸、泡沫轴
+   - 日志记录：sRPE × 分钟、Priority 完成度、疼痛与器材设置
 
 ---
 
