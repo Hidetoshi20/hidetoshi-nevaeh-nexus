@@ -15,6 +15,15 @@
 - 📊 [体测结果](./test-results/README.md)
 - 🥗 [饮食方案](./🥗%20定制饮食方案.md)
 
+> 🛠️ 训练资源（含最新的居家泡沫轴等器材）统一记录在 [Plan Rationale · Training Resources](./plan-rationale.md#训练资源-training-resources)，其他页面按需引用避免重复。
+
+## 文档协作路径（Crosswalk）
+
+1. 先阅读 [Personal Profile](./personal-profile.md) 了解身体背景，再对照 [Training Goals](./training-goals.md) 的成功指标设定周期目标。
+2. 阅读 [Plan Rationale](./plan-rationale.md) 将上述目标映射到训练结构与器材配置，明确何时切换 Gym/Home 版本。
+3. 根据训练场景选择 [Gym Plan](./gym-plan/README.md) 或 [Home Plan](./home-plan/README.md)，所有动作节奏、热身/收尾提示均引用同一目标与原理。
+4. 在执行过程中，如需记录或复盘，返回本页进入日志、体测与营养文档，以便把训练反馈再写回 Personal Profile 与 Goal 复盘。
+
 ## 🧭 如何选择 热身 / 核心 / 拉伸（精简版）
 
 - 热身（6–8 分钟）：每页提供方案 A/B/C，选其一。

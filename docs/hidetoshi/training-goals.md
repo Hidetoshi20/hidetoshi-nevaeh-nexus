@@ -2,6 +2,8 @@
 
 > 返回主页：[Hidetoshi Fitness & Nutrition Plan](./README.md)
 
+> 背景资料来自 [Personal Profile](./personal-profile.md)，器材与方法论详见 [Plan Rationale](./plan-rationale.md)，本页列出的目标需通过 [Gym Plan](./gym-plan/README.md) 与 [Home Plan](./home-plan/README.md) 的周课表落地。
+
 ## 核心目标 Core Objectives
 
 ### 1. 降低体脂率 Reduce Body Fat
@@ -164,3 +166,12 @@
 5. **长期坚持** - 建立可持续的训练习惯
 6. **康复优先** - 姿态矫正和预防受伤是基础
 7. **充分恢复** - 每 4 周安排一次 Deload 周
+8. **善用居家资源** - 借助泡沫轴与居家器材完成筋膜放松、核心激活和恢复训练，保证无法到馆时依旧维持训练节奏
+
+---
+
+## 执行入口 Execution Crosswalk
+
+- **Gym 场景**：按 [Gym Plan](./gym-plan/README.md) 周期执行复合动作与力量进阶，重点记录力量与成功指标的变化。
+- **居家场景**：切换至 [Home Plan](./home-plan/README.md)，利用节奏控制与泡沫轴恢复保证同样的目标推进。
+- **复盘**：目标完成度及身体反馈需回写 [Personal Profile](./personal-profile.md) 与本页的勾选项，计划调整逻辑参考 [Plan Rationale](./plan-rationale.md)。

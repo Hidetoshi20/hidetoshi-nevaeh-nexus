@@ -4,7 +4,7 @@
 
 本目录提供与健身房版本目标一致的“居家替代方案”。设备假设：一对 5 kg 轻哑铃、瑜伽垫、自重训练空间；如有弹力带/门框固定点，可用于动作进阶（详见各页“进阶/退阶”）。
 
-> 使用方法：与健身房版遵循相同周频率（Push/Pull/Lower/Recovery）；如当周只能在家训练，可直接按下列周表执行。个人档案、记录、营养与测试文档与健身房版共享。
+> 使用方法：与健身房版遵循相同周频率（Push/Pull/Lower/Recovery）；如当周只能在家训练，可直接按下列周表执行。所有目标仍以 [Training Goals](../training-goals.md) 为准，动作选择原则与器材逻辑来自 [Plan Rationale](../plan-rationale.md)。
 
 ## 🗓️ 周训练安排
 
@@ -28,5 +28,7 @@
 - 🎯 [训练目标](../training-goals.md)
 - 📐 [计划原理](../plan-rationale.md)
 - 📊 [体测结果](../test-results/README.md)
+
+这些页面与本目录形成闭环：身体背景与限制在 [Personal Profile](../personal-profile.md)，目标指标在 [Training Goals](../training-goals.md)，具体方法论在 [Plan Rationale](../plan-rationale.md)。居家流程与 [Gym Plan](../gym-plan/README.md) 保持一一对应，日志记录与体测回写可帮助比较不同场景的训练负荷。
 
 > 小贴士：轻哑铃通过“节奏控制（4-1-2）”“单侧超组”“末次停留”等方式提高张力；体能训练部分以主观 RPE 7 左右为主，避免过度疲劳影响下周训练质量。

@@ -13,9 +13,17 @@
 
 ## 训练资源 Training Resources
 
-- 健身房（器械 + 哑铃 + 杠铃）
-- 家用瑜伽垫
-- 户外骑行与跑步条件
+> 详细设备清单集中维护在 [Plan Rationale](./plan-rationale.md#训练资源-training-resources)，此处仅记录使用场景与限制。
+
+- 平日优先使用健身房器械区，可执行复合动作与重训，对应 [Gym Plan](./gym-plan/README.md) 的所有主项。
+- 居家备用一套轻量器材，已加入泡沫轴等恢复工具，便于无法到馆时依然完成 Push / Lower / 恢复课表，可直接调用 [Home Plan](./home-plan/README.md)。
+- 周末与恢复日可利用附近骑行与跑步路线安排 LISS、HIIT 或节奏跑。
+
+## 文档联动 Document Cross-Reference
+
+- **目标衔接**：本页的体态/历史与测量数据驱动 [Training Goals](./training-goals.md) 中的成功指标，复盘时需要两页一起更新。
+- **方法论引用**：矫正与器材策略详解收录在 [Plan Rationale](./plan-rationale.md)，遇到新伤病或设备变动时先在该页登记再回写此处。
+- **执行落地**：根据当天训练环境在 [Gym Plan](./gym-plan/README.md) 与 [Home Plan](./home-plan/README.md) 间切换，保留与本页“身体问题”相对应的注意事项（如肩部对称、APT）。
 
 ---
 
