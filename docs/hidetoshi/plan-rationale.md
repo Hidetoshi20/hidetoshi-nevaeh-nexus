@@ -52,7 +52,7 @@
 - **睡眠 Sleep**：7–8 小时/晚
 - **Deload 周**：每 4 周安排一次降强度周
 
-详细饮食方案：[🥗 定制饮食方案.md](./🥗%20定制饮食方案.md)
+详细饮食方案：[🥗 定制饮食方案.md](./custom-diet-plan.md)
 
 ---
 
@@ -219,7 +219,7 @@
 - 身体反馈（疼痛、不适、感觉）
 - 下次调整建议
 
-模板：[📓 Training Quality Log Template.md](./logs/📓%20Training%20Quality%20Log%20Template.md)
+模板：[📓 Training Quality Log Template.md](./logs/training-quality-log-template.md)
 
 ---
 

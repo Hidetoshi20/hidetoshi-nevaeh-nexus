@@ -25,18 +25,18 @@
 
 | Day | 训练主题 | Priority 侧重 | 链接 |
 |-----|----------|----------------|------|
-| Mon | 上肢推：Floor/Barbell Press + Core Reset | P1 核心 & P2 肩胛 | [Upper Push](./%F0%9F%8F%A0%20Upper%20Push%20-%20Floor%20Press%20%26%20Push-ups.md) |
-| Tue | 下肢 A：Tempo Squat & Lunge | P2 骨盆对齐 & P3 股四张力 | [Lower A](./%F0%9F%8F%A0%20Lower%20A%20-%20Tempo%20Squat%20%26%20Lunge.md) |
-| Wed | 恢复/灵活性流动 + 轻度 LISS | P1 呼吸 + P2 灵活度 | [Mobility Flow](./%F0%9F%A7%98%20Home%20Mobility%20%26%20Recovery%20Flow.md) · [Cardio & Core](./%F0%9F%8F%A0%20Cardio%20%26%20Core%20Protocols.md#liss) |
-| Thu | 上肢拉：Pull-up Cluster + Posterior Chain | P2 上交叉 & P3 背部维持 | [Upper Pull](./%F0%9F%8F%A0%20Upper%20Pull%20-%20Single%20Dumbbell%20Row%20%26%20Posterior%20Chain.md) |
-| Fri | 下肢 B：Hinge & Glute Emphasis | P1 核心 + P2 臀髋 | [Lower B](./%F0%9F%8F%A0%20Lower%20B%20-%20Hinge%20%26%20Glute%20Emphasis.md) |
-| Sat | 有氧/代谢：HIIT + Core 或 户外骑行 / LISS | P1 心肺 + P2 核心 | [Cardio & Core](./%F0%9F%8F%A0%20Cardio%20%26%20Core%20Protocols.md#hiit) |
+| Mon | 上肢推：Floor/Barbell Press + Core Reset | P1 核心 & P2 肩胛 | [Upper Push](./upper-push-floor-press-push-ups.md) |
+| Tue | 下肢 A：Tempo Squat & Lunge | P2 骨盆对齐 & P3 股四张力 | [Lower A](./lower-a-tempo-squat-lunge.md) |
+| Wed | 恢复/灵活性流动 + 轻度 LISS | P1 呼吸 + P2 灵活度 | [Mobility Flow](./home-mobility-recovery-flow.md) · [Cardio & Core](./cardio-core-protocols.md#liss) |
+| Thu | 上肢拉：Pull-up Cluster + Posterior Chain | P2 上交叉 & P3 背部维持 | [Upper Pull](./upper-pull-single-dumbbell-row-posterior-chain.md) |
+| Fri | 下肢 B：Hinge & Glute Emphasis | P1 核心 + P2 臀髋 | [Lower B](./lower-b-hinge-glute-emphasis.md) |
+| Sat | 有氧/代谢：HIIT + Core 或 户外骑行 / LISS | P1 心肺 + P2 核心 | [Cardio & Core](./cardio-core-protocols.md#hiit) |
 | Sun | 休息 / 呼吸冥想 / 轻松骑行 | 复盘/计划 | – |
 
 补充模块：
 
-- 核心快闪：见 [Cardio & Core · Core Micro](./%F0%9F%8F%A0%20Cardio%20%26%20Core%20Protocols.md#core-micro)：Push/Pull 日后 6–8 分钟快闪核心或当日替代训练。
-- [Home Mobility & Recovery Flow](./%F0%9F%A7%98%20Home%20Mobility%20%26%20Recovery%20Flow.md)：疲劳高、疼痛或 Deload 周时优先执行。
+- 核心快闪：见 [Cardio & Core · Core Micro](./cardio-core-protocols.md#core-micro)：Push/Pull 日后 6–8 分钟快闪核心或当日替代训练。
+- [Home Mobility & Recovery Flow](./home-mobility-recovery-flow.md)：疲劳高、疼痛或 Deload 周时优先执行。
 
 ## 🔧 Equipment Snapshot
 

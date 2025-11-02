@@ -13,7 +13,7 @@
 - 🏠 [Home 居家训练计划页](./home-plan/README.md)
 - 📓 [训练日志](./logs/README.md) (月记录：[2025-09.md](./logs/2025-09.md))
 - 📊 [体测结果](./test-results/README.md)
-- 🥗 [饮食方案](./🥗%20定制饮食方案.md)
+- 🥗 [饮食方案](./custom-diet-plan.md)
 
 > 🛠️ 训练资源（含最新的居家泡沫轴等器材）统一记录在 [Plan Rationale · Training Resources](./plan-rationale.md#训练资源-training-resources)，其他页面按需引用避免重复。
 
@@ -78,7 +78,7 @@
 
 ## Nutrition Plan（链接）
 
-饮食计划见：[🥗 定制饮食方案](./🥗%20定制饮食方案.md)
+饮食计划见：[🥗 定制饮食方案](./custom-diet-plan.md)
 
 ## 📊 Test Results（链接）
 
@@ -94,7 +94,7 @@ Stay healthy and keep going!
 
 ## 🧾 Training Quality Log
 
-- 模板：见 [📓 Training Quality Log Template.md](./logs/📓%20Training%20Quality%20Log%20Template.md)
+- 模板：见 [📓 Training Quality Log Template.md](./logs/training-quality-log-template.md)
 - 使用方式：
   - 每次训练前后，按模板快速填写“准备度 → 训练过程 → 质量评估 → 负荷与恢复”。
   - 建议按月集中记录，例如在 [2025-09.md](./logs/2025-09.md) 中按日期追加。

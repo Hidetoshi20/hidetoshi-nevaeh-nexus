@@ -10,12 +10,12 @@
 
 | Day | 训练主题 | 链接 |
 |-----|----------|------|
-| Mon | 胸/肩/肱三：Upper Push | [Upper Push Day](./%F0%9F%8F%8B%EF%B8%8F%20Upper%20Push%20Day.md) |
-| Tue | 股四主导：Lower 1 - Squat Focus | [Lower 1 - Squat Focus](./%F0%9F%8F%8B%EF%B8%8F%20Lower%201%20-%20Squat%20Focus.md) |
-| Wed | 主动恢复与灵活性 | [Active Recovery - Mobility & Stretch Day](./%F0%9F%A7%98%20Active%20Recovery%20-%20Mobility%20%26%20Stretch%20Day.md) |
-| Thu | 背部/肱二：Upper Pull | [Upper Pull Day](./%F0%9F%8F%8B%EF%B8%8F%20Upper%20Pull%20Day.md) |
-| Fri | 后链主导：Lower 2 - Hinge & Posterior Chain | [Lower 2 - Hinge & Posterior Chain](./%F0%9F%8F%8B%EF%B8%8F%20Lower%202%20-%20Hinge%20%26%20Posterior%20Chain.md) |
-| Sat | 可选有氧：LISS / HIIT | [LISS (Optional)](./%F0%9F%9A%B6%20Steady%20Cardio%20-%20LISS%20%28Optional%29.md) · [HIIT + Core](./%F0%9F%8F%83%20Cardio%20-%20Short%20HIIT%20+%20Optional%20Core.md) |
+| Mon | 胸/肩/肱三：Upper Push | [Upper Push Day](./upper-push-day.md) |
+| Tue | 股四主导：Lower 1 - Squat Focus | [Lower 1 - Squat Focus](./lower-1-squat-focus.md) |
+| Wed | 主动恢复与灵活性 | [Active Recovery - Mobility & Stretch Day](./active-recovery-mobility-stretch-day.md) |
+| Thu | 背部/肱二：Upper Pull | [Upper Pull Day](./upper-pull-day.md) |
+| Fri | 后链主导：Lower 2 - Hinge & Posterior Chain | [Lower 2 - Hinge & Posterior Chain](./lower-2-hinge-posterior-chain.md) |
+| Sat | 可选有氧：LISS / HIIT | [LISS (Optional)](./steady-cardio-liss-optional.md) · [HIIT + Core](./cardio-short-hiit-optional-core.md) |
 | Sun | 休息 | - |
 
 ## 共享文档
