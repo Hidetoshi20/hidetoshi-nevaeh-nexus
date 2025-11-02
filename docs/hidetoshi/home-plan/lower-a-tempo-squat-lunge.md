@@ -60,4 +60,16 @@
 
 - 拉伸：Figure-4 / Pigeon Pose 40s/侧 + 腘绳拉伸 40s/侧。
 - 呼吸：俯卧 Crocodile Breathing 2 分钟，缓解腰椎压力。
+## Keep App 课程匹配指南 {#keep-app-course-matching-guide}
+
+**搜索关键词：** 深蹲训练、下肢力量、箭步蹲、臀腿训练
+
+**推荐课程类型：**
+- `哑铃深蹲训练` - 对应 Goblet Squat，注重节奏控制
+- `箭步蹲变式` - 匹配 RFESS，可选负重版本
+- `弹力带臀腿训练` - 对应外展/侧向训练模块
+- `下肢稳定性训练` - 匹配单腿RDL等辅助动作
+
+**动作替换：** 膝不适→「无跳跃下肢训练」；负重不足→「背包负重深蹲」课程。
+
 - 日志：记录 Front/Goblet Squat 节奏、RFESS 深度与膝盖感觉、核心疲劳等级。如 12 次轻松完成且骨盆稳定，下次可加重或减少休息至 60s；若膝不适，把 RFESS 改为 Step-back Lunge 并缩小 ROM。
