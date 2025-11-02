@@ -33,7 +33,7 @@
 
 > 这一章节专注描述症状、成因与日常注意事项；对应的阶段性目标和量化指标在 [Training Goals](./training-goals.md) 中追踪。
 
-### 骨盆前倾 Anterior Pelvic Tilt
+### 骨盆前倾 Anterior Pelvic Tilt {#骨盆前倾-anterior-pelvic-tilt}
 
 **问题描述**：骨盆向前过度倾斜，导致腰椎前凸（lordosis）过度，臀部向后翘起。
 
@@ -59,7 +59,7 @@
 
 ---
 
-### 臀部肌群问题 Gluteal Muscle Issues
+### 臀部肌群问题 Gluteal Muscle Issues {#臀部肌群问题-gluteal-muscle-issues}
 
 #### 臀中肌无力 Weak Gluteus Medius
 **问题描述**：臀中肌位于臀部外侧，负责髋关节外展和稳定骨盆。
@@ -114,7 +114,7 @@
 
 ---
 
-### 呼吸模式问题 Breathing Pattern Dysfunction
+### 呼吸模式问题 Breathing Pattern Dysfunction {#呼吸模式问题-breathing-pattern-dysfunction}
 
 **问题描述**：呼吸模式偏"提肋式"（胸式呼吸），而非正确的腹式呼吸。
 
@@ -144,7 +144,7 @@
 
 ---
 
-### 上交叉综合征 Upper Crossed Syndrome
+### 上交叉综合征 Upper Crossed Syndrome {#上交叉综合征-upper-crossed-syndrome}
 
 **问题描述**：上半身肌肉不平衡，形成"交叉"模式：
 - **紧张肌群**：胸大肌、胸小肌、肩胛下肌、胸锁乳突肌、上斜方肌
@@ -182,7 +182,7 @@
 
 ---
 
-### 左侧肱骨前旋/内旋 Left Humeral Anterior/Internal Rotation
+### 左侧肱骨前旋/内旋 Left Humeral Anterior/Internal Rotation {#左侧肱骨前旋内旋-left-humeral-anteriorinternal-rotation}
 
 **问题描述**：左侧肱骨（上臂骨）相对于肩关节过度向前、向内旋转。
 
@@ -216,7 +216,7 @@
 
 ---
 
-### 腰椎间盘突出前兆 Pre-Disc Herniation Risk
+### 腰椎间盘突出前兆 Pre-Disc Herniation Risk {#腰椎间盘突出前兆-pre-disc-herniation-risk}
 
 **问题描述**：既往被提示"易发展成腰椎间盘突出前兆"。
 

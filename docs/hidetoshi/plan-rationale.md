@@ -6,7 +6,7 @@
 
 ---
 
-## 训练资源 Training Resources
+## 训练资源 Training Resources {#训练资源-training-resources}
 
 以下清单集中管理全部训练场景与器材，供其他页面引用，避免重复描述。
 

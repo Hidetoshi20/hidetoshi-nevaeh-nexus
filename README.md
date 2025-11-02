@@ -14,10 +14,10 @@
 
 ### 环境要求
 
-- Python 3.7+
-- pip 或 pip3
+- Python 3.8+
+- uv (推荐) 或 pip
 
-### 安装依赖
+### 安装和运行
 
 ```bash
 # 克隆项目
@@ -25,50 +25,12 @@ git clone https://github.com/Hidetoshi20/hidetoshi-nevaeh-nexus.git
 cd hidetoshi-nevaeh-nexus
 
 # 安装依赖
-pip3 install -r requirements.txt
-```
+uv sync
 
-### 本地运行
-
-```bash
 # 启动本地开发服务器
-mkdocs serve
+uv run mkdocs serve
 
 # 访问 http://127.0.0.1:8000 查看网站
-```
-
-### 构建部署
-
-```bash
-# 构建静态文件
-mkdocs build
-```
-
-### 使用 Cloudflare Pages 部署
-
-项目提供了预配置的 GitHub Actions 工作流，推送到 `main` 分支后会自动构建并发布到 Cloudflare Pages。
-
-1. 在 Cloudflare 控制台创建 **Pages** 项目，并连接到本仓库。
-2. 在仓库的 `Settings → Secrets and variables → Actions` 中配置 `CLOUDFLARE_API_TOKEN`（具有 `Cloudflare Pages - Edit` 权限）、`CLOUDFLARE_ACCOUNT_ID` 和 `CLOUDFLARE_PAGES_PROJECT`。
-3. 在 Cloudflare Pages 的构建设置中，将构建命令保持为 `pip install -r requirements.txt && mkdocs build`，产物目录设置为 `site/`，并新增环境变量 `PYTHON_VERSION=3.11`。
-4. 推送代码到 `main` 分支触发部署，或在 GitHub Actions 页面手动运行 `Deploy to Cloudflare Pages` 工作流。
-
-## 📁 项目结构
-
-```
-hidetoshi-nevaeh-nexus/
-├── docs/                          # 文档目录
-│   ├── Recipe Book/               # 食谱数据库
-│   │   ├── 主食类/               # 米饭、抓饭等主食
-│   │   ├── 面食类/               # 面条、包子等面食
-│   │   ├── 肉类菜品/             # 肉类为主的菜品
-│   │   ├── 蔬菜类/               # 蔬菜为主的菜品
-│   │   ├── 汤类/                 # 汤品
-│   │   └── 其他菜品/             # 其他分类
-│   └── ...                       # 其他文档
-├── mkdocs.yml                     # MkDocs 配置文件
-├── requirements.txt               # Python 依赖
-└── README.md                     # 项目说明
 ```
 
 ## 🍳 食谱分类
@@ -109,63 +71,51 @@ hidetoshi-nevaeh-nexus/
 - **MkDocs** - 静态站点生成器
 - **Material for MkDocs** - 现代化主题
 - **Python** - 后端支持
+- **uv** - 现代化包管理器
 - **Cloudflare Pages** - 全托管静态网站平台
 
-## 📦 依赖包
+## 📁 项目结构
 
 ```
-mkdocs                    # 静态站点生成器
-mkdocs-material          # Material Design 主题
-pymdown-extensions       # Markdown 扩展
-mkdocs-awesome-pages-plugin  # 页面管理插件
+hidetoshi-nevaeh-nexus/
+├── docs/                          # 文档目录
+│   ├── Recipe Book/               # 食谱数据库
+│   ├── hidetoshi/                 # Hidetoshi 个人空间
+│   ├── nevaeh/                    # Nevaeh 个人空间
+│   └── .pages                     # 导航配置
+├── mkdocs.yml                     # MkDocs 配置文件
+├── pyproject.toml                 # 项目配置和依赖管理
+├── DEVELOPMENT.md                 # 开发与部署指南
+├── CLAUDE.md                      # 项目指南
+├── AGENTS.md                      # AI Agent 指南
+├── GEMINI.md                      # Gemini 指南
+└── README.md                      # 项目说明
 ```
+
+## 📚 详细文档
+
+- 📖 **[开发与部署指南](DEVELOPMENT.md)** - 完整的开发环境设置、工作流程和部署配置
+- 📋 **[项目指南](CLAUDE.md)** - 项目规范和贡献指南
 
 ## 🌐 在线访问
 
-- **Cloudflare Pages 预览域名**: 部署完成后将自动生成 `https://<project-name>.pages.dev` 访问地址
+- **部署地址**: https://hidetoshi-nevaeh-nexus.pages.dev/
 - **GitHub 仓库**: https://github.com/Hidetoshi20/hidetoshi-nevaeh-nexus
-
-## 📝 使用说明
-
-### 添加新食谱
-
-1. 在 `docs/Recipe Book/` 对应分类文件夹中创建新的 `.md` 文件
-2. 使用 Markdown 格式编写食谱内容
-3. 添加适当的标签和分类信息
-4. 提交并推送到 GitHub
-
-### 修改配置
-
-编辑 `mkdocs.yml` 文件来：
-- 修改网站标题和描述
-- 调整主题设置
-- 配置插件和扩展
-- 自定义导航结构
-
-### 本地开发
-
-```bash
-# 实时预览（文件修改后自动刷新）
-mkdocs serve
-
-# 构建生产版本
-mkdocs build
-
-# 检查链接
-mkdocs build --strict
-```
 
 ## 🤝 贡献指南
 
+欢迎贡献内容！请查看 [开发与部署指南](DEVELOPMENT.md#贡献指南) 了解详细的贡献流程。
+
+简要步骤：
 1. Fork 本仓库
 2. 创建特性分支 (`git checkout -b feature/AmazingFeature`)
-3. 提交更改 (`git commit -m 'Add some AmazingFeature'`)
+3. 提交更改 (`git commit -m 'docs: 添加新内容'`)
 4. 推送到分支 (`git push origin feature/AmazingFeature`)
 5. 开启 Pull Request
 
 ## 📄 许可证
 
-本项目采用 MIT 许可证 - 查看 [LICENSE](LICENSE) 文件了解详情。
+本项目采用 MIT 许可证。
 
 ## 👥 作者
 

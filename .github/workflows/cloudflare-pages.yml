@@ -15,30 +15,28 @@ jobs:
   build-and-deploy:
     name: Build MkDocs site and publish
     runs-on: ubuntu-latest
-    env:
-      PIP_DISABLE_PIP_VERSION_CHECK: "1"
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v4
         with:
-          python-version: '3.11'
+          version: "latest"
 
-      - name: Cache pip dependencies
+      - name: Cache uv dependencies
         uses: actions/cache@v4
         with:
-          path: ~/.cache/pip
-          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+          path: ~/.cache/uv
+          key: ${{ runner.os }}-uv-${{ hashFiles('pyproject.toml') }}
           restore-keys: |
-            ${{ runner.os }}-pip-
+            ${{ runner.os }}-uv-
 
-      - name: Install Python dependencies
-        run: pip install -r requirements.txt
+      - name: Install dependencies
+        run: uv sync
 
       - name: Build MkDocs site
-        run: mkdocs build --strict
+        run: uv run mkdocs build --strict
 
       - name: Publish to Cloudflare Pages
         uses: cloudflare/pages-action@v1

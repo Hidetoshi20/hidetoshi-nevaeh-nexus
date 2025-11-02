@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hidetoshi-nevaeh-nexus"
+version = "0.1.0"
+description = "A comprehensive database for Hidetoshi and Nevaeh"
+requires-python = ">=3.13"
+dependencies = [
+    "mkdocs>=1.6.1",
+    "mkdocs-awesome-pages-plugin>=2.10.1",
+    "mkdocs-material>=9.6.23",
+    "pymdown-extensions>=10.16.1",
+]
+
+[tool.setuptools]
+py-modules = []

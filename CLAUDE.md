@@ -9,17 +9,19 @@
 
 ## Build, Test, and Development Commands
 ```bash
-# Setup (recommended virtualenv)
-python3 -m venv .venv && source .venv/bin/activate
-pip install -r requirements.txt
+# Setup with uv (recommended)
+uv sync
 
 # Local dev server (auto-reload)
-mkdocs serve
+uv run mkdocs serve
 
 # Strict build (treat warnings as errors)
-mkdocs build --strict
+uv run mkdocs build --strict
+
+# Alternative: Install dependencies only
+uv pip install -e .
 ```
-Cloudflare Pages uses `pip install -r requirements.txt && mkdocs build` and publishes `site/` (see `wrangler.toml`).
+Cloudflare Pages uses `uv sync && uv run mkdocs build` and publishes `site/` (see `wrangler.toml`).
 
 ## Coding Style & Naming Conventions
 - Markdown: one `#` H1 title per page; use clear headings. English headings in Title Case; Chinese/emoji are welcome (consistent with existing files).
