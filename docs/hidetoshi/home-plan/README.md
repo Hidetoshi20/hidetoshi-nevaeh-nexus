@@ -27,15 +27,15 @@
 |-----|----------|----------------|------|
 | Mon | 上肢推：Floor/Barbell Press + Core Reset | P1 核心 & P2 肩胛 | [Upper Push](./%F0%9F%8F%A0%20Upper%20Push%20-%20Floor%20Press%20%26%20Push-ups.md) |
 | Tue | 下肢 A：Tempo Squat & Lunge | P2 骨盆对齐 & P3 股四张力 | [Lower A](./%F0%9F%8F%A0%20Lower%20A%20-%20Tempo%20Squat%20%26%20Lunge.md) |
-| Wed | 恢复/灵活性流动 + 轻度 LISS | P1 呼吸 + P2 灵活度 | [Mobility Flow](./%F0%9F%A7%98%20Home%20Mobility%20%26%20Recovery%20Flow.md) · [LISS](./%F0%9F%9A%B6%20Home%20LISS%20-%20Low%20Impact%20Cardio.md) |
+| Wed | 恢复/灵活性流动 + 轻度 LISS | P1 呼吸 + P2 灵活度 | [Mobility Flow](./%F0%9F%A7%98%20Home%20Mobility%20%26%20Recovery%20Flow.md) · [Cardio & Core](./%F0%9F%8F%A0%20Cardio%20%26%20Core%20Protocols.md#liss) |
 | Thu | 上肢拉：Pull-up Cluster + Posterior Chain | P2 上交叉 & P3 背部维持 | [Upper Pull](./%F0%9F%8F%A0%20Upper%20Pull%20-%20Single%20Dumbbell%20Row%20%26%20Posterior%20Chain.md) |
 | Fri | 下肢 B：Hinge & Glute Emphasis | P1 核心 + P2 臀髋 | [Lower B](./%F0%9F%8F%A0%20Lower%20B%20-%20Hinge%20%26%20Glute%20Emphasis.md) |
-| Sat | 有氧/代谢：HIIT + Core 或 户外骑行 / LISS | P1 心肺 + P2 核心 | [HIIT + Core](./%F0%9F%8F%A0%20HIIT%20+%20Core%20Circuit.md) · [LISS](./%F0%9F%9A%B6%20Home%20LISS%20-%20Low%20Impact%20Cardio.md) |
+| Sat | 有氧/代谢：HIIT + Core 或 户外骑行 / LISS | P1 心肺 + P2 核心 | [Cardio & Core](./%F0%9F%8F%A0%20Cardio%20%26%20Core%20Protocols.md#hiit) |
 | Sun | 休息 / 呼吸冥想 / 轻松骑行 | 复盘/计划 | – |
 
 补充模块：
 
-- [Core Micro Session](./%F0%9F%A7%98%20Core%20Micro%20Session%20%28Home%29.md)：Push/Pull 日后 6–8 分钟快闪核心或当日替代训练。
+- 核心快闪：见 [Cardio & Core · Core Micro](./%F0%9F%8F%A0%20Cardio%20%26%20Core%20Protocols.md#core-micro)：Push/Pull 日后 6–8 分钟快闪核心或当日替代训练。
 - [Home Mobility & Recovery Flow](./%F0%9F%A7%98%20Home%20Mobility%20%26%20Recovery%20Flow.md)：疲劳高、疼痛或 Deload 周时优先执行。
 
 ## 🔧 Equipment Snapshot
