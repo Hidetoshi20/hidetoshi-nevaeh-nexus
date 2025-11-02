@@ -44,15 +44,10 @@
 
 ---
 
-## 营养与恢复指南 Nutrition & Recovery Quick Guide
+## 营养与恢复指南 Nutrition & Recovery
 
-- **热量缺口 Caloric Deficit**：轻至中等热量缺口（200–300 kcal/day）
-- **蛋白质摄入 Protein**：高蛋白摄入（1.8–2.2 g/kg，约 140 g/日）
-- **碳水化合物 Carbs**：碳水优先全谷物，减少精糖
-- **睡眠 Sleep**：7–8 小时/晚
-- **Deload 周**：每 4 周安排一次降强度周
-
-详细饮食方案：[🥗 定制饮食方案.md](./custom-diet-plan.md)
+营养与恢复的量化目标以 [Training Goals](./training-goals.md) 的 Priority 1 为准；
+具体食谱与操作细节见：[🥗 定制饮食方案.md](./custom-diet-plan.md)。
 
 ---
 
