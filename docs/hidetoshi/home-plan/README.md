@@ -1,57 +1,56 @@
-# 居家训练计划（Home Plan）
+# 居家训练计划（Keep 主导版）
 
-> 返回主页：[Hidetoshi Fitness & Nutrition Plan](../README.md)
->
-> 当前全部训练都在家完成，本目录即为“主计划”。所有内容与 [Personal Profile](../personal-profile.md) 的身体状况、[Training Goals](../training-goals.md) 的优先级、[Plan Rationale](../plan-rationale.md) 的方法论保持同步。
+> 返回主页：[Hidetoshi Fitness & Nutrition Plan](../README.md)  
+> 本目录整合 Keep App 课程作为训练主体，自定义模块负责校准核心、体态与疼痛管理。所有安排与 [Personal Profile](../personal-profile.md)、[Training Goals](../training-goals.md)、[Plan Rationale](../plan-rationale.md) 保持一致，并由 [Custom Diet Plan](../custom-diet-plan.md) 提供能量支持。
 
 ## 🎯 Priority Framework
 
-| Priority | 目标说明 | 在 Home Plan 中的落实方式 |
-|----------|----------|----------------------------|
-| **Priority 1**：核心稳定 & 体脂管理 | 先守住核心控制，配合可持续热量缺口达成降脂 | 每个力量日都以“呼吸重置 + 核心抗力”开场，结尾安排 LISS/HIIT/Carry，周末补充骑行或有氧日 |
-| **Priority 2**：体态矫正 & 疼痛预防 | 骨盆前倾、上交叉、左肩对称、腰椎保护 | Reset 模块必做呼吸 + 臀激活 + 短弹力圈矫正，其余动作都写明姿势要点与录像提示 |
-| **Priority 3**：肌肉维持/增肌 | 器材受限时以张力、节奏与单侧控制弥补 | 主项采用 4-1-2 节奏、等长停顿、单臂/单腿超组；必要时结合负重背包/弹力辅助 |
+| Priority | 目标说明 | Keep 优先级落地方式 |
+|----------|----------|-----------------------|
+| **Priority 1**：核心稳定 & 体脂管理 | 维持 200–300 kcal 缺口、提升心肺 | Keep 选择包含核心提示或燃脂标签的课程；训练前后保留 90/90 呼吸 + 日志记录 sRPE × 时间 |
+| **Priority 2**：体态矫正 & 疼痛预防 | 骨盆前倾、上交叉、左肩对称、腰椎保护 | 先执行自定义 Reset（呼吸/臀激活/短弹力圈），再进入 Keep 主课；完成后按需补充矫正动作 |
+| **Priority 3**：肌肉维持/增肌 | 受限器材下保持张力、避免力量回退 | Keep 选中级及以上、带节奏/等长提示的课程；若强度不足，加入单侧节奏或 Carry Finisher |
 
-> 训练日志记录顺序：`当天优先级完成度 → RPE/sRPE → 体态/疼痛反馈 → 核心/呼吸手感`。与体测/照片一起回写到 Training Goals。
+> 日志顺序：`Keep 课程 → 自定义补强完成度 → sRPE × 时间 → 体态/疼痛反馈 → 核心/呼吸手感`。与体测/照片一起回写到 Training Goals。
 
-## 🧱 Daily Template（所有力量日通用）
+## 🧭 Keep 课程使用步骤
 
-1. **Reset & Activation（5–8 min）**：90/90 呼吸 + 臀激活 + 短弹力圈 APT/上交叉矫正，确保 Priority 1&2 起点正确。
-2. **Strength Ladders（25–30 min）**：2–3 个主动作，结合节奏（4-1-2）、单侧与等长停顿；表内提示可选器材（哑铃、20 kg 杠铃、落地单杠、弹力带）。
-3. **Core & Conditioning（8–12 min）**：抗伸展/抗侧屈/抗旋 + 低冲击代谢或步行/登阶，维持热量缺口。
-4. **Cooldown & Log（5 min）**：呼吸/泡沫轴，日志记录疼痛、心率、睡眠和下一次调整点。
+1. **选择主课程**：按照下方周结构挑选 20–35 分钟的 Keep 专题课程（难度以中级起步，遇到疲劳改初级版），关注课程标签是否涵盖目标肌群与节奏提示。  
+2. **执行自定义 Reset（5–8 分钟）**：调用各日页面内的“Pre-Keep Reset”，确保核心、骨盆与肩胛定位到位，再进入 Keep 课程。  
+3. **课程内调整**：遇到引体/俯卧撑等动作，可根据个人资料中列出的疼痛风险改为门框划船、上斜俯卧撑或使用弹力带辅助。  
+4. **补充模块（可选 6–10 分钟）**：课程结束后视当日余裕，进入页面内的“Priority Supplement”或“Core/Conditioning Finisher”。  
+5. **记录反馈**：登陆 Keep 的同时，在自家日志补充核心控制、疼痛与营养执行情况，以便下一周微调。
 
-## 🗓️ 周训练安排（与 Push/Lower/Recovery/Pull 节奏一致）
+## 🗓️ 周结构（Keep 主课 + 自定义补强）
 
-| Day | 训练主题 | Priority 侧重 | 链接 |
-|-----|----------|----------------|------|
-| Mon | 上肢推：Floor/Barbell Press + Core Reset | P1 核心 & P2 肩胛 | [Upper Push](./upper-push-floor-press-push-ups.md) |
-| Tue | 下肢 A：Tempo Squat & Lunge | P2 骨盆对齐 & P3 股四张力 | [Lower A](./lower-a-tempo-squat-lunge.md) |
-| Wed | 恢复/灵活性流动 + 轻度 LISS | P1 呼吸 + P2 灵活度 | [Mobility Flow](./home-mobility-recovery-flow.md) · [Cardio & Core](./cardio-core-protocols.md#liss) |
-| Thu | 上肢拉：Pull-up Cluster + Posterior Chain | P2 上交叉 & P3 背部维持 | [Upper Pull](./upper-pull-single-dumbbell-row-posterior-chain.md) |
-| Fri | 下肢 B：Hinge & Glute Emphasis | P1 核心 + P2 臀髋 | [Lower B](./lower-b-hinge-glute-emphasis.md) |
-| Sat | 有氧/代谢：HIIT + Core 或 户外骑行 / LISS | P1 心肺 + P2 核心 | [Cardio & Core](./cardio-core-protocols.md#hiit) |
-| Sun | 休息 / 呼吸冥想 / 轻松骑行 | 复盘/计划 | – |
+| Day | Keep 课程主题与关键词 | 自定义补强链接 |
+|-----|-----------------------|----------------|
+| Mon | `上肢推 / 胸肩 / 俯卧撑`（如：胸肩力量提升、哑铃胸推） | [Upper Push](./upper-push-floor-press-push-ups.md) |
+| Tue | `下肢深蹲 / 箭步蹲 / 股四`（如：深蹲力量、下肢塑形） | [Lower A](./lower-a-tempo-squat-lunge.md) |
+| Wed | `拉伸恢复 / 呼吸冥想 / 低强度有氧` | [Mobility Flow](./home-mobility-recovery-flow.md) · [Cardio & Core](./cardio-core-protocols.md) |
+| Thu | `上肢拉 / 引体向上 / 背部`（如：背部雕刻、弹力带背部） | [Upper Pull](./upper-pull-single-dumbbell-row-posterior-chain.md) |
+| Fri | `臀腿 / 硬拉感 / 臀桥`（如：臀腿塑形、腘绳肌激活） | [Lower B](./lower-b-hinge-glute-emphasis.md) |
+| Sat | `HIIT / 燃脂跑 / 低冲击有氧`（依据疲劳选择 HIIT 或 LISS） | [Cardio & Core](./cardio-core-protocols.md) |
+| Sun | `恢复 / 冥想` 或自然休息，复盘训练与饮食执行 | – |
 
-补充模块：
+> Keep 收藏夹建议建 3 个分类：`力量·Push/Pull`、`下肢·Tempo/Hinge`、`心肺·恢复`，方便根据周结构快速调用。
 
-- 核心快闪：见 [Cardio & Core · Core Micro](./cardio-core-protocols.md#core-micro)：Push/Pull 日后 6–8 分钟快闪核心或当日替代训练。
-- [Home Mobility & Recovery Flow](./home-mobility-recovery-flow.md)：疲劳高、疼痛或 Deload 周时优先执行。
+## 🔧 自定义模块（课程前后补强）
 
-## 🔧 Equipment Snapshot
+- **Pre-Keep Reset（每次 5–8 分钟）**：包含 90/90 呼吸、臀激活/短弹力圈、肩胛控制，细节见子页面；旨在维持 Personal Profile 中列出的骨盆中立、肩胛对称与呼吸协同。  
+- **Priority Supplement（任选 1–2 项）**：若 Keep 课程内缺少单侧节奏或核心反抗动作，可补上单腿 RDL、Pallof Press、Carry 等模块。  
+- **Core/Conditioning Finisher**：当日仍需心肺或核心张力时，从子页面的 Finisher 中挑选 6–10 分钟方案；疲劳高或腰背敏感则跳过。  
+- **Recovery Touchpoints**：课程后保留 90/90/Crocodile 呼吸与针对性拉伸（胸椎、髋屈肌、臀肌），帮助稳定 Priority 2 与腰椎安全。
 
-- **落地式单杠**：引体向上、悬垂核心、TRX 未来扩展；可搭配长弹力带辅助。
-- **可调节哑铃（≤10 kg）& 杠铃（≤20 kg）**：主项节奏控制 + 等长停顿；必要时加背包/水壶增重。
-- **短弹力圈 + 长弹力带 + 门锚**：APT/上交叉修正、Pallof Press、下拉、髋外展。
-- **泡沫轴、瑜伽垫、滑盘/毛巾**：呼吸、放松与腘绳 curl。
+## 📊 记录与营养衔接
 
-> 器材更新一律先写入 [Plan Rationale](../plan-rationale.md#训练资源-training-resources)，再同步至本目录的相关动作说明。
+- **日志字段**：Keep 课程名称与时长 → 自定义补强完成度 → sRPE × 分钟 → 疼痛/体态反馈（骨盆、肩胛、呼吸）→ 当日能量摄入与高蛋白执行情况。  
+- **营养对接**：训练日前 1–2 小时沿用 [Custom Diet Plan](../custom-diet-plan.md) 的运动前餐模板；力量日后 30 分钟内补充蛋白+碳水，保持每公斤 ≥1.8 g 蛋白。  
+- **阶段回顾**：每 4–6 周回到 [Training Goals](../training-goals.md) 勾选核心、体态与体脂指标；若某优先级停滞，优先调整 Keep 课程难度或补强模块频次，再考虑营养缺口。
 
-## 🔁 共享文档 & 记录
+## 🔁 关联文档
 
-- 📋 [Personal Profile](../personal-profile.md)：唯一背景、体态与伤病档案。发现新症状或体态变化，先更新此页。
-- 🎯 [Training Goals](../training-goals.md)：优先级、阶段目标与指标打勾处。每 4–6 周复盘一次。
-- 📐 [Plan Rationale](../plan-rationale.md)：方法论、周期逻辑、器材补充。若动作结构需变动，先查此页。
-- 📊 [Test Results](../test-results/README.md) 与 [logs](../logs/README.md)：记录体测、骑行/HIIT 数据、RPE 与疼痛。
-
-> 日志建议字段：日期、课程（Upper Push / Lower B / HIIT 等）、完成模块（Reset/Strength/Core/Conditioning）、sRPE×分钟、心率或骑行距离、疼痛等级、优先级完成度（P1/P2/P3）。这些信息会直接反馈到 Training Goals 的勾选状态。
+- 📋 [Personal Profile](../personal-profile.md)：更新体态、疼痛与恢复状态，驱动 Reset 内容。  
+- 🎯 [Training Goals](../training-goals.md)：确认优先级与成功指标，规划 Keep 课程周期。  
+- 📐 [Plan Rationale](../plan-rationale.md)：查阅方法论、器材策略；新增器材先记录此处，再修改 Keep 关键字或补强动作。  
+- 🧾 [Logs](../logs/README.md) · [Test Results](../test-results/README.md)：输入训练感受、体测与骑行/有氧数据，确保 Priority 1 体脂目标与心肺频次达标。
