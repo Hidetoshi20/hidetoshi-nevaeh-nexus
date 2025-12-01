@@ -1,7 +1,7 @@
 # Repository Guidelines
 
 ## Project Structure & Module Organization
-- `docs/` — all site content (Markdown). Keep topic areas under existing folders, e.g., `docs/hidetoshi/`, `docs/nevaeh/`, `docs/Recipe Book/`.
+- `docs/` — all site content (Markdown). Keep topic areas under existing folders, e.g., `docs/hidetoshi/`, `docs/nevaeh/`, `docs/recipe-book/`.
 - `mkdocs.yml` — site configuration (theme, plugins, language).
 - `overrides/` — theme overrides. `overrides/main.html` currently sets `noindex, nofollow` to keep the site private.
 - `internal/` — private notes. Not published unless linked or added to nav.
