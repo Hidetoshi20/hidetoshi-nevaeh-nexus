@@ -91,7 +91,7 @@ dependencies = [
 
 ### 添加新食谱
 
-1. 在 `docs/Recipe Book/` 对应分类文件夹中创建新的 `.md` 文件
+1. 在 `docs/recipe-book/` 对应分类文件夹中创建新的 `.md` 文件
 2. 使用 Markdown 格式编写食谱内容
 3. 添加适当的标签和分类信息
 4. 提交并推送到 GitHub
@@ -151,6 +151,7 @@ nav:
 ##### 设置步骤
 
 1. **创建 Cloudflare Pages 项目**
+
    - 登录 [Cloudflare Dashboard](https://dash.cloudflare.com/)
    - 进入 Pages 页面
    - 点击 "Create a project"
@@ -158,6 +159,7 @@ nav:
    - 授权并选择本仓库
 
 2. **配置构建设置**
+
    ```bash
    # 构建命令
    uv sync && uv run mkdocs build
@@ -281,20 +283,24 @@ jobs:
 ### 日常开发
 
 1. **拉取最新代码**
+
    ```bash
    git pull origin main
    ```
 
 2. **启动开发服务器**
+
    ```bash
    uv run mkdocs serve
    ```
 
 3. **编辑内容**
+
    - 在 `docs/` 目录下编辑或创建文件
    - 实时预览会自动刷新
 
 4. **验证构建**
+
    ```bash
    uv run mkdocs build --strict
    ```
@@ -318,6 +324,7 @@ uv run mkdocs build --strict
 #### 链接检查
 
 项目配置了严格的链接检查，确保：
+
 - 所有内部链接有效
 - 锚点存在
 - 图片文件可访问
@@ -409,11 +416,13 @@ extra:
 #### 构建失败
 
 1. **检查依赖**
+
    ```bash
    uv sync
    ```
 
 2. **检查 Python 版本**
+
    ```bash
    python --version  # 需要 3.8+
    ```
@@ -426,6 +435,7 @@ extra:
 #### 链接错误
 
 1. **检查文件路径**
+
    - 确保所有链接指向存在的文件
    - 检查文件名大小写
 
@@ -435,10 +445,12 @@ extra:
 #### 部署失败
 
 1. **API Token 问题**
+
    - 验证 Token 有效性
    - 检查权限范围
 
 2. **域名配置问题**
+
    - 检查 DNS 记录
    - 验证 SSL 证书
 
@@ -479,6 +491,7 @@ docs(类别): 简短描述
 ```
 
 示例：
+
 - `docs(recipe): 添加新疆抓饭食谱`
 - `docs(setup): 更新安装说明`
 - `fix: 修复导航链接错误`
