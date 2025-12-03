@@ -36,7 +36,7 @@
 
 ## 身体素质关联 Physical Cross-Reference
 
-_详情见 [Body Issues](./body-issues.md)_
+_详情见 [Physical Profile](./physical-profile.md)_
 
 - **优势**: 身高 184cm（制空/护球潜力）。
 - **劣势**:

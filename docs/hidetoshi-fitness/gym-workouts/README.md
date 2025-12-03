@@ -20,10 +20,10 @@
 
 ## 共享文档
 
-- � [身体状况](../body-issues.md)
+- [身体档案](../physical-profile.md)
 - 📋 [健身计划](../fitness-plan.md)
 - 📊 [体测结果](../body-metrics/README.md)
 
 > 负荷管理：主力动作维持 RPE 7–8，按 4–6 周微周期安排 deload。具体重量、组数记录请使用 [logs 模版](../training-logs/README.md)。
 
-与 [Body Issues](../body-issues.md) 中的体态/伤病提示保持一致，任何器材或进度调整先在 [Fitness Plan](../fitness-plan.md) 更新，再同步至本页与 [Home Workouts](../home-workouts/README.md) 以维持两套计划的镜像结构。
+与 [Physical Profile](../physical-profile.md) 中的体态/伤病提示保持一致，任何器材或进度调整先在 [Fitness Plan](../fitness-plan.md) 更新，再同步至本页与 [Home Workouts](../home-workouts/README.md) 以维持两套计划的镜像结构。

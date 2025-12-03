@@ -1,8 +1,17 @@
-# 身体状况与问题 Physical Condition & Body Issues
+# 身体档案与状况 Physical Profile & Conditions
 
 > 返回主页：[Hidetoshi Fitness & Nutrition Plan](./README.md)
 >
-> **文档定位**：记录与健身计划独立的身体症状、成因与日常注意事项。本页的“问题”是 [Fitness Plan](./fitness-plan.md) 中矫正目标与训练策略的来源。
+> **文档定位**：记录 Hidetoshi 的个人身体数据、运动基础以及需要特别关注的身体问题。本页是 [Fitness Plan](./fitness-plan.md) 中制定个性化目标与矫正策略的基础依据。
+
+## 基本信息 Basic Information
+
+- **身高/体重 Height/Weight**: 184cm / 76kg，身材偏瘦高类型
+- **当前体脂 Body Fat**: 约 20%
+- **目标体脂 Target Body Fat**: 15% 或更低
+- **运动基础 Training Experience**: 有一定经验，能使用健身房器械、家庭训练、骑行和跑步
+
+---
 
 ## 身体问题详解 Detailed Body Issues
 

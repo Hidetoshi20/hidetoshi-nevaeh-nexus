@@ -1,87 +1,77 @@
-# 健身与训练计划 Fitness & Training Plan
+# Hidetoshi Fitness Plan
 
 > 返回主页：[Hidetoshi Fitness & Nutrition Plan](./README.md)
 >
-> **文档定位**：本页整合了个人健身档案、训练目标、方法论与执行策略。
-> **关联文档**：身体症状与伤病详情见 [Body Issues](./body-issues.md)。
-
----
+> **文档定位**：这是核心训练计划文档，整合了目标、资源、执行结构与成功指标。它与 [Physical Profile](./physical-profile.md)（身体档案）和 [Nutrition Plan](./nutrition-plan.md)（饮食方案）配合使用。
 
 ## 基本信息 Basic Information
 
-- **身高/体重 Height/Weight**: 184cm / 76kg，身材偏瘦高类型
-- **当前体脂 Body Fat**: 约 20%
-- **目标体脂 Target Body Fat**: 15% 或更低
-- **运动基础 Training Experience**: 有一定经验，能使用健身房器械、家庭训练、骑行和跑步
+- **Focus**: 核心稳定性、体态矫正、体脂管理 (Body Recomposition)
+- **Duration**: 16 周 (2025.09 – 2026.01)
+- **Current Phase**: Phase 1 - Core & Mobility Foundation
+- **Equipment**: Home Kit (Primary) / Gym (Secondary)
+- **Frequency**: 5–6 days/week (3 Strength, 2–3 Cardio/Active Recovery)
 
 ---
 
 ## 训练目标 Training Goals
 
-> 背景资料来自 [Body Issues](./body-issues.md)，本章节列出的目标需通过 [Gym Workouts](./gym-workouts/README.md) 与 [Home Workouts](./home-workouts/README.md) 的周课表落地。
+> 本计划基于以下优先级执行，所有动作选择与进度调整均需服务于此顺序。
 
 ### 核心目标 Core Objectives
 
-> 目前所有训练均依托 [Home Workouts](./home-workouts/README.md) 与户外骑行完成，因此优先级重新排序：先守住核心与体脂，再解决体态疼痛，最后在有限器材下维持增肌与表现。
-
 #### Priority 1 · 核心稳定 & 体脂管理
 
-- **当前体脂**：约 20%；**目标**：≤15%，以可持续热量缺口（200–300 kcal/day）配合高蛋白饮食执行 12–16 周。
-- **核心训练主轴**：每日 Push/Pull/Lower 课表都嵌入 2–3 个抗伸展/抗侧屈/抗旋转动作（平板、侧桥、Pallof、死虫、悬垂举腿），通过 4-1-2 节奏与等长停留提升张力。
-- **心肺策略**：户外骑行（LISS + 间歇）与居家 HIIT 结合，维持每周 ≥2 次 30–40 分钟心肺，以提升热量消耗和血液循环。
-- **恢复与记录**：使用泡沫轴+短弹力圈解锁髋/肩，训练日志记录 sRPE x 时长，便于校准热量与训练量。
+**"Foundation"**
 
-#### Priority 2 · 体态矫正与疼痛预防
+- 建立抗伸展/抗侧屈/抗旋转的核心能力，消除“骨盆前倾”引发的代偿。
+- 通过热量缺口与高频低强度有氧，将体脂率降至 15% 左右，显露腹肌线条。
+- **关键动作**：Dead Bug, Plank, Pallof Press, LISS/HIIT。
 
-- 骨盆前倾、上交叉综合征、左肩内旋与腰椎风险仍是每日训练的“必修课”，核心与体态目标互相支撑；所有动作以中立脊柱与肩胛控制为验收标准。
-- 每周至少 4 天在热身中加入呼吸重设 + 臀激活 + 短弹力圈矫正，收尾阶段关注核心抗力与灵活度。
+#### Priority 2 · 体态矫正 & 疼痛预防
 
-**重点对照表**
+**"Correction"**
 
-| 关注点              | 参考背景                                                                                                       | 量化指标 / 执行要求                                                       |
-| ------------------- | -------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
-| 骨盆前倾 & 髂腰肌   | [Body Issues · 骨盆前倾](./body-issues.md#骨盆前倾-anterior-pelvic-tilt)                               | 4–8 周内在站立/深蹲/硬拉中保持骨盆中立，腰椎前凸与腹部外突肉眼下降        |
-| 核心-呼吸协同       | [Body Issues · 呼吸模式](./body-issues.md#呼吸模式问题-breathing-pattern-dysfunction)                  | 平板 60→90s、死虫/鸟狗全程保持 360° 呼吸；主动作全程维持腹压不塌腰        |
-| 臀肌激活 & 下肢对称 | [Body Issues · 臀部肌群问题](./body-issues.md#臀部肌群问题-gluteal-muscle-issues)                      | 单腿站立与分腿蹲保持骨盆稳定，深蹲/臀桥无膝内扣，臀桥/RDL 张力提升 50%+   |
-| 上交叉 & 肩胛控制   | [Body Issues · 上交叉综合征](./body-issues.md#上交叉综合征-upper-crossed-syndrome)                     | 8–12 周内头前伸/圆肩显著改善，面拉/YTW 15–20 次动作质量稳定，颈肩疼痛消失 |
-| 左肩内旋 & 对称性   | [Body Issues · 左侧肱骨前旋](./body-issues.md#左侧肱骨前旋内旋-left-humeral-anteriorinternal-rotation) | 推拉动作左右力量差距 <10%，左肩外旋可控，录视频检视无代偿                 |
-| 腰椎保护            | [Body Issues · 腰椎风险](./body-issues.md#腰椎间盘突出前兆-pre-disc-herniation-risk)                   | 全部训练保持中立脊柱，连续 4+ 周零腰痛，并在日志中记录核心控制感受        |
+- 针对 [Physical Profile](./physical-profile.md) 中列出的问题（骨盆前倾、上交叉、左肩内旋）进行日常干预。
+- 确保训练无痛，提升肩髋灵活性与对称性。
+- **关键动作**：Face Pull, Band Pull-apart, Glute Bridge, 90/90 Breathing。
 
-#### Priority 3 · 肌肉增长与表现（次级）
+#### Priority 3 · 肌肉维持/增肌
 
-- 在 10 kg 可调哑铃与 20 kg 杠铃限制下，重心转为 **张力累积** 与 **动作控制**：单侧 / 节奏 / 等长 / 缓慢离心。
-- 目标是维持肌量、不出现明显力量回退；待器材升级后再提高负荷。
+**"Performance"**
 
-#### Supporting Goal · 训练习惯与恢复
+- 在器材限制下，重心转为 **张力累积** 与 **动作控制**：单侧 / 节奏 / 等长 / 缓慢离心。
+- 目标是维持肌量、不出现明显力量回退。
+- **关键动作**：Tempo Squat/RDL, Single-arm Row/Press, Isometric Holds。
 
-- 保持 Push → Lower → Recovery → Pull → Lower → 有氧的频率（每周 5–6 次）。
-- 每 4–6 周做一次 Deload 或恢复周，睡眠 ≥7 小时，并维持日志/体测同步，用于复盘上述三个优先级。
+---
 
 ### 阶段性目标 Phased Goals
 
 #### 第 1–4 周：核心与体态重置
 
-- 每次训练前完成呼吸重设 + 臀激活 + 短弹力圈矫正，确保骨盆中立。
-- 核心动作优先抗伸展/抗侧屈，平板 60s 无代偿、侧桥 45s/侧为基线。
-- 饮食进入轻中度热量缺口，记录每日蛋白与骑行/HIIT 数据。
+- 每次训练前完成呼吸重设 + 臀激活 + 短弹力圈矫正。
+- 核心动作优先抗伸展/抗侧屈，平板 60s 无代偿。
+- 饮食进入轻中度热量缺口。
 
 #### 第 5–8 周：体脂推进 + 体态巩固
 
 - 维持热量缺口，预期体脂下降 1–2%。
-- 引体/倒划船 + 弹力带下拉每周 ≥3 次，矫正上交叉与肩胛控制。
-- Core Finisher 添加抗旋、悬垂举腿或死虫，锁定躯干控制。
+- 引体/倒划船 + 弹力带下拉每周 ≥3 次，矫正上交叉。
+- Core Finisher 添加抗旋动作。
 
 #### 第 9–12 周：张力累积 + 姿态优化
 
-- 单侧节奏训练（4-1-2）+ 等长停留，用于臀腿/推拉，保持肌肉张力。
-- 骨盆前倾、颈肩、左肩指标至少 70% 勾选；若未完成，缩减有氧量改投入矫正。
-- LISS 骑行每周 1 次、间歇骑每周 1 次，配合脂肪继续下降。
+- 单侧节奏训练（4-1-2）+ 等长停留，保持肌肉张力。
+- 骨盆前倾、颈肩指标改善；若未完成，缩减有氧量改投入矫正。
 
 #### 第 13–16 周：维持与次级目标
 
-- 体脂逼近或达到 15%，转为等热量摄入，观察身体反馈。
-- 根据器材情况决定是否加入 TRX/负重背心等进阶工具，逐步恢复增肌/性能目标。
-- 计划一周 Deload（容量 ↓30%）并复盘日志、照片、体测。
+- 体脂逼近 15%，转为等热量摄入。
+- 逐步恢复增肌/性能目标，考虑进阶器材。
+- 计划一周 Deload。
+
+---
 
 ### 成功指标 Success Metrics
 
@@ -90,255 +80,108 @@
 - [ ] 平板支撑 60 s → 90 s，无塌腰
 - [ ] 侧桥 45 s/侧、死虫 10 次/侧保持中立
 - [ ] 体脂率 20% ↓ 15%，腰围减少 ≥3 cm
-- [ ] 户外骑行 + HIIT 每周 ≥2 次并记录 sRPE
+- [ ] 户外骑行 + HIIT 每周 ≥2 次
 
 #### Priority 2 · 体态 & 功能
 
 - [ ] 骨盆前倾、头前伸、圆肩明显改善（照片/镜检）
 - [ ] 左右肩活动对称，推拉动作无代偿
 - [ ] 腰椎、颈肩保持无痛状态 ≥4 周
-- [ ] APT/上交叉纠正动作完成度 ≥80%（热身必做）
 
 #### Priority 3 · 肌肉与表现
 
-- [ ] 引体向上或弹力带辅助手法每周 3 次，完成 5+ 高质量 reps
-- [ ] 单腿分腿蹲 / RDL 在 4-1-2 节奏下保持 RPE 8，张力不中断
-- [ ] Push/Pull 主动作使用最大可用重量时技术保持稳定（录像自检）
-
-#### Supporting · 习惯 & 恢复
-
-- [ ] 每周训练 5–6 次，连续坚持 12 周+
-- [ ] 饮食、睡眠（≥7h）与日志记录同步
-- [ ] 每 4–6 周安排一次 Deload / 恢复周，并复盘目标完成度
+- [ ] 引体向上或弹力带辅助每周 3 次，5+ 高质量 reps
+- [ ] 单腿分腿蹲 / RDL 在 4-1-2 节奏下保持 RPE 8
+- [ ] Push/Pull 主动作技术稳定
 
 ---
 
-## 训练方法论 Training Methodology
+## 训练资源 Training Resources {#训练资源-training-resources}
 
-### 训练资源 Training Resources {#训练资源-training-resources}
+### 居家 Home Kit (Primary)
 
-以下清单集中管理全部训练场景与器材，供其他页面引用，避免重复描述。
+- **基础**：瑜伽垫、泡沫轴、短弹力圈。
+- **力量**：落地式单杠、可调节哑铃 (10kg)、可调节杠铃 (20kg)、长弹力带 (15–35kg)。
+- **进阶 (Add-ons)**：TRX/吊环（背部/核心）、负重背心（5–15kg，超负荷）、壶铃（摆动/单侧）。
 
-#### 健身房 Gym
+### 健身房 Gym (Secondary)
 
-- 当前无固定健身房资源；仍保留 [Gym Workouts](./gym-workouts/README.md) 以便未来恢复或偶尔外出训练时参考。
+- [Gym Workouts](./gym-workouts/README.md) 保留作为备选方案。
+- 若偶尔去健身房，请参考 Gym 计划的复合动作结构，但仍需遵守本页的 Priority 1 & 2。
 
-#### 居家 Home Kit（2025-09 更新）
+### 营养与恢复
 
-- 基础设备：瑜伽垫、泡沫轴（中等硬度）、家具/门框等辅助工具。
-- 力量器材：**落地式单杠**（可做引体、悬垂核心、弹力带辅助动作）、**可调节哑铃**（单只最高 10 kg）、**可调节杠铃**（总重量最高 20 kg，含相同片组）、**短弹力圈**（臀部激活、肩外旋、膝稳定）。
-- 阻力带：中等阻力长弹力带 (15–35 kg) + 门锚，配合单杠完成辅助引体、下拉与抗旋动作。
-- 原则：所有动作（Push/Pull/Lower/Recovery）须能在 6–8 ㎡ 内完成，并支持节奏控制与单侧变式以弥补重量不足。
-
-#### 户外 Outdoor / Cardio
-
-- 固定骑行路线与跑步场地，可执行 LISS、冲刺与节奏跑等心肺训练。
-
-> 每个子清单与对应的训练日安排可在 [Gym Workouts](./gym-workouts/README.md) 与 [Home Workouts](./home-workouts/README.md) 找到具体动作示例；若更新器材，也请同步刷新两份计划。
-
-### Home Plan Execution Model（2025-09）
-
-- **优先级映射**：依照 Training Goals 将全部训练分为 Priority 1（核心稳定 & 体脂管理）、Priority 2（体态矫正 & 疼痛预防）、Priority 3（肌肉维持/增肌）。Home Plan 的每个日程都明确写出对应优先级。
-- **日内结构**：`Reset & Activation（呼吸 + 短弹力圈矫正） → Strength Ladders（4-1-2 节奏 + 单侧/等长） → Core & Conditioning（抗伸展 + Carry/HIIT/LISS） → Cooldown & Log`。这样在器材受限时仍能落实张力、控制与代谢需求。
-- **周节奏**：Push → Lower A → Recovery/LISS → Pull → Lower B → HIIT/LISS → Rest/复盘。Recovery 日使用《Home Mobility & Recovery Flow》，心肺日可在 `🏠 HIIT + Core` 或 `🚶 LISS` 间切换，与户外骑行互补。
-- **记录要求**：每次训练在日志中标注 `(P1/P2/P3 完成度) + sRPE × 分钟 + 核心/体态手感 + 器材设置`，方便回填到 Training Goals 的成功指标。
-- **Gym Plan 对应**：若当周有健身房资源，可直接引用 [gym-workouts/README.md](./gym-workouts/README.md) 的动作，但仍需带入同样的 Priority 思路（例如先完成矫正/核心，再上主项）。
-
-### 推荐补充训练资源 Recommended Add-ons
-
-> 非必需，但可按优先级逐步补齐，以提升居家训练强度与多样性。
-
-1. **悬挂式训练带 / TRX**：与落地式单杠搭配完成倒划船、T/Y/W、单臂划和深度核心训练，增强背部和肩胛控制。
-2. **负重背心或沙袋背包（5–15 kg）**：用于弓步、单腿硬拉、俯卧撑和有氧冲刺，扩展渐进超负荷空间。
-3. **可调节壶铃或手柄加重盘**：提供不同抓握方式，便于摆动、土耳其起立、单臂划船等动作。
-4. **滑盘/拉力绳 + 楼梯或台阶**：增加腘绳 curl、核心前伸、登阶跳等动作变化。
-5. **迷你按摩球 / 花生球**：补充泡沫轴难以触达的小肌群放松，提升恢复效率。
-
-### 营养与恢复指南 Nutrition & Recovery
-
-营养与恢复的量化目标以 Priority 1 为准；
-具体食谱与操作细节见：[🥗 饮食方案](./nutrition-plan.md)。
-
-### 计划调整与答疑 Rationale & FAQ
-
-#### 1) 是否应减少功能性训练？
-
-**问题**：独立的功能性训练日是否占用过多时间？
-
-**结论**：是。
-
-**解决方案**：
-
-- 将功能性/单侧/平衡/核心训练拆分进每次力量训练的"热身 + 收尾"（各 5–10 分钟）
-- 不占用独立训练日
-- 每周仍有足量功能性刺激
-- 同时保证主项强度与总时长
-
-**执行方式**：
-
-- 热身（6–8 分钟）：关节活动 + 肌肉激活 + 动态拉伸
-- 主训练（45–55 分钟）：力量训练
-- 收尾（5–8 分钟）：核心稳定训练
-- 拉伸（5–10 分钟）：静态拉伸
-
-#### 2) 周一全身 + 周四上身是否过多、影响连续力量？
-
-**问题**：原计划周一全身、周四上身，肌群重叠过多，影响恢复。
-
-**结论**：拆分更优。
-
-**解决方案**：
-
-- 采用 **Push / Lower / Rest / Pull / Lower** 顺序
-- 减少肌群重叠
-- 实现周内连续力量训练
-- 给关键肌群 48–72 小时恢复时间
-- Push 与 Pull 分天后互不干扰
-
-**新计划结构**：
-
-- **周一 Mon**：Upper Push（胸/前三角/肱三）
-- **周二 Tue**：Lower 1（深蹲/股四主导）
-- **周三 Wed**：主动恢复/灵活性
-- **周四 Thu**：Upper Pull（背/后束/肱二）
-- **周五 Fri**：Lower 2（硬拉/后侧链主导）
-- **周六 Sat**：可选有氧（LISS 或短 HIIT）
-- **周日 Sun**：完全休息
-
-#### 3) 居家训练如何与健身房版对齐？
-
-**问题**：若本周无法去健身房，如何维持同样目标与负荷质量？
-
-**结论**：使用居家版（Home Plan）即可在有限设备下复制相同周结构与训练刺激。
-
-**解决方案**：
-
-- 居家版沿用 Push / Lower / Recovery / Pull / Lower + 有氧 的周频率。
-- 通过 **节奏控制（4-1-2）**、**单侧动作**、**等长停留**、**高重复/短休息**，配合 10 kg 可调哑铃、20 kg 可调杠铃、弹力带与背包负重，创造足够张力。
-- 利用家具、毛巾或书包替代器械（例如毛巾门框拉、背包负重俯卧撑）。
-- 核心、恢复、日志与营养文件保持共用，便于回到健身房时对比进度。
-
-**执行方式**：
-
-- 参考 `home-workouts/` 目录内的每日课表：Upper Push → Lower A → Recovery → Upper Pull → Lower B → HIIT/LISS。
-- 记录 RPE、节奏与动作质量，标注“Home” 以追踪训练环境切换后的主观体验。
-- 居家周仍建议维持 Deload 规划，如连续 4–6 周居家训练，可把最后一周改为低强度版本。
+- 详见：[🥗 饮食方案](./nutrition-plan.md)
 
 ---
 
-## 执行与模板 Execution & Templates
+## 执行策略 Execution Strategy
 
-### 训练结构模板 Training Structure Template {#训练结构模板-training-structure-template}
+### 1. 周日程结构 (Weekly Schedule)
 
-#### 力量训练日（Home Plan 版，60–75 分钟）
+采用 **Push / Lower / Rest / Pull / Lower** 分化，确保连续训练且恢复充足。
 
-1. **Reset & Activation（6–8 分钟）**
+- **Mon**: Upper Push (胸/肩/三头) + Core
+- **Tue**: Lower A (蹲/前链) + Core
+- **Wed**: Active Recovery / Mobility
+- **Thu**: Upper Pull (背/二头/后链) + Core
+- **Fri**: Lower B (铰链/后链) + Core
+- **Sat**: Cardio (HIIT/LISS)
+- **Sun**: Rest
 
-   - 90/90 呼吸、骨盆中立检查
-   - 臀肌/肩胛/髋踝矫正动作（短弹力圈、泡沫轴）
-   - 核心抗伸展（Bear / Dead Bug）确保 Priority 1 & 2 已上线
+### 2. 每日训练结构 (Daily Structure Template) {#训练结构模板-training-structure-template}
 
-2. **Strength Ladders（25–30 分钟）**
+_居家训练时长：60–75 分钟_
 
-   - 2–3 个主项/次要动作以 4-1-2 节奏、单侧或等长执行
-   - 器材根据可调哑铃/杠铃/弹力带/单杠灵活切换
-   - 组间休息 60–90 秒，保持 RPE 7 左右
+1.  **Reset & Activation (6–8 min)**
+    - **Warm-up Selection**:
+        - **Option A (Standard)**: 适合久坐僵硬/活动受限 → 关节活动/肩胛控制/踝髋优先。
+        - **Option B (Gentle)**: 适合局部不适（如肩、膝） → 更温和、控制性强。
+        - **Option C (Quick)**: 适合时间紧/在家 → 全身激活，器械依赖低。
+    - **Corrective "Quick Picks"** (针对 [Physical Profile](./physical-profile.md)):
+        - **90/90 呼吸**: 4–6 次/轮，肋骨下沉、盆骨后倾轻贴地。
+        - **臀部激活**: 侧向弹力带走路/蚌式/臀桥（各 12 次）。
+        - **髋屈肌拉伸**: 箭步压髋，后脚跪垫保护膝盖，保持骨盆中立。
+        - **上肢**: 弹力带外旋 + 面拉 + 门框开胸。
+2.  **Strength Ladders (25–30 min)**
+    - 主项/辅项采用 **4-1-2 节奏**、单侧或等长停留。
+    - 利用哑铃/杠铃/弹力带创造张力 (RPE 7-8)。
+3.  **Accessory + Posture (10–12 min)**
+    - 针对性矫正动作（Face Pull, Copenhagen Plank）。
+4.  **Core & Conditioning (8–12 min)**
+    - **Priority 1 重点**：抗伸展/抗旋 + 代谢训练 (Carry/HIIT)。
+    - **Core Selection**:
+        - Push/Pull 日：抗旋（Pallof）、Dead Bug、Hollow、侧桥。
+        - Lower 日：McGill 套路、Bird-dog、侧桥、抗旋走出。
+5.  **Cooldown & Log (5 min)**
+    - 拉伸（30–40s/动作）：
+        - Push → 胸/肩前束/胸椎/颈肩。
+        - Pull → 背阔/后束/胸椎/颈肩。
+        - Lower → 股四/腘绳/小腿/臀与髋囊。
+    - 记录日志。
 
-3. **Accessory + Posture（10–12 分钟）**
+### 3. 居家与健身房切换
 
-   - 2–4 个矫正/孤立/对称性动作（如 mini-band 外展、Face Pull、Copenhagen plank）
-   - 针对 [Body Issues](./body-issues.md) 中的体态问题展开，记录疼痛/对称性
-
-4. **Core & Conditioning（8–12 分钟）**
-
-   - 抗伸展/抗侧屈/抗旋转 + Carry、低冲击代谢、步行或 LISS
-   - 让 Priority 1 的热量缺口 + Priority 2 的核心控制都得到落实
-
-5. **Cooldown & Log（5 分钟）**
-   - 呼吸练习、静态拉伸、泡沫轴
-   - 日志记录：sRPE × 分钟、Priority 完成度、疼痛与器材设置
-
-#### 有氧训练日（30–45 分钟）
-
-**LISS（低强度稳态有氧）**：
-
-- 骑行、快走、游泳
-- 心率 60–70% 最大心率
-- 持续 30–45 分钟
-- 适合恢复日或腰背敏感时
-
-**HIIT（高强度间歇训练）**：
-
-- 冲刺、跳跃、战绳等
-- 工作 20–30 秒，休息 30–60 秒
-- 重复 8–12 轮
-- 总时长 15–20 分钟
-- 避免疲劳过高时进行
-
-### 执行提示 Execution Tips {#执行提示-execution-tips}
-
-#### 动作选择原则
-
-- **主项 1**（3–5 组）：大重量复合动作
-- **次要 1–2**（3–4 组）：辅助动作
-- **孤立 2**（2–3 组）：针对性训练
-- **核心**（5–8 分钟）：稳定性训练
-- **全程**：60–75 分钟
-
-#### 强度控制
-
-- **主项动作**：RPE 7–8（保留 2–3 次余力）
-- **次要动作**：RPE 7–8
-- **孤立动作**：RPE 8–9（保留 1–2 次余力）
-- **核心动作**：RIR 1–2（保留 1–2 次余力）
-
-#### 渐进超负荷
-
-- 每周尝试增加重量、次数或组数
-- 优先保证动作质量
-- 感觉不适立即停止
-
-#### Deload 周（每 4 周）
-
-- 重量减少 40–50%
-- 组数减少 30–40%
-- 保持动作模式和频率
-- 专注恢复和动作质量
-
-### 康复与预防重点 Rehabilitation & Prevention Focus
-
-#### 每次训练必做
-
-1. **骨盆中立位检查**：训练前、中、后
-2. **360° 腹式呼吸**：热身时练习
-3. **臀部激活**：热身必做
-4. **髂腰肌拉伸**：热身或拉伸时
-5. **中立脊柱维持**：所有动作
-
-#### 特别注意
-
-- **跪姿动作**：使用膝垫或选择替代动作
-- **左侧肩部**：注意对称性，必要时左侧减重
-- **腰椎保护**：避免过度屈伸，维持中立
-- **呼吸协同**：大重量时维持腹压
-
-### 训练日志建议 Training Log Recommendations
-
-建议记录内容：
-
-- 日期、训练类型
-- 准备度（睡眠、疲劳、情绪）
-- 各动作的重量、次数、组数、RPE/RIR
-- 动作质量评估
-- 身体反馈（疼痛、不适、感觉）
-- 下次调整建议
-
-模板：[📓 Training Quality Log Template](./training-logs/training-quality-log-template.md)
+- **Home (默认)**：按上述结构执行，利用节奏和单侧弥补重量不足。具体课表见 [Home Workouts](./home-workouts/README.md)。
+- **Gym (可选)**：若有条件，使用相同周结构，将 Strength 部分替换为大重量复合动作。具体课表见 [Gym Workouts](./gym-workouts/README.md)。
 
 ---
 
-## 执行入口 Execution Crosswalk
+## 执行提示 Execution Tips {#执行提示-execution-tips}
 
-- **Home（默认）**：依据 [Home Workouts](./home-workouts/README.md) 排程，在 Push/Pull/Lower 日插入核心+矫正动作，周末使用骑行/HIIT 满足体脂目标。
-- **Gym（备选）**：如偶尔能进入健身房，再参考 [Gym Workouts](./gym-workouts/README.md) 复合动作结构，同时保持本页优先级不变。
-- **复盘**：在训练日志和 [Body Issues](./body-issues.md) 中记录疼痛、体脂、核心表现，再回到本页勾选进度。
+### 动作质量与强度
+
+- **主项动作**：RPE 7–8（保留 2–3 次余力），优先保证动作质量。
+- **孤立/矫正**：RPE 8–9，专注收缩感。
+- **渐进超负荷**：每周尝试增加次数、组数或缩短休息时间。
+
+### 康复与预防 (Rehab Focus)
+
+- **必做检查**：训练全程维持骨盆中立与腹式呼吸。
+- **左肩注意**：推类动作注意左右对称，必要时左侧减重。
+- **腰椎保护**：避免过度屈伸，跪姿动作使用膝垫。
+
+### 训练日志 (Logging)
+
+- 记录内容：日期、RPE、动作质量、身体反馈（疼痛/不适）。
+- 模板：[📓 Training Quality Log Template](./training-logs/training-quality-log-template.md)
