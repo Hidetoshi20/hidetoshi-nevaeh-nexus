@@ -34,12 +34,12 @@ recipe-book/
 
 - 按分类
 
-  - [staple-dishes/](./staple-dishes/)（主食类）
-  - [noodle-dishes/](./noodle-dishes/)（面食类）
-  - [meat-dishes/](./meat-dishes/)（肉类菜品）
-  - [vegetable-dishes/](./vegetable-dishes/)（蔬菜类）
-  - [soups/](./soups/)（汤类）
-  - [other-dishes/](./other-dishes/)（其他菜品）
+  - [staple-dishes/](./staple-dishes/README.md)（主食类）
+  - [noodle-dishes/](./noodle-dishes/README.md)（面食类）
+  - [meat-dishes/](./meat-dishes/README.md)（肉类菜品）
+  - [vegetable-dishes/](./vegetable-dishes/README.md)（蔬菜类）
+  - [soups/](./soups/README.md)（汤类）
+  - [other-dishes/](./other-dishes/README.md)（其他菜品）
 
 - 按菜名
 

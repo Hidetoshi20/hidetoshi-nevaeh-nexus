@@ -47,7 +47,7 @@
 
 ## Methodology · 计划调整与答疑
 
-完整说明见：[Fitness Plan · Methodology](./fitness-plan.md#训练方法论-training-methodology)
+完整说明见：[Fitness Plan · Execution Tips](./fitness-plan.md#执行提示-execution-tips)
 
 ## Nutrition Plan（链接）
 
