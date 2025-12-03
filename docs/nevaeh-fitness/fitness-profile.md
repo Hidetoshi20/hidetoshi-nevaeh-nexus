@@ -1,11 +1,31 @@
 # 个人情况 Personal Profile
 
+> 返回主页：[Nevaeh Fitness](./README.md)
+>
+> **文档定位**：记录身体背景、生活习惯与全部体态/伤病历史，作为 [Fitness Goals](./fitness-goals.md) 设定指标与 [Training Methodology](./training-methodology.md) 制定方法的唯一来源。
+
 ## 基本信息 Basic Information
 
-- **身高／体重 Height/Weight**：162.5 cm / 42 kg
-- **体脂率 Body Fat**：约 9%
+- **身高/体重 Height/Weight**：162 cm / 43 kg
+- **性别 Gender**：女性
+- **体脂率 Body Fat**：约 9%（偏瘦）
 - **体能基础 Fitness Level**：偏弱，缺乏系统锻炼经验
 - **日常习惯 Daily Habits**：长时间坐学，颈椎僵硬；睡眠质量一般
+
+---
+
+## 训练资源 Training Resources
+
+> 设备清单与训练场景统一维护在 [Training Methodology · 训练资源](./training-methodology.md#训练资源-training-resources)。
+
+- 当前以居家训练为主，详见 [Home Workouts](./home-workouts/README.md)。
+- 健身房训练作为进阶或替代方案，详见 [Gym Workouts](./gym-workouts/README.md)。
+
+## 文档联动 Document Cross-Reference
+
+- **目标衔接**：本页的体态/历史与测量数据驱动 [Fitness Goals](./fitness-goals.md) 中的成功指标。
+- **方法论引用**：矫正与器材策略详解收录在 [Training Methodology](./training-methodology.md)。
+- **执行落地**：根据当天训练环境在 [Gym Workouts](./gym-workouts/README.md) 与 [Home Workouts](./home-workouts/README.md) 间切换。
 
 ---
 
@@ -90,7 +110,7 @@
 **问题描述**：骨盆周围肌肉（臀肌、核心、髋屈肌）力量不足或不平衡，无法维持骨盆稳定。
 
 **具体表现**：
-- 左侧更严重，右侧也差
+- **左侧更严重，右侧也差**
 - 单腿站立时骨盆明显倾斜
 - 走路时骨盆左右摇晃（Trendelenburg 步态）
 
@@ -263,17 +283,3 @@
 - 放松斜角肌、胸小肌
 - 肩胛骨下沉训练
 - 避免长时间手臂上举
-
----
-
-## 训练资源 Training Resources
-
-- 居家瑜伽垫
-- 弹力带
-- 训练时间：每晚 20–30 分钟
-
----
-
-## 额外偏好 Preferences
-
-希望加入八段锦和太极动作
