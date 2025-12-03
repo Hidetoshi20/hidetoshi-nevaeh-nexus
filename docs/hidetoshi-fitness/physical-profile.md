@@ -6,10 +6,19 @@
 
 ## 基本信息 Basic Information
 
-- **身高/体重 Height/Weight**: 184cm / 76kg，身材偏瘦高类型
-- **当前体脂 Body Fat**: 约 20%
+- **身高/体重 Height/Weight**: 184cm / 79.8kg（InBody 2025.10.18，偏瘦高体型）
+- **当前体脂 Body Fat**: 20.3%（InBody 2025.10.18）
 - **目标体脂 Target Body Fat**: 15% 或更低
 - **运动基础 Training Experience**: 有一定经验，能使用健身房器械、家庭训练、骑行和跑步
+
+---
+
+## 身体素质概述 Physical Readiness Overview
+
+- **最新体成分 Latest Body Composition（InBody 2025.10.18）**：[79.8 kg / 骨骼肌 36.0 kg / 体脂率 20.3%](./body-metrics/inBody%202025.10.18.md)，内脏脂肪等级 10（轻度偏高），InBody 评分 75；脂肪主要集中躯干（8.5 kg），四肢肌肉与脂肪分布均衡。
+- **力量与动作基线 Strength & Movement (2025-09 Log)**：[卧推 40 kg、哑铃肩推 12.5 kg、辅助引体向上助力 40 kg、单臂划船 17.5 kg](./training-logs/2025-09.md)；推拉力量处于初阶，后链与拉力仍需提升。
+- **体型与代谢 Frame & Metabolism**：184 cm tall frame，当前体重较 InBody 目标 74.8 kg 高约 5 kg；BMR 1743 kcal，日总消耗估算 ~2954 kcal，说明有余量通过饮食与训练调整热量以降脂保肌。
+- **优先事项 Priorities**：维持骨骼肌 36 kg 以上，同时减脂 5–6 kg 以接近 15% 体脂；训练上继续强化臀部、中枢核心与上背外展，结合呼吸与骨盆控制，降低躯干与内脏脂肪。
 
 ---
 

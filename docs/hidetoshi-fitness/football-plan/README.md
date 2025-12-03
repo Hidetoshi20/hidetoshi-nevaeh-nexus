@@ -1,97 +1,94 @@
-# 足球训练计划 Football Training Plan (Draft)
+# 足球训练计划 Football Training Plan (Semi-Pro Edition)
 
-> 返回主页：[../README.md](../README.md) | 个人档案：[../football-profile.md](../football-profile.md)
+> 返回主页：[../README.md](../README.md) | 个人档案：[../football-profile.md](../football-profile.md) | **[技术模块索引 (Index)](./technical-modules.md)**
 >
-> **文档定位**：为非系统训练背景设计的“回炉重造”方案。侧重于个人技术（Individual Technical）与足球体能（Football Fitness）。
+> **文档定位**：半职业级训练架构。不仅是“练什么”，而是“怎么练”和“何时进阶”。
+> **核心周期**: 4 周中周期 (Mesocycle) | **强度**: 高 | **频率**: 每周 1-2 次专项 + 每日微量接触
 
-## 核心理念 Philosophy
+## 1. 训练哲学 Philosophy
 
-鉴于“缺乏系统训练”的背景，本计划不追求花哨动作，而是**回归原点 (Back to Basics)**。重点在于：
-1. **球感 (Ball Mastery)**：建立双脚对球的绝对控制。
-2. **重复 (Repetition)**：利用墙壁和标志碟进行高密度触球。
-3. **双足 (Bi-lateral)**：强制开发非惯用脚。
+业余球员与半职业球员最大的区别在于：**意图 (Intent)** 与 **细节 (Detail)**。
 
----
-
-## 训练资源 Resources
-
-- **场地**:
-  - 墙壁（必需）：用于回弹练习（传接球）。
-  - 小块空地（5x5m 即可）：用于原地控球。
-  - 草地/球场（进阶）：用于长传或射门。
-- **器材**:
-  - 足球（Size 5）。
-  - 标志碟 (Cones)：10-20 个（可用水瓶代替）。
-  - 敏捷梯 (Agility Ladder)：可选。
+1.  **意图 (Intent)**: 每次触球都有明确目的（是传还是控？）。
+2.  **观察 (Scanning)**: 不看球的时候，必须在看人/空当。
+3.  **质量 (Quality)**: 10 次完美的触球 > 100 次随意的触球。
+4.  **身体 (Physicality)**: 将核心力量融入对抗（解决骨盆前倾带来的发力问题）。
 
 ---
 
-## 可选计划方案 Plan Options
+## 2. 4 周进阶周期 (The 4-Week Progression)
 
-以下三个方案可根据当日场地与体能状态切换。
+不要一直做同样的训练。利用周期化训练来突破瓶颈。
 
-### 🟢 方案 A：墙壁大师 (The Wall Master)
-**目标**: 提升第一脚停球 (First Touch) 与传球准确度。
-**适用**: 有一面墙，体能消耗中等。
-
-1. **热身 (5 mins)**: 原地踩球、拉球、颠球。
-2. **单脚推挡 (10 mins)**:
-   - 右脚推 -> 墙反弹 -> 右脚停 -> 右脚推 (3 mins)
-   - 左脚推 -> 墙反弹 -> 左脚停 -> 左脚推 (3 mins)
-   - **要点**: 膝盖微屈，脚踝锁死，击球中下部。
-3. **双脚交互 (10 mins)**:
-   - 右脚推 -> 墙反弹 -> 左脚停 -> 左脚推 (循环)
-   - 尝试“不停球直接推”（One-touch pass）。
-4. **带球转身 (10 mins)**:
-   - 推墙 -> 接球转身 180度 -> 带两步 -> 扣球转身 -> 推墙。
-
-### 🔵 方案 B：盘带迷宫 (The Dribbling Grid)
-**目标**: 提升控球频率与变向能力。
-**适用**: 有小块空地 + 标志碟。
-
-1. **热身 (5 mins)**: 自由带球，尝试身体各部位触球。
-2. **直线穿越 (10 mins)**:
-   - 摆放 5-8 个标志碟，间距 0.5-1米。
-   - **练习**: 仅用右脚内/外侧、仅用左脚、双脚交替（油炸丸子）。
-3. **Box Control (10 mins)**:
-   - 摆放一个 2x2m 的正方形。
-   - 在区域内进行 V-pull（V字拉球）、L-turn（L型身后拉球）。
-4. **8字绕桩 (10 mins)**:
-   - 两个标志碟相距 2-3米，进行 8 字绕行。
-   - 强调重心降低，外脚背拨球。
-
-### 🔴 方案 C：足球体能 (Football Fitness)
-**目标**: 将有氧/HIIT 结合球感，替代健身房的有氧日。
-**适用**: 需要大汗淋漓，场地较开阔。
-
-1. **Tabata Ball Work (20 mins)**:
-   - 20秒高强度 -> 10秒休息，8轮为一组，共 2-3 组。
-   - **动作库**: 快速踩球 (Toe Taps)、双脚内侧磕球 (Tik-Toks)、高抬腿带球。
-2. **折返冲刺带球 (15 mins)**:
-   - 10米、20米、30米折返跑，带球进行。
-   - 每次折返需急停扣球。
+| 周期       | 主题                              | 重点 (Focus)                                         | 强度 (RPE) | 训练内容                                |
+| :--------- | :-------------------------------- | :--------------------------------------------------- | :--------- | :-------------------------------------- |
+| **Week 1** | **Mechanics (机制重塑)**          | 慢动作，在大脑中建立正确的神经连接。动作要做得夸张。 | 6/10       | Module A (Level 1) + Module C (Level 1) |
+| **Week 2** | **Volume (容量积累)**             | 增加重复次数。形成肌肉记忆。                         | 7/10       | Module A (Level 2) + Module B (Level 2) |
+| **Week 3** | **Speed & Pressure (速度与压力)** | 全速进行。加入时间限制（如：1 分钟内完成多少次）。   | 9/10       | All Modules (Level 2/3) + 冲刺跑        |
+| **Week 4** | **Deload / Game (减负/实战)**     | 减少训练量，去踢一场比赛，验证训练成果。             | 5/10       | 仅做 Module A (Level 1) 放松 + 比赛     |
 
 ---
 
-## 周期整合 Integration
+## 3. 训练课结构 Session Structure (60-75 min)
 
-建议将足球训练融入现有的 [Gym Workouts](../gym-workouts/README.md) 或 [Home Workouts](../home-workouts/README.md)：
+### Phase 0: 激活 (Warm-up) - FIFA 11+ 简化版 (10 mins)
 
-- **替代 LISS/HIIT**: 方案 C 可直接替代原本的有氧日。
-- **替代 Recovery**: 方案 A（低强度版）可作为主动恢复，但注意不要过度疲劳。
-- **周末专项**: 周六/周日抽出 45-60 分钟执行 A 或 B，作为技术日。
+_严禁不做热身直接射门。_
 
-**示例周表**:
-- Mon: Push
-- Tue: Lower
-- Wed: **Football (Plan A - Technical)**
-- Thu: Pull
-- Fri: Lower
-- Sat: **Football (Plan C - Conditioning) 或 户外骑行**
-- Sun: Rest
+1.  **慢跑**: 2 圈，带球或不带球。
+2.  **动态拉伸**:
+    - Hip Out (髋外展) x 10
+    - Hip In (髋内收) x 10
+    - High Knees (高抬腿)
+    - Lunges (弓步蹲)
+3.  **激活**: 2 组 x 15 秒 平板支撑 (Plank) 激活核心。
 
-## 下一步 Next Steps
+### Phase 1: 神经认知与球感 (Neural & Touch) - 15 mins
 
-1. 确定身边是否有可用的“墙壁”资源。
-2. 采购标志碟（若无）。
-3. 在 [Fitness Plan](../fitness-plan.md) 或 [Football Profile](../football-profile.md) 中补充左脚/右脚惯用习惯。
+_大脑最清醒的时候做最难的认知训练。_
+
+- **Drill**: [Module A1: 交通灯墙球](./modules/module-a-control-scanning.md#drill-a1-交通灯墙球-traffic-light-wall-pass)
+- **目标**: 200 次触球。每一次都要回头观察。
+
+### Phase 2: 技能习得 (Skill Acquisition) - 25 mins
+
+_本周的核心技术攻坚。_
+
+- **选择**: [Module B (过人)](./modules/module-b-dribbling-feints.md#drill-b1-沉肩的艺术-the-drop-shoulder--body-feint) 或 [Module D (逆足)](./modules/module-d-weak-foot.md#drill-d2-左脚专项长传)。
+- **执行**:
+  - 10 分钟无对抗/低速（找感觉）。
+  - 15 分钟全速/障碍对抗（模拟实战）。
+
+### Phase 3: 射门与高强度 (Finishing & Conditioning) - 15 mins
+
+_在疲劳状态下保持技术稳定性。_
+
+- **Drill**: [Module C: 锁踝推射](./modules/module-c-finishing-shooting.md#drill-c1-锁踝发力-the-locked-ankle)
+- **结合**: 射门捡球后，全速冲刺跑回射门点（模拟攻防转换）。
+
+### Phase 4: 冷身 (Cool-down) - 5 mins
+
+- 静态拉伸：小腿（Calf）、大腿后侧（Hamstring）、髋屈肌（Hip Flexor）。
+
+---
+
+## 4. 周训练微周期 Weekly Microcycle
+
+结合您的健身房计划，采用 **"1+2" 模式**。
+
+| 星期    | 健身房/主项              | 足球专项内容                        | 备注                       |
+| :------ | :----------------------- | :---------------------------------- | :------------------------- |
+| **Mon** | Push (上肢推)            | **Rest**                            | 让下肢完全休息             |
+| **Tue** | Lower (下肢)             | **Module D (逆足)**                 | 组间休息时踩球，或热身时做 |
+| **Wed** | **Football Technical**   | **全套专项训练 (Phase 0-4)**        | **本周的主场**             |
+| **Thu** | Pull (上肢拉)            | **Module A (墙球)**                 | 低强度，作为主动恢复       |
+| **Fri** | Lower (下肢)             | **Rest**                            | -                          |
+| **Sat** | **Match / Conditioning** | 实战比赛 或 户外骑行/冲刺           | 检验成果                   |
+| **Sun** | Rest                     | 观看高水平比赛录像 (Tactical Study) | 学习跑位                   |
+
+---
+
+## 5. 装备建议
+
+- **必备**: 足球 (Size 5), 标志碟 x 4, 墙壁, 手机支架 (录像用)。
+- **进阶**: 弹力带 (绑在腰间增加阻力), 反应灯 (替代交通灯训练)。
