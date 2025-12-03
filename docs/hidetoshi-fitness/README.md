@@ -1,35 +1,35 @@
 # Hidetoshi Fitness & Nutrition Plan
 
-本页作为本目录的门户：提供周训练总览、选择指南与目录导航；详细背景见《[Plan Rationale 计划设计原理](./plan-rationale.md)》。
+本页作为本目录的门户：提供周训练总览、选择指南与目录导航；详细背景见《[Training Methodology 训练方法论](./training-methodology.md)》。
 
-> 现在提供 **健身房版** 与 **居家版** 两套训练流程。当前阶段（2025-09）全部训练都在家进行，Home Plan 已升级为主方案；Gym Plan 作为偶尔到馆时的备选参考。
+> 现在提供 **健身房版** 与 **居家版** 两套训练流程。当前阶段（2025-09）全部训练都在家进行，Home Workouts 已升级为主方案；Gym Workouts 作为偶尔到馆时的备选参考。
 
 ## 目录导航（Portal）
 
-- 📋 [Personal Profile 个人情况](./personal-profile.md)
-- 🎯 [Training Goals 训练目标](./training-goals.md)
-- 📐 [Plan Rationale 计划设计原理](./plan-rationale.md)
-- 🏋️ [Gym 训练计划页](./gym-plan/README.md)
-- 🏠 [Home 居家训练计划页](./home-plan/README.md)
-- 📓 [训练日志](./logs/README.md) (月记录：[2025-09.md](./logs/2025-09.md))
-- 📊 [体测结果](./test-results/README.md)
-- 🥗 [饮食方案](./custom-diet-plan.md)
+- 📋 [Fitness Profile 健身档案](./fitness-profile.md)
+- 🎯 [Fitness Goals 健身目标](./fitness-goals.md)
+- 📐 [Training Methodology 训练方法论](./training-methodology.md)
+- 🏋️ [Gym 训练计划页](./gym-workouts/README.md)
+- 🏠 [Home 居家训练计划页](./home-workouts/README.md)
+- 📓 [训练日志](./training-logs/README.md) (月记录：[2025-09.md](./training-logs/2025-09.md))
+- 📊 [体测结果](./body-metrics/README.md)
+- 🥗 [饮食方案](./nutrition-plan.md)
 - ⚽ [足球训练计划](./football-plan/README.md)
 
-> 🛠️ 训练资源（含最新的居家泡沫轴等器材）统一记录在 [Plan Rationale · Training Resources](./plan-rationale.md#训练资源-training-resources)，其他页面按需引用避免重复。
+> 🛠️ 训练资源（含最新的居家泡沫轴等器材）统一记录在 [Training Methodology · Training Resources](./training-methodology.md#训练资源-training-resources)，其他页面按需引用避免重复。
 
 ## 文档协作路径（Crosswalk）
 
-1. 先阅读 [Personal Profile](./personal-profile.md) 了解身体背景，再对照 [Training Goals](./training-goals.md) 的成功指标设定周期目标。
-2. 阅读 [Plan Rationale](./plan-rationale.md) 将上述目标映射到训练结构与器材配置，明确何时切换 Gym/Home 版本。
-3. 根据训练场景选择 [Gym Plan](./gym-plan/README.md) 或 [Home Plan](./home-plan/README.md)，所有动作节奏、热身/收尾提示均引用同一目标与原理。
-4. 在执行过程中，如需记录或复盘，返回本页进入日志、体测与营养文档，以便把训练反馈再写回 Personal Profile 与 Goal 复盘。
+1. 先阅读 [Fitness Profile](./fitness-profile.md) 了解身体背景，再对照 [Fitness Goals](./fitness-goals.md) 的成功指标设定周期目标。
+2. 阅读 [Training Methodology](./training-methodology.md) 将上述目标映射到训练结构与器材配置，明确何时切换 Gym/Home 版本。
+3. 根据训练场景选择 [Gym Workouts](./gym-workouts/README.md) 或 [Home Workouts](./home-workouts/README.md)，所有动作节奏、热身/收尾提示均引用同一目标与原理。
+4. 在执行过程中，如需记录或复盘，返回本页进入日志、体测与营养文档，以便把训练反馈再写回 Fitness Profile 与 Goal 复盘。
 
 ## 当前模式（Home-First）
 
-- 默认执行 [Home Plan](./home-plan/README.md)：每个力量日都遵循“Reset（呼吸+矫正）→ Strength Ladders（节奏 + 单侧）→ Core & Conditioning → Cooldown & Log”的模板，器材为落地式单杠、可调哑铃 ≤10 kg、可调杠铃 ≤20 kg、长/短弹力带、泡沫轴。
-- [Gym Plan](./gym-plan/README.md) 保留复合动作结构，供偶尔进入健身房或器材升级后快速切换。
-- 所有训练目标、优先级与成功指标集中在 [Training Goals](./training-goals.md)，若身体状况变动先回 [Personal Profile](./personal-profile.md) 更新，再映射到其他文档。
+- 默认执行 [Home Workouts](./home-workouts/README.md)：每个力量日都遵循“Reset（呼吸+矫正）→ Strength Ladders（节奏 + 单侧）→ Core & Conditioning → Cooldown & Log”的模板，器材为落地式单杠、可调哑铃 ≤10 kg、可调杠铃 ≤20 kg、长/短弹力带、泡沫轴。
+- [Gym Workouts](./gym-workouts/README.md) 保留复合动作结构，供偶尔进入健身房或器材升级后快速切换。
+- 所有训练目标、优先级与成功指标集中在 [Fitness Goals](./fitness-goals.md)，若身体状况变动先回 [Fitness Profile](./fitness-profile.md) 更新，再映射到其他文档。
 
 ## 🧭 如何选择 热身 / 核心 / 拉伸（精简版）
 
@@ -65,10 +65,10 @@
 
 ## 📅 Weekly Structure
 
-- 🏋️ **Gym Plan**：完整训练日程与动作说明见 [gym-plan/README.md](./gym-plan/README.md)。当前阶段仅在偶尔外出训练时使用。
-- 🏠 **Home Plan（默认）**：升级后的主计划详见 [home-plan/README.md](./home-plan/README.md)，使用落地式单杠 + 10 kg 可调哑铃 + 20 kg 可调杠铃 + 长/短弹力带等器材，围绕三大优先级（核心/体脂 → 体态 → 肌肉维持）设计 Reset/Strength/Core/Conditioning 四段式流程。
+- 🏋️ **Gym Workouts**：完整训练日程与动作说明见 [gym-workouts/README.md](./gym-workouts/README.md)。当前阶段仅在偶尔外出训练时使用。
+- 🏠 **Home Workouts（默认）**：升级后的主计划详见 [home-workouts/README.md](./home-workouts/README.md)，使用落地式单杠 + 10 kg 可调哑铃 + 20 kg 可调杠铃 + 长/短弹力带等器材，围绕三大优先级（核心/体脂 → 体态 → 肌肉维持）设计 Reset/Strength/Core/Conditioning 四段式流程。
 - ⚽ **Football Plan**：针对非系统训练背景的技术/体能补充方案，详见 [football-plan/README.md](./football-plan/README.md)。
-- 🔁 **切换建议**：保持 Push → Lower → Recovery → Pull → Lower → Cardio 的顺序；在日志中标注“Home”或“Gym”，便于追踪不同场景对 Training Goals 的影响。
+- 🔁 **切换建议**：保持 Push → Lower → Recovery → Pull → Lower → Cardio 的顺序；在日志中标注“Home”或“Gym”，便于追踪不同场景对 Fitness Goals 的影响。
 
 ### APT/上交叉 · 当日“纠正包”（示例）
 
@@ -78,21 +78,21 @@
 - 门框开胸 + 小胸肌拉伸 30–40s/侧；面拉 15–20 次
 - 训练全程：避免抬肋塌腰，保持中立脊柱与 360° 腹压
 
-## Rationale · 计划调整与答疑
+## Methodology · 计划调整与答疑
 
-完整说明见：[Plan Rationale 计划设计原理](./plan-rationale.md)
+完整说明见：[Training Methodology 训练方法论](./training-methodology.md)
 
 ## Nutrition Plan（链接）
 
-饮食计划见：[🥗 定制饮食方案](./custom-diet-plan.md)
+饮食计划见：[🥗 定制饮食方案](./nutrition-plan.md)
 
-## 📊 Test Results（链接）
+## 📊 Body Metrics（链接）
 
 定期进行身体成分测试，跟踪训练效果和身体变化：
 
-- [体脂测试结果概览](./test-results/README.md)
-  - 2025.07.22 基线测试：[inBody 2025.07.22.md](./test-results/inBody%202025.07.22.md)
-  - 2025.09.13 复查结果：[inBody 2025.09.13.md](./test-results/inBody%202025.09.13.md)
+- [体脂测试结果概览](./body-metrics/README.md)
+  - 2025.07.22 基线测试：[inBody 2025.07.22.md](./body-metrics/inBody%202025.07.22.md)
+  - 2025.09.13 复查结果：[inBody 2025.09.13.md](./body-metrics/inBody%202025.09.13.md)
 
 ---
 
@@ -100,10 +100,10 @@ Stay healthy and keep going!
 
 ## 🧾 Training Quality Log
 
-- 模板：见 [📓 Training Quality Log Template.md](./logs/training-quality-log-template.md)
+- 模板：见 [📓 Training Quality Log Template.md](./training-logs/training-quality-log-template.md)
 - 使用方式：
   - 每次训练前后，按模板快速填写“准备度 → 训练过程 → 质量评估 → 负荷与恢复”。
-  - 建议按月集中记录，例如在 [2025-09.md](./logs/2025-09.md) 中按日期追加。
+  - 建议按月集中记录，例如在 [2025-09.md](./training-logs/2025-09.md) 中按日期追加。
   - 力量部分尽量记录“顶组 + 回退组”、RPE/RIR、节奏/深度与技术要点；有氧记录时长/距离/心率/主观强度。
 - 节奏与强度建议：
   - 每 4 周做一次回顾（可结合 inBody/围度/照片），必要时安排 Deload 周（降低强度/容量）。

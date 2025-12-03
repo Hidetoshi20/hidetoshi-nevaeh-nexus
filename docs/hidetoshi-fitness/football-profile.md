@@ -2,7 +2,7 @@
 
 > 返回主页：[Hidetoshi Fitness & Nutrition Plan](./README.md)
 >
-> **文档定位**：记录足球相关的经历、技能现状与特异性问题。身体素质（耐力/力量）请参考 [Personal Profile](./personal-profile.md)。
+> **文档定位**：记录足球相关的经历、技能现状与特异性问题。身体素质（耐力/力量）请参考 [Fitness Profile](./fitness-profile.md)。
 
 ## 基本经历 Background
 
@@ -34,7 +34,7 @@
 
 ## 身体素质关联 Physical Cross-Reference
 
-*详情见 [Personal Profile](./personal-profile.md)*
+*详情见 [Fitness Profile](./fitness-profile.md)*
 
 - **优势**: 身高 184cm（制空/护球潜力）。
 - **劣势**:

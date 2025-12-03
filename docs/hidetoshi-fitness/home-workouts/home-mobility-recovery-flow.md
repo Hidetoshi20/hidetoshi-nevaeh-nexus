@@ -79,8 +79,8 @@
 ## Logging & Nutrition Check
 
 - **日志字段**：Keep 课程名称 → 动态/静态模块完成情况 → 主观恢复度（0–10）→ 疼痛或僵硬部位 → 睡眠/饮水补充。  
-- **营养衔接**：当天维持轻度热量缺口（–150～–250 kcal），蛋白质不降（≥1.8 g/kg），配合 [Custom Diet Plan](../custom-diet-plan.md) 的轻有氧日建议。  
-- **下一日准备**：若当日恢复度 ≤6，次日 Keep 课程可降一级难度或减少补强次数，并在 [Training Goals](../training-goals.md) 记录原因。
+- **营养衔接**：当天维持轻度热量缺口（–150～–250 kcal），蛋白质不降（≥1.8 g/kg），配合 [Nutrition Plan](../nutrition-plan.md) 的轻有氧日建议。  
+- **下一日准备**：若当日恢复度 ≤6，次日 Keep 课程可降一级难度或减少补强次数，并在 [Fitness Goals](../fitness-goals.md) 记录原因。
 
 ---
 

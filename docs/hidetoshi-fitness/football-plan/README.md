@@ -75,7 +75,7 @@
 
 ## 周期整合 Integration
 
-建议将足球训练融入现有的 [Gym Plan](../gym-plan/README.md) 或 [Home Plan](../home-plan/README.md)：
+建议将足球训练融入现有的 [Gym Workouts](../gym-workouts/README.md) 或 [Home Workouts](../home-workouts/README.md)：
 
 - **替代 LISS/HIIT**: 方案 C 可直接替代原本的有氧日。
 - **替代 Recovery**: 方案 A（低强度版）可作为主动恢复，但注意不要过度疲劳。
@@ -94,4 +94,4 @@
 
 1. 确定身边是否有可用的“墙壁”资源。
 2. 采购标志碟（若无）。
-3. 在 [Personal Profile](../personal-profile.md) 或 [Football Profile](../football-profile.md) 中补充左脚/右脚惯用习惯。
+3. 在 [Fitness Profile](../fitness-profile.md) 或 [Football Profile](../football-profile.md) 中补充左脚/右脚惯用习惯。
