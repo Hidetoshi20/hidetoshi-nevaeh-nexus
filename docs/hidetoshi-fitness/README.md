@@ -1,14 +1,13 @@
 # Hidetoshi Fitness & Nutrition Plan
 
-本页作为本目录的门户：提供周训练总览、选择指南与目录导航；详细背景见《[Training Methodology 训练方法论](./training-methodology.md)》。
+本页作为本目录的门户：提供周训练总览、选择指南与目录导航；详细背景见《[Fitness Plan 健身计划](./fitness-plan.md)》。
 
 > 现在提供 **健身房版** 与 **居家版** 两套训练流程。当前阶段（2025-09）全部训练都在家进行，Home Workouts 已升级为主方案；Gym Workouts 作为偶尔到馆时的备选参考。
 
 ## 目录导航（Portal）
 
-- 📋 [Fitness Profile 健身档案](./fitness-profile.md)
-- 🎯 [Fitness Goals 健身目标](./fitness-goals.md)
-- 📐 [Training Methodology 训练方法论](./training-methodology.md)
+- � [Body Issues 身体状况](./body-issues.md)
+- 📋 [Fitness Plan 健身计划](./fitness-plan.md)
 - 🏋️ [Gym 训练计划页](./gym-workouts/README.md)
 - 🏠 [Home 居家训练计划页](./home-workouts/README.md)
 - 📓 [训练日志](./training-logs/README.md) (月记录：[2025-09.md](./training-logs/2025-09.md))
@@ -16,20 +15,20 @@
 - 🥗 [饮食方案](./nutrition-plan.md)
 - ⚽ [足球训练计划](./football-plan/README.md)
 
-> 🛠️ 训练资源（含最新的居家泡沫轴等器材）统一记录在 [Training Methodology · Training Resources](./training-methodology.md#训练资源-training-resources)，其他页面按需引用避免重复。
+> 🛠️ 训练资源（含最新的居家泡沫轴等器材）统一记录在 [Fitness Plan · Training Resources](./fitness-plan.md#训练资源-training-resources)，其他页面按需引用避免重复。
 
 ## 文档协作路径（Crosswalk）
 
-1. 先阅读 [Fitness Profile](./fitness-profile.md) 了解身体背景，再对照 [Fitness Goals](./fitness-goals.md) 的成功指标设定周期目标。
-2. 阅读 [Training Methodology](./training-methodology.md) 将上述目标映射到训练结构与器材配置，明确何时切换 Gym/Home 版本。
+1. 先阅读 [Body Issues](./body-issues.md) 了解身体背景，再对照 [Fitness Plan](./fitness-plan.md) 的成功指标设定周期目标。
+2. 阅读 [Fitness Plan](./fitness-plan.md) 将上述目标映射到训练结构与器材配置，明确何时切换 Gym/Home 版本。
 3. 根据训练场景选择 [Gym Workouts](./gym-workouts/README.md) 或 [Home Workouts](./home-workouts/README.md)，所有动作节奏、热身/收尾提示均引用同一目标与原理。
-4. 在执行过程中，如需记录或复盘，返回本页进入日志、体测与营养文档，以便把训练反馈再写回 Fitness Profile 与 Goal 复盘。
+4. 在执行过程中，如需记录或复盘，返回本页进入日志、体测与营养文档，以便把训练反馈再写回 Body Issues 与 Fitness Plan 复盘。
 
 ## 当前模式（Home-First）
 
 - 默认执行 [Home Workouts](./home-workouts/README.md)：每个力量日都遵循“Reset（呼吸+矫正）→ Strength Ladders（节奏 + 单侧）→ Core & Conditioning → Cooldown & Log”的模板，器材为落地式单杠、可调哑铃 ≤10 kg、可调杠铃 ≤20 kg、长/短弹力带、泡沫轴。
 - [Gym Workouts](./gym-workouts/README.md) 保留复合动作结构，供偶尔进入健身房或器材升级后快速切换。
-- 所有训练目标、优先级与成功指标集中在 [Fitness Goals](./fitness-goals.md)，若身体状况变动先回 [Fitness Profile](./fitness-profile.md) 更新，再映射到其他文档。
+- 所有训练目标、优先级与成功指标集中在 [Fitness Plan](./fitness-plan.md)，若身体状况变动先回 [Body Issues](./body-issues.md) 更新，再映射到其他文档。
 
 ## 🧭 如何选择 热身 / 核心 / 拉伸（精简版）
 
@@ -80,7 +79,7 @@
 
 ## Methodology · 计划调整与答疑
 
-完整说明见：[Training Methodology 训练方法论](./training-methodology.md)
+完整说明见：[Fitness Plan · Methodology](./fitness-plan.md#训练方法论-training-methodology)
 
 ## Nutrition Plan（链接）
 

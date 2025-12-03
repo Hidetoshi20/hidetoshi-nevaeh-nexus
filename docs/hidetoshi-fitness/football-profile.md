@@ -2,7 +2,7 @@
 
 > 返回主页：[Hidetoshi Fitness & Nutrition Plan](./README.md)
 >
-> **文档定位**：记录足球相关的经历、技能现状与特异性问题。身体素质（耐力/力量）请参考 [Fitness Profile](./fitness-profile.md)。
+> **文档定位**：记录足球相关的经历、技能现状与特异性问题。身体素质（耐力/力量）请参考 [Fitness Plan](./fitness-plan.md)。
 
 ## 基本经历 Background
 
@@ -18,15 +18,17 @@
 
 ## 技能自评 Skills Assessment (Draft)
 
-> *注：基于"缺乏系统训练"的常见特征推断，需在实操中确认。*
+> _注：基于"缺乏系统训练"的常见特征推断，需在实操中确认。_
 
 ### 1. 技术 Technical
+
 - **停球 (First Touch)**: [待评测] 面对高空球或快球时，能否一次停在舒适区？
 - **传球 (Passing)**: [待评测] 只有脚弓推杆？能否运用脚背、外脚背？非惯用脚能力如何？
 - **盘带 (Dribbling)**: [待评测] 触球频率是否够高？是否习惯低头看球？
 - **射门 (Finishing)**: [待评测] 发力是否充分？吃球部位是否准确？
 
 ### 2. 战术/意识 Tactical
+
 - **无球跑动**: [待评测] 接球前的观察（Scanning）习惯？
 - **位置感**: [待评测] 防守时的站位选择？
 
@@ -34,7 +36,7 @@
 
 ## 身体素质关联 Physical Cross-Reference
 
-*详情见 [Fitness Profile](./fitness-profile.md)*
+_详情见 [Body Issues](./body-issues.md)_
 
 - **优势**: 身高 184cm（制空/护球潜力）。
 - **劣势**:

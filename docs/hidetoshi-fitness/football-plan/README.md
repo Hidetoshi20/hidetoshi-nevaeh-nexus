@@ -94,4 +94,4 @@
 
 1. 确定身边是否有可用的“墙壁”资源。
 2. 采购标志碟（若无）。
-3. 在 [Fitness Profile](../fitness-profile.md) 或 [Football Profile](../football-profile.md) 中补充左脚/右脚惯用习惯。
+3. 在 [Fitness Plan](../fitness-plan.md) 或 [Football Profile](../football-profile.md) 中补充左脚/右脚惯用习惯。

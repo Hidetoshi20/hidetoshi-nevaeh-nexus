@@ -1,7 +1,7 @@
 # 居家训练计划（Keep 主导版）
 
 > 返回主页：[Hidetoshi Fitness & Nutrition Plan](../README.md)  
-> 本目录整合 Keep App 课程作为训练主体，自定义模块负责校准核心、体态与疼痛管理。所有安排与 [Fitness Profile](../fitness-profile.md)、[Fitness Goals](../fitness-goals.md)、[Training Methodology](../training-methodology.md) 保持一致，并由 [Nutrition Plan](../nutrition-plan.md) 提供能量支持。
+> 本目录整合 Keep App 课程作为训练主体，自定义模块负责校准核心、体态与疼痛管理。所有安排与 [Body Issues](../body-issues.md)、[Fitness Plan](../fitness-plan.md) 保持一致，并由 [Nutrition Plan](../nutrition-plan.md) 提供能量支持。
 
 ## 🎯 Priority Framework
 
@@ -41,7 +41,7 @@
 
 ## 🔧 自定义模块（课程前后补强）
 
-- **Pre-Keep Reset（每次 5–8 分钟）**：包含 90/90 呼吸、臀激活/短弹力圈、肩胛控制，细节见子页面；旨在维持 Personal Profile 中列出的骨盆中立、肩胛对称与呼吸协同。
+- **Pre-Keep Reset（每次 5–8 分钟）**：包含 90/90 呼吸、臀激活/短弹力圈、肩胛控制，细节见子页面；旨在维持 Body Issues 中列出的骨盆中立、肩胛对称与呼吸协同。
 - **Priority Supplement（任选 1–2 项）**：若 Keep 课程内缺少单侧节奏或核心反抗动作，可补上单腿 RDL、Pallof Press、Carry 等模块。
 - **Core/Conditioning Finisher**：当日仍需心肺或核心张力时，从子页面的 Finisher 中挑选 6–10 分钟方案；疲劳高或腰背敏感则跳过。
 - **Recovery Touchpoints**：课程后保留 90/90/Crocodile 呼吸与针对性拉伸（胸椎、髋屈肌、臀肌），帮助稳定 Priority 2 与腰椎安全。
@@ -50,11 +50,10 @@
 
 - **日志字段**：Keep 课程名称与时长 → 自定义补强完成度 → sRPE × 分钟 → 疼痛/体态反馈（骨盆、肩胛、呼吸）→ 当日能量摄入与高蛋白执行情况。
 - **营养对接**：训练日前 1–2 小时沿用 [Nutrition Plan](../nutrition-plan.md) 的运动前餐模板；力量日后 30 分钟内补充蛋白+碳水，保持每公斤 ≥1.8 g 蛋白。
-- **阶段回顾**：每 4–6 周回到 [Fitness Goals](../fitness-goals.md) 勾选核心、体态与体脂指标；若某优先级停滞，优先调整 Keep 课程难度或补强模块频次，再考虑营养缺口。
+- **阶段回顾**：每 4–6 周回到 [Fitness Plan](../fitness-plan.md) 勾选核心、体态与体脂指标；若某优先级停滞，优先调整 Keep 课程难度或补强模块频次，再考虑营养缺口。
 
 ## 🔁 关联文档
 
-- 📋 [Fitness Profile](../fitness-profile.md)：更新体态、疼痛与恢复状态，驱动 Reset 内容。
-- 🎯 [Fitness Goals](../fitness-goals.md)：确认优先级与成功指标，规划 Keep 课程周期。
-- 📐 [Training Methodology](../training-methodology.md)：查阅方法论、器材策略；新增器材先记录此处，再修改 Keep 关键字或补强动作。
+- 🚑 [Body Issues](../body-issues.md)：更新体态、疼痛与恢复状态，驱动 Reset 内容。
+- 📋 [Fitness Plan](../fitness-plan.md)：确认优先级与成功指标，规划 Keep 课程周期；查阅方法论、器材策略。
 - 🧾 [Training Logs](../training-logs/README.md) · [Body Metrics](../body-metrics/README.md)：输入训练感受、体测与骑行/有氧数据，确保 Priority 1 体脂目标与心肺频次达标。

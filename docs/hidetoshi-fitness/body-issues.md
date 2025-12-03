@@ -1,36 +1,12 @@
-# 个人情况 Personal Profile
+# 身体状况与问题 Physical Condition & Body Issues
 
 > 返回主页：[Hidetoshi Fitness & Nutrition Plan](./README.md)
 >
-> **文档定位**：记录身体背景、生活习惯与全部体态/伤病历史，作为 [Fitness Goals](./fitness-goals.md) 设定指标与 [Training Methodology](./training-methodology.md) 制定方法的唯一来源。
-
-## 基本信息 Basic Information
-
-- **身高/体重 Height/Weight**: 184cm / 76kg，身材偏瘦高类型
-- **当前体脂 Body Fat**: 约 20%
-- **目标体脂 Target Body Fat**: 15% 或更低
-- **运动基础 Training Experience**: 有一定经验，能使用健身房器械、家庭训练、骑行和跑步
-
----
-
-## 训练资源 Training Resources
-
-> 设备清单与训练场景统一维护在 [Training Methodology · 训练资源](./training-methodology.md#训练资源-training-resources)。
-
-- 当前以居家训练为主，周结构与动作落地见 [Home Workouts](./home-workouts/README.md)；如有健身房资源再切换至 [Gym Workouts](./gym-workouts/README.md)。
-- 心肺主要依托户外骑行/跑步；数据与力量日志共用，便于复盘。
-
-## 文档联动 Document Cross-Reference
-
-- **目标衔接**：本页的体态/历史与测量数据驱动 [Fitness Goals](./fitness-goals.md) 中的成功指标，复盘时需要两页一起更新。
-- **方法论引用**：矫正与器材策略详解收录在 [Training Methodology](./training-methodology.md)，遇到新伤病或设备变动时先在该页登记再回写此处。
-- **执行落地**：根据当天训练环境在 [Gym Workouts](./gym-workouts/README.md) 与 [Home Workouts](./home-workouts/README.md) 间切换，保留与本页“身体问题”相对应的注意事项（如肩部对称、APT）。
-
----
+> **文档定位**：记录与健身计划独立的身体症状、成因与日常注意事项。本页的“问题”是 [Fitness Plan](./fitness-plan.md) 中矫正目标与训练策略的来源。
 
 ## 身体问题详解 Detailed Body Issues
 
-> 这一章节专注描述症状、成因与日常注意事项；对应的阶段性目标和量化指标在 [Fitness Goals](./fitness-goals.md) 中追踪。
+> 这一章节专注描述症状、成因与日常注意事项；对应的阶段性目标和量化指标在 [Fitness Plan](./fitness-plan.md) 中追踪。
 
 ### 骨盆前倾 Anterior Pelvic Tilt {#骨盆前倾-anterior-pelvic-tilt}
 
@@ -51,7 +27,7 @@
 - 髋关节活动受限
 - 深蹲、硬拉等动作容易代偿
 
-**对应策略**：矫正与执行方式见 [Training Methodology · 执行提示](./training-methodology.md#执行提示-execution-tips)。
+**对应策略**：矫正与执行方式见 [Fitness Plan · 执行提示](./fitness-plan.md#执行提示-execution-tips)。
 
 ---
 
@@ -69,7 +45,7 @@
 - 髂胫束综合征（IT Band Syndrome）
 - 下背部代偿性疼痛
 
-**对应策略**：见 [Training Methodology · 执行提示](./training-methodology.md#执行提示-execution-tips)。
+**对应策略**：见 [Fitness Plan · 执行提示](./fitness-plan.md#执行提示-execution-tips)。
 
 #### 臀大肌无力 Weak Gluteus Maximus
 
@@ -83,7 +59,7 @@
 - 骨盆前倾加重
 - 腘绳肌过度代偿，易拉伤
 
-**对应策略**：见 [Training Methodology · 执行提示](./training-methodology.md#执行提示-execution-tips)。
+**对应策略**：见 [Fitness Plan · 执行提示](./fitness-plan.md#执行提示-execution-tips)。
 
 ---
 
@@ -99,7 +75,7 @@
 - 腰椎压力增大
 - 站立时腰部过度前凸
 
-**对应策略**：见 [Training Methodology · 执行提示](./training-methodology.md#执行提示-execution-tips)。
+**对应策略**：见 [Fitness Plan · 执行提示](./fitness-plan.md#执行提示-execution-tips)。
 
 ---
 
@@ -122,7 +98,7 @@
 - 力量训练时无法维持腹压
 - 容易疲劳
 
-**对应策略**：见 [Training Methodology · 执行提示](./training-methodology.md#执行提示-execution-tips)。
+**对应策略**：见 [Fitness Plan · 执行提示](./fitness-plan.md#执行提示-execution-tips)。
 
 ---
 
@@ -149,7 +125,7 @@
 - 推举动作力量减弱
 - 外观体态不佳
 
-**对应策略**：见 [Training Methodology · 执行提示](./training-methodology.md#执行提示-execution-tips)。
+**对应策略**：见 [Fitness Plan · 执行提示](./fitness-plan.md#执行提示-execution-tips)。
 
 ---
 
@@ -172,7 +148,7 @@
 - 左侧肩部疼痛
 - 卧推、俯卧撑时左右不对称
 
-**对应策略**：见 [Training Methodology · 执行提示](./training-methodology.md#执行提示-execution-tips)。
+**对应策略**：见 [Fitness Plan · 执行提示](./fitness-plan.md#执行提示-execution-tips)。
 
 ---
 
@@ -187,7 +163,7 @@
 - 反复腰椎屈伸至极端位
 - 不正确的举重姿势
 
-**预防策略**：执行守则见 [Training Methodology · 执行提示](./training-methodology.md#执行提示-execution-tips)。
+**预防策略**：执行守则见 [Fitness Plan · 执行提示](./fitness-plan.md#执行提示-execution-tips)。
 
 ---
 
@@ -201,8 +177,4 @@
 - 膝关节周围软组织敏感
 - 可能存在髌骨软化或膝关节问题
 
-**解决方案**：优先选择非跪姿替代动作，或使用膝垫；细则见 [Training Methodology · 执行提示](./training-methodology.md#执行提示-execution-tips)。
-
----
-
-> 本页仅保留“背景与问题”。所有“如何做/怎么练”的规则与模板，统一见 [Training Methodology](./training-methodology.md)。
+**解决方案**：优先选择非跪姿替代动作，或使用膝垫；细则见 [Fitness Plan · 执行提示](./fitness-plan.md#执行提示-execution-tips)。
