@@ -14,6 +14,7 @@
 - 📓 [训练日志](./logs/README.md) (月记录：[2025-09.md](./logs/2025-09.md))
 - 📊 [体测结果](./test-results/README.md)
 - 🥗 [饮食方案](./custom-diet-plan.md)
+- ⚽ [足球训练计划](./football-plan/README.md)
 
 > 🛠️ 训练资源（含最新的居家泡沫轴等器材）统一记录在 [Plan Rationale · Training Resources](./plan-rationale.md#训练资源-training-resources)，其他页面按需引用避免重复。
 
@@ -33,17 +34,20 @@
 ## 🧭 如何选择 热身 / 核心 / 拉伸（精简版）
 
 - 热身（6–8 分钟）：每页提供方案 A/B/C，选其一。
+
   - 久坐僵硬/活动受限 → 选 A（关节活动/肩胛控制/踝髋优先）
   - 局部不适（如肩、膝） → 选 B（更温和、控制性强）
   - 时间紧/在家 → 选 C（全身激活，器械依赖低）
 
 - 骨盆前倾 · 上交叉重点（APT/Upper Cross Quick Picks）
+
   - 90/90 腹式呼吸（4–6 次/轮，肋骨下沉、盆骨后倾轻贴地）
   - 臀部激活：侧向弹力带走路/蚌式/臀桥（各 12 次）
   - 髋屈肌拉伸（箭步压髋，后脚跪垫保护膝盖，保持骨盆中立）
   - 上肢：弹力带外旋 + 面拉 + 门框开胸（小胸肌/胸大肌）
 
 - 核心收尾（5–8 分钟）：选 2–3 个动作做 2–3 轮，保留 1–2 次余力（RIR 1–2）。
+
   - Push/Pull 日：抗旋（Pallof）、Dead Bug、Hollow、侧桥
   - Lower 日：McGill 套路、Bird-dog、侧桥、抗旋走出
 
@@ -63,9 +67,11 @@
 
 - 🏋️ **Gym Plan**：完整训练日程与动作说明见 [gym-plan/README.md](./gym-plan/README.md)。当前阶段仅在偶尔外出训练时使用。
 - 🏠 **Home Plan（默认）**：升级后的主计划详见 [home-plan/README.md](./home-plan/README.md)，使用落地式单杠 + 10 kg 可调哑铃 + 20 kg 可调杠铃 + 长/短弹力带等器材，围绕三大优先级（核心/体脂 → 体态 → 肌肉维持）设计 Reset/Strength/Core/Conditioning 四段式流程。
+- ⚽ **Football Plan**：针对非系统训练背景的技术/体能补充方案，详见 [football-plan/README.md](./football-plan/README.md)。
 - 🔁 **切换建议**：保持 Push → Lower → Recovery → Pull → Lower → Cardio 的顺序；在日志中标注“Home”或“Gym”，便于追踪不同场景对 Training Goals 的影响。
 
 ### APT/上交叉 · 当日“纠正包”（示例）
+
 - 90/90 腹式呼吸 4–6 次（肋骨下沉、骨盆中立）
 - 臀部激活 2 动作（侧向弹力带走/蚌式/臀桥，各 12 次）
 - 箭步压髋 30–40s/侧（后脚跪垫，后倾骨盆）
@@ -90,7 +96,7 @@
 
 ---
 
-Stay healthy and keep going! 
+Stay healthy and keep going!
 
 ## 🧾 Training Quality Log
 

@@ -4,8 +4,8 @@
 
 ## 🔗 快速入口
 
-- 🏋️ [Hidetoshi 训练与营养计划](./hidetoshi/README.md)
-- 🏃 [Nevaeh 训练与营养计划](./nevaeh/README.md)
+- 🏋️ [Hidetoshi 训练与营养计划](./hidetoshi-fitness/README.md)
+- 🏃 [Nevaeh 训练与营养计划](./nevaeh-fitness/README.md)
 - 🍽️ [Recipe Book 食谱库](./Recipe%20Book/README.md)
 
 > ℹ️ 站点已全面开放访问，不再提供单独的登录入口。
@@ -15,8 +15,8 @@
 ```
 docs/
 ├── README.md            # 入口（本文档）
-├── hidetoshi/           # Hidetoshi 训练/营养/日志
-├── nevaeh/              # Nevaeh 训练/营养/日志
+├── hidetoshi-fitness/   # Hidetoshi 训练/营养/日志
+├── nevaeh-fitness/      # Nevaeh 训练/营养/日志
 ├── Recipe Book/         # 分类食谱库
 └── ...（更多主题文档）
 ```

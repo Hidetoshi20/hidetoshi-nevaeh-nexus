@@ -12,4 +12,4 @@
 - 恢复：睡眠时长、RHR、疼痛部位与量表
 - 训练负荷：建议用 sRPE × 时长（分钟）
 
-> 参考模板：`docs/hidetoshi/📓 Training Quality Log Template.md`
+> 参考模板：`docs/hidetoshi-fitness/logs/training-quality-log-template.md`
