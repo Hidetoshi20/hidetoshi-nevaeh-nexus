@@ -25,6 +25,15 @@
 
 ---
 
+### 当日结构（Wednesday 顺序与必做）
+
+1. Breathing Reset（必做 5 分钟）
+2. Deep Core Circuit（必做 12–15 分钟）
+3. Mobility Flow（可选 8–10 分钟）
+4. Logging（必做 2–3 分钟）
+
+---
+
 ## 🔵 Saturday: Cardio Options
 
 ### Option A: HIIT (状态好，时间紧) - 20 mins
@@ -36,6 +45,15 @@
 - **Keep 课程**: `室内燃脂走` `低冲击有氧`
 - **户外**: 骑行或快走。
 - **关键**: 保持心率在 120-140 BPM，鼻吸口呼。
+
+---
+
+### 当日结构（Saturday 顺序与必做）
+
+1. Keep 心肺主课程（必做：HIIT 20m 或 LISS 40m）
+2. Shoulder Micro Doses（可选 6 分钟）
+3. Core Micro Doses（可选 6 分钟；若当天核心不足）
+4. Logging（必做 2–3 分钟）
 
 ---
 
@@ -52,6 +70,18 @@
 - Pallof Press: 12/侧
 - Shoulder Tap Plank: 20 次
 - *做 2-3 组*
+
+---
+
+## 🟠 Shoulder Micro Doses（用于心肺或任意日收尾 6 分钟）
+
+**Set × 2–3 轮（组间休 30s）**
+
+1. 弹力带 Face Pull 15 次（顶端外旋停 2 秒）
+2. 弹力带外旋（ER）12 次/侧（肘贴身 90°）
+3. 旅行箱行走（Suitcase Carry）30m（单手，肩胛下沉，核心抗侧屈）
+
+替代：直臂下拉（弹力带）15 次（肩胛下压）可替换 Carry；左肩弱侧多做 2 次。
 
 ---
 
