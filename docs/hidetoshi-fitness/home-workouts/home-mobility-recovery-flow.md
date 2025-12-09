@@ -1,5 +1,7 @@
 # 🧘 Home Mobility & Recovery Flow（居家恢复日）
 
+> 返回目录：[居家训练计划（Keep 主导版）](./README.md)
+
 > Priority 映射：**P1** 调节呼吸与神经负荷，**P2** 保持髋肩对齐与灵活性，**P3** 当日不追求高张力，仅保留轻等长或呼吸反馈。
 
 ## 🎯 Recovery Objectives
@@ -12,17 +14,28 @@
 
 ## 当日结构（顺序与必做）
 
-1. Pre-Keep Reset（必做 5 分钟）
-2. Keep 恢复主课程（必做 20–30 分钟；三选一）
-3. 自定义 Mobility Flow（可选 8–10 分钟）
-4. 肩部灵活性与肩袖修复（可选 8–10 分钟）
-5. Logging & Nutrition Check（必做 3–5 分钟）
+1. Reset & Activation（必做 5 分钟）
+2. Main Course：Keep 恢复主课程（必做 20–30 分钟；三选一）
+3. Accessory + Posture：自定义 Mobility Flow + 肩部灵活性与肩袖修复（可选）
+4. Core & Conditioning：Stability + Isometric（可选 6 分钟）
+5. Cooldown & Log（冷却与记录，必做 3–5 分钟）
 
 > 备注：若当天肩颈僵硬明显，优先完成“肩部灵活性与肩袖修复”。若时间不足，保留 1–2 个关键动作即可。
 
 ---
 
-## Keep 主课程选择
+## Reset & Activation（必做 5 分钟）
+
+| 动作                                      | 时间   | 重点                             |
+| ----------------------------------------- | ------ | -------------------------------- |
+| Supine 90/90 + Reach（仰卧 90/90 + 前伸） | 3 分钟 | 骨盆后倾、肋骨下压，建立腹式呼吸 |
+| Crocodile Breathing（鳄鱼式呼吸）         | 2 分钟 | 感受后背扩张，放松交感神经       |
+
+> 若 Keep 课程已包含完整呼吸引导，可把 Pre-Reset 缩短为 2–3 分钟，但至少完成 90/90 1 轮。
+
+---
+
+## Main Course（Keep 恢复主课程）
 
 | 课程类型          | 推荐关键词/收藏夹                  | 说明                                   |
 | ----------------- | ---------------------------------- | -------------------------------------- |
@@ -32,64 +45,64 @@
 
 **课程执行要点**
 
-- 若课程节奏偏快，可自行放慢，确保每个拉伸停留 ≥30 秒。
+- 若课程节奏偏快，可自行放慢，确保每个拉伸停留 ≥30–45 秒。
 - Keep 课程若缺少腹式呼吸提示，请主动在伸展末端保持 4-2-6 呼吸节奏。
 - 膝盖跪地动作使用膝垫；若仍不适，改为坐姿或仰卧同类拉伸。
+- 选择提示：
+  - 疲劳高/想安抚神经 → 选“瑜伽流 & 呼吸冥想”。
+  - 肌肉酸痛集中在髋/背/股四 → 选“泡沫轴/筋膜放松”。
+  - 仅需全身松动 → 选“全身拉伸/恢复”。
 
 ---
 
-## Pre-Keep Reset（必做 5 分钟）
-
-| 动作                 | 时间   | 重点                             |
-| -------------------- | ------ | -------------------------------- |
-| Supine 90/90 + Reach | 3 分钟 | 骨盆后倾、肋骨下压，建立腹式呼吸 |
-| Crocodile Breathing  | 2 分钟 | 感受后背扩张，放松交感神经       |
-
-> 若 Keep 课程已包含完整呼吸引导，可把 Pre-Reset 缩短为 2–3 分钟，但至少完成 90/90 1 轮。
-
----
-
-## 自定义 Mobility Flow（按需拼接）
+## Accessory + Posture（Mobility Flow 8–10 分钟）
 
 ### Dynamic Flow（选 2–3 个，8–10 分钟）
 
-| 序列                              | 次数/侧 | 关注点                           |
-| --------------------------------- | ------- | -------------------------------- |
-| Cat-Camel → Thread the Needle     | 8       | 胸椎旋转、肩胛滑动               |
-| Half-kneeling Hip Flexor w/ Reach | 6       | 髋屈肌放松 + 臀激活              |
-| Cossack Squat to Hamstring Sweep  | 6       | 髋外展与内收切换，膝盖朝第二脚趾 |
-| Inchworm → Down Dog + Heel Pulse  | 6       | 腘绳、小腿与肩部伸展             |
+| 序列                                                             | 次数/侧 | 关注点                           |
+| ---------------------------------------------------------------- | ------- | -------------------------------- |
+| Cat-Camel（猫牛式） → Thread the Needle（穿针式）                | 8       | 胸椎旋转、肩胛滑动               |
+| Half-kneeling Hip Flexor w/ Reach（半跪髋屈肌伸展 + 前伸）       | 6       | 髋屈肌放松 + 臀激活              |
+| Cossack Squat to Hamstring Sweep（哥萨克深蹲到腘绳扫腿）         | 6       | 髋外展与内收切换，膝盖朝第二脚趾 |
+| Inchworm（毛毛虫） → Down Dog（下犬式） + Heel Pulse（脚跟脉冲） | 6       | 腘绳、小腿与肩部伸展             |
 
-### Stability + Isometric（任选 2 个，6 分钟）
+**选择提示**
 
-| 动作                   | 组数 × 时间 | 重点                     |
-| ---------------------- | ----------- | ------------------------ |
-| Side Plank w/ Hip Lift | 2 × 30s/侧  | 骨盆水平、肩部稳定       |
-| Prone W → Y Lift       | 2 × 12      | 肩胛下沉后收，改善上交叉 |
-| Glute Bridge Iso Hold  | 2 × 40s     | 臀大肌持续收缩，保护腰椎 |
-| Bear Hold 呼吸         | 2 × 20s     | 核心抗伸展 + 呼吸整合    |
+- 腰背僵硬 → 优先 Cat-Camel / Thread the Needle。
+- 髋前侧紧张 → 优先 Half-kneeling Hip Flexor w/ Reach。
+- 髋外侧或内收受限 → 优先 Cossack Squat to Hamstring Sweep。
+- 小腿与腘绳紧张 → 优先 Inchworm → Down Dog + Heel Pulse。
+
+## Core & Conditioning（Stability + Isometric 6 分钟）
+
+| 动作                               | 组数 × 时间 | 重点                     |
+| ---------------------------------- | ----------- | ------------------------ |
+| Side Plank w/ Hip Lift（侧桥抬髋） | 2 × 30s/侧  | 骨盆水平、肩部稳定       |
+| Prone W → Y Lift（俯卧 W→Y 提举）  | 2 × 12      | 肩胛下沉后收，改善上交叉 |
+| Glute Bridge Iso Hold（臀桥等长）  | 2 × 40s     | 臀大肌持续收缩，保护腰椎 |
+| Bear Hold（熊爬支撑）呼吸          | 2 × 20s     | 核心抗伸展 + 呼吸整合    |
 
 ### Static Stretch（至少 4 个动作，每个 30–45s）
 
-- Pigeon Pose / Figure-4 Stretch
-- Seated Forward Fold（腘绳）
-- Doorway Pec Stretch（胸肌）
-- Upper Trap + Levator Stretch
-- Calf Wall Stretch
+- Pigeon Pose（鸽子式） / Figure-4 Stretch（四字拉伸）
+- Seated Forward Fold（坐姿前屈）
+- Doorway Pec Stretch（门框胸肌拉伸）
+- Upper Trap + Levator Stretch（上斜方肌 + 提肩胛肌拉伸）
+- Calf Wall Stretch（小腿墙拉伸）
 
 如仍感僵硬，可配合泡沫轴或按摩球滚压 3–5 分钟。
 
 ---
 
-## 肩部灵活性与肩袖修复（8–10 分钟）
+## Accessory + Posture（肩部灵活性与肩袖修复 8–10 分钟）
 
-| 序列                       | 次数/侧   | 关注点                           |
-| -------------------------- | --------- | -------------------------------- |
-| Sleeper Stretch            | 30–45s    | 轻度内旋位拉伸后袖，避免用力过猛 |
-| Doorway Pec Stretch        | 30–45s    | 胸肌放松，缓解上交叉             |
-| Prone W → Y Lift           | 2 × 10    | 肩胛后缩下沉，再抬臂             |
-| Band ER/IR（外旋/内旋）    | 2 × 12/侧 | 轻阻力、慢速控制，顶端停 1–2 秒  |
-| Serratus Wall Slide + 下压 | 10        | 肋骨下压，感受肩胛向上旋转与回收 |
+| 序列                                                      | 次数/侧   | 关注点                           |
+| --------------------------------------------------------- | --------- | -------------------------------- |
+| Sleeper Stretch（侧卧后袖拉伸）                           | 30–45s    | 轻度内旋位拉伸后袖，避免用力过猛 |
+| Doorway Pec Stretch（门框胸肌拉伸）                       | 30–45s    | 胸肌放松，缓解上交叉             |
+| Prone W → Y Lift（俯卧 W→Y 提举）                         | 2 × 10    | 肩胛后缩下沉，再抬臂             |
+| Band External/Internal Rotation（弹力带外旋/内旋）        | 2 × 12/侧 | 轻阻力、慢速控制，顶端停 1–2 秒  |
+| Serratus Wall Slide + Downward Press（前锯肌墙滑 + 下压） | 10        | 肋骨下压，感受肩胛向上旋转与回收 |
 
 呼吸提示：全程保持 4-2-6 呼吸（吸 4 → 停 2 → 呼 6），避免耸肩与屏息。
 
@@ -103,7 +116,7 @@
 
 ---
 
-## Logging & Nutrition Check
+## Cooldown & Log（冷却与记录）
 
 - **日志字段**：Keep 课程名称 → 动态/静态模块完成情况 → 主观恢复度（0–10）→ 疼痛或僵硬部位 → 睡眠/饮水补充。
 - **营养衔接**：当天维持轻度热量缺口（–150 ～–250 kcal），蛋白质不降（≥1.8 g/kg），配合 [Nutrition Plan](../nutrition-plan.md) 的轻有氧日建议。
