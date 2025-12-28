@@ -27,10 +27,10 @@
 | --- | ------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ |
 | Mon | **Upper Push + Core A**<br>`上肢推 / 俯卧撑`                       | [Upper Push](./upper-push-floor-press-push-ups.md)<br>**Core**: Anti-Extension (抗伸展)                |
 | Tue | **Lower Control + Core B**<br>`臀腿塑形 / 单腿平衡` (非高强度深蹲) | [Lower A (Control)](./lower-a-tempo-squat-lunge.md)<br>**Core**: Obliques/Rotation (侧腹/抗旋)         |
-| Wed | **Deep Core & Mobility**<br>`腹肌训练 / 瑜伽拉伸`                  | [Core Protocols](./cardio-core-protocols.md)<br>**Focus**: 呼吸/真空腹/深层激活                        |
-| Thu | **Upper Pull + Core A**<br>`引体 / 背部 / 弹力带`                  | [Upper Pull](./upper-pull-single-dumbbell-row-posterior-chain.md)<br>**Core**: Anti-Extension (抗伸展) |
+| Wed | **Deep Core & Mobility**<br>`腹肌训练 / 瑜伽拉伸`                  | [Core & Mobility](./core-mobility-recovery.md)<br>**Focus**: 呼吸/真空腹/深层激活                        |
+| Thu | **Upper Pull + Core A**<br>`引体 / 背部 / 弹力带`                  | [Upper Pull](./upper-pull-single-dumbbell-row-posterio r-chain.md)<br>**Core**: Anti-Extension (抗伸展) |
 | Fri | **Glute Power + Core C**<br>`臀桥 / 硬拉 / 腘绳` (减少蹲类)        | [Lower B (Glute)](./lower-b-hinge-glute-emphasis.md)<br>**Core**: Posterior Chain (后链核心)           |
-| Sat | **Cardio / HIIT**<br>`燃脂跑 / 骑行`                               | [Cardio Protocols](./cardio-core-protocols.md)<br>若疲劳则 LISS，若状态好则 HIIT                       |
+| Sat | **Cardio / HIIT**<br>`燃脂跑 / 骑行`                               | [Cardio & Conditioning](./cardio-conditioning.md)<br>若疲劳则 LISS，若状态好则 HIIT                       |
 | Sun | **Rest / Recovery**                                                | [Home Mobility & Recovery Flow](./home-mobility-recovery-flow.md)                                      |
 
 > Keep 收藏夹建议建 3 个分类：`力量·Push/Pull`、`下肢·Tempo/Hinge`、`心肺·恢复`，方便根据周结构快速调用。
@@ -51,5 +51,6 @@
 ## 🔁 关联文档
 
 - 🚑 [Physical Profile](../physical-profile.md)：更新体态、疼痛与恢复状态，驱动 Reset 内容。
+- 💡 [Q&A 与进阶策略](./Q-and-A.md)：居家 vs 健身房区别、一日两练指南、各部位强化补课方案。
 - 📋 [Fitness Plan](../fitness-plan.md)：确认优先级与成功指标，规划 Keep 课程周期；查阅方法论、器材策略。
 - 🧾 [Training Logs](../training-logs/README.md) · [Body Metrics](../body-metrics/README.md)：输入训练感受、体测与骑行/有氧数据，确保 Priority 1 体脂目标与心肺频次达标。
