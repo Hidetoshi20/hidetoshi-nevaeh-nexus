@@ -14,6 +14,7 @@
 - 📊 [体测结果](./body-metrics/README.md)
 - 🥗 [饮食方案](./nutrition-plan.md)
 - ⚽ [足球训练计划](./football-plan/README.md)
+- 🏢 [工作日爬楼指南](./stair-climbing-worker-guide.md)
 
 > 🛠️ 训练资源（含最新的居家泡沫轴等器材）统一记录在 [Fitness Plan · Training Resources](./fitness-plan.md#训练资源-training-resources)，其他页面按需引用避免重复。
 

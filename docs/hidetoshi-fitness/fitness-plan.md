@@ -26,7 +26,7 @@
 
 - 建立抗伸展/抗侧屈/抗旋转的核心能力，消除“骨盆前倾”引发的代偿。
 - 通过热量缺口与高频低强度有氧，将体脂率降至 15% 左右，显露腹肌线条。
-- **关键动作**：Dead Bug, Plank, Pallof Press, LISS/HIIT。
+- **关键动作**：Dead Bug, Plank, Pallof Press, LISS/HIIT (推荐尝试 [🏢 Stair Climbing](./stair-climbing-worker-guide.md))。
 
 #### Priority 2 · 体态矫正 & 疼痛预防
 
@@ -135,14 +135,14 @@ _居家训练时长：60–75 分钟_
 
 1.  **Reset & Activation (6–8 min)**
     - **Warm-up Selection**:
-        - **Option A (Standard)**: 适合久坐僵硬/活动受限 → 关节活动/肩胛控制/踝髋优先。
-        - **Option B (Gentle)**: 适合局部不适（如肩、膝） → 更温和、控制性强。
-        - **Option C (Quick)**: 适合时间紧/在家 → 全身激活，器械依赖低。
+      - **Option A (Standard)**: 适合久坐僵硬/活动受限 → 关节活动/肩胛控制/踝髋优先。
+      - **Option B (Gentle)**: 适合局部不适（如肩、膝） → 更温和、控制性强。
+      - **Option C (Quick)**: 适合时间紧/在家 → 全身激活，器械依赖低。
     - **Corrective "Quick Picks"** (针对 [Physical Profile](./physical-profile.md)):
-        - **90/90 呼吸**: 4–6 次/轮，肋骨下沉、盆骨后倾轻贴地。
-        - **臀部激活**: 侧向弹力带走路/蚌式/臀桥（各 12 次）。
-        - **髋屈肌拉伸**: 箭步压髋，后脚跪垫保护膝盖，保持骨盆中立。
-        - **上肢**: 弹力带外旋 + 面拉 + 门框开胸。
+      - **90/90 呼吸**: 4–6 次/轮，肋骨下沉、盆骨后倾轻贴地。
+      - **臀部激活**: 侧向弹力带走路/蚌式/臀桥（各 12 次）。
+      - **髋屈肌拉伸**: 箭步压髋，后脚跪垫保护膝盖，保持骨盆中立。
+      - **上肢**: 弹力带外旋 + 面拉 + 门框开胸。
 2.  **Strength Ladders (25–30 min)**
     - 主项/辅项采用 **4-1-2 节奏**、单侧或等长停留。
     - 利用哑铃/杠铃/弹力带创造张力 (RPE 7-8)。
@@ -151,13 +151,13 @@ _居家训练时长：60–75 分钟_
 4.  **Core & Conditioning (8–12 min)**
     - **Priority 1 重点**：抗伸展/抗旋 + 代谢训练 (Carry/HIIT)。
     - **Core Selection**:
-        - Push/Pull 日：抗旋（Pallof）、Dead Bug、Hollow、侧桥。
-        - Lower 日：McGill 套路、Bird-dog、侧桥、抗旋走出。
+      - Push/Pull 日：抗旋（Pallof）、Dead Bug、Hollow、侧桥。
+      - Lower 日：McGill 套路、Bird-dog、侧桥、抗旋走出。
 5.  **Cooldown & Log (5 min)**
     - 拉伸（30–40s/动作）：
-        - Push → 胸/肩前束/胸椎/颈肩。
-        - Pull → 背阔/后束/胸椎/颈肩。
-        - Lower → 股四/腘绳/小腿/臀与髋囊。
+      - Push → 胸/肩前束/胸椎/颈肩。
+      - Pull → 背阔/后束/胸椎/颈肩。
+      - Lower → 股四/腘绳/小腿/臀与髋囊。
     - 记录日志。
 
 ### 3. 居家与健身房切换
