@@ -13,17 +13,13 @@
 
 > 日志顺序：`Reset 状态 → Keep/主项 → **Core 完成度** → sRPE × 时间 → 疼痛反馈`。
 
-## 🧭 Keep 课程使用步骤（2025-09 调整版）
+## 🧭 每日训练结构（统一版）
 
-1. **Pre-Keep Reset（必做 5–8 分钟）**：调用各日页面内的“Reset”，确保核心、骨盆与肩胛定位到位。
-2. **选择主课程（精简版）**：
-   - **Upper**：20–30 分钟上肢课程。
-   - **Lower**：缩减至 15–20 分钟专注课程（避免过度疲劳），或仅做自定义单侧/臀部训练。
-3. **Core Integration（必做 10–15 分钟）**：
-   - 每日训练**必须**包含指定的 Core Block（见各日文档），不再是可选 Finisher。
-   - 核心训练优先级 > 下肢辅助动作。
-4. **补充模块（可选）**：仅在精力充沛时进行 Carry 或代谢收尾。
-5. **记录反馈**：重点记录核心发力感与骨盆位置。
+1. **Reset & Activation（必做 5–8 分钟）**：各日页面的 Reset，完成呼吸、臀激活与肩胛定位。
+2. **Strength Ladders（主课程 20–30 分钟）**：按 Push/Pull/Lower 选择 Keep 主课，采用 4-1-2 节奏与单侧控制。
+3. **Accessory + Posture（10–12 分钟，可选）**：补足肩胛/后束、膝髋对齐与姿态矫正。
+4. **Core & Conditioning（必做 10–15 分钟）**：按日指定 Core A/B/C 或呼吸/抗旋，必要时加入轻代谢（Carry/HIIT）。
+5. **Cooldown & Log（必做 5 分钟）**：拉伸与日志记录（核心完成度、疼痛反馈、sRPE × 时间）。
 
 ## 🗓️ 周结构（核心强化 + 下肢精简）
 
@@ -31,11 +27,11 @@
 | --- | ------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ |
 | Mon | **Upper Push + Core A**<br>`上肢推 / 俯卧撑`                       | [Upper Push](./upper-push-floor-press-push-ups.md)<br>**Core**: Anti-Extension (抗伸展)                |
 | Tue | **Lower Control + Core B**<br>`臀腿塑形 / 单腿平衡` (非高强度深蹲) | [Lower A (Control)](./lower-a-tempo-squat-lunge.md)<br>**Core**: Obliques/Rotation (侧腹/抗旋)         |
-| Wed | **Deep Core & Mobility**<br>`腹肌训练 / 瑜伽拉伸`                  | [Core Protocols](./cardio-core-protocols.md)<br>**Focus**: 呼吸/真空腹/深层激活                        |
-| Thu | **Upper Pull + Core A**<br>`引体 / 背部 / 弹力带`                  | [Upper Pull](./upper-pull-single-dumbbell-row-posterior-chain.md)<br>**Core**: Anti-Extension (抗伸展) |
+| Wed | **Deep Core & Mobility**<br>`腹肌训练 / 瑜伽拉伸`                  | [Core & Mobility](./core-mobility-recovery.md)<br>**Focus**: 呼吸/真空腹/深层激活                        |
+| Thu | **Upper Pull + Core A**<br>`引体 / 背部 / 弹力带`                  | [Upper Pull](./upper-pull-single-dumbbell-row-posterio r-chain.md)<br>**Core**: Anti-Extension (抗伸展) |
 | Fri | **Glute Power + Core C**<br>`臀桥 / 硬拉 / 腘绳` (减少蹲类)        | [Lower B (Glute)](./lower-b-hinge-glute-emphasis.md)<br>**Core**: Posterior Chain (后链核心)           |
-| Sat | **Cardio / HIIT**<br>`燃脂跑 / 骑行`                               | [Cardio Protocols](./cardio-core-protocols.md)<br>若疲劳则 LISS，若状态好则 HIIT                       |
-| Sun | **Rest / Recovery**                                                | 仅做呼吸与轻拉伸                                                                                       |
+| Sat | **Cardio / HIIT**<br>`燃脂跑 / 骑行`                               | [Cardio & Conditioning](./cardio-conditioning.md)<br>若疲劳则 LISS，若状态好则 HIIT                       |
+| Sun | **Rest / Recovery**                                                | [Home Mobility & Recovery Flow](./home-mobility-recovery-flow.md)                                      |
 
 > Keep 收藏夹建议建 3 个分类：`力量·Push/Pull`、`下肢·Tempo/Hinge`、`心肺·恢复`，方便根据周结构快速调用。
 
@@ -55,5 +51,6 @@
 ## 🔁 关联文档
 
 - 🚑 [Physical Profile](../physical-profile.md)：更新体态、疼痛与恢复状态，驱动 Reset 内容。
+- 💡 [Q&A 与进阶策略](./Q-and-A.md)：居家 vs 健身房区别、一日两练指南、各部位强化补课方案。
 - 📋 [Fitness Plan](../fitness-plan.md)：确认优先级与成功指标，规划 Keep 课程周期；查阅方法论、器材策略。
 - 🧾 [Training Logs](../training-logs/README.md) · [Body Metrics](../body-metrics/README.md)：输入训练感受、体测与骑行/有氧数据，确保 Priority 1 体脂目标与心肺频次达标。
