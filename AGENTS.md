@@ -2,7 +2,7 @@
 
 ## Project Structure & Module Organization
 
-- `docs/` — all site content (Markdown). Keep topic areas under existing folders, e.g., `docs/hidetoshi-fitness/`, `docs/nevaeh-fitness/`, `docs/recipe-book/`.
+- `docs/` — all site content (Markdown). Keep topic areas under existing folders, e.g., `docs/hidetoshi-fitness/`, `docs/nevaeh-fitness/`, `docs/recipe-book/` (see specific rules in [.agent/rules/recipe-book.md](.agent/rules/recipe-book.md)).
 - `mkdocs.yml` — site configuration (theme, plugins, language).
 - `overrides/` — theme overrides. `overrides/main.html` currently sets `noindex, nofollow` to keep the site private.
 - `internal/` — private notes. Not published unless linked or added to nav.
