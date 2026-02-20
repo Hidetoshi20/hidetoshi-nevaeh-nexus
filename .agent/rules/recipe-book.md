@@ -1,3 +1,7 @@
+---
+trigger: always_on
+---
+
 # Recipe Book Management Rules
 
 This document outlines the rules and conventions for managing the `docs/recipe-book/` directory. All agents and contributors must follow these guidelines to maintain a clean and organized recipe collection.
@@ -16,6 +20,7 @@ The recipe book is organized by dish category. The root `docs/recipe-book/` cont
 ## 2. Category Folder Content
 
 Each category folder MUST contain:
+
 1.  **`README.md`**: An index file listing all fully documented recipes in that category. It should also link to the `menu.md` if present.
 2.  **`menu.md`** (Optional but recommended): A checklist file for "To-Do" recipes or simple lists of dishes that haven't been fully documented yet.
 3.  **Recipe Files**: Individual Markdown files for each dish.
